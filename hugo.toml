@@ -1,0 +1,4 @@
+baseURL = 'https://syllabushack.com/'
+languageCode = 'ja'
+title = 'Syllabus Hack｜AI×IT資格試験攻略'
+theme = 'ananke'
