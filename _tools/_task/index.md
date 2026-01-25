@@ -17,19 +17,19 @@
 
 ここができれば、あとはコンテンツを流し込むだけになります。
 
-* [ ] **作業用ディレクトリの作成**
-* ルートに `tools/` フォルダを作成。
-* `.gitignore` に `tools/*.xlsx` を追加（Gitを軽くするため）。
+* [x] **作業用ディレクトリの作成**
+* ルートに `tools/` フォルダを作成（完了）。
+* `.gitignore` に `tools/*.xlsx` を追加（完了）。
 
 
-* [ ] **Excelマスターデータの作成**
-* `tools/master_data.xlsx` を作成。
+* [x] **Excelマスターデータの作成**
+* `tools/master_data.xlsx` を作成（完了）。
 * ヘッダー作成: `ID`, `exam_type`, `category`, `difficulty`, `tags`, `question`, `options_1`~`4`, `answer_index`, `explanation`, `ai_hint`。
 
 
-* [ ] **変換スクリプトの実装 (`convert.py`)**
-* Geminiに指示: 「Pandasを使ってExcelを読み込み、Hugoの `static/data/` フォルダにJSONとして出力するPythonコードを書いて」
-* スクリプトを配置し、ダミーデータで動作確認。
+* [x] **変換スクリプトの実装 (`convert.py`)**
+* `tools/convert.py` を実装（完了）。
+* スクリプトを配置し、ダミーデータで動作確認済み。
 
 
 
@@ -37,18 +37,18 @@
 
 APIを使わず、静的JSONを読み込んで動く仕組みを作ります。
 
-* [ ] **TypeScript環境の整備** (Hugoのパイプライン確認)
-* `assets/ts/` フォルダ作成。
+* [x] **TypeScript環境の整備** (Hugoのパイプライン確認)
+* `assets/ts/` フォルダ作成（完了）。
 
 
-* [ ] **クイズロジックの実装 (`quiz.ts`)**
-* Geminiに指示: 「JSONをFetchして、重み付けランダムで抽出し、HTMLにレンダリングするTypeScriptコードを書いて」
-* 機能要件: 4択表示、正解判定、解説表示。
+* [x] **クイズロジックの実装 (`quiz.ts`)**
+* `assets/ts/quiz.ts` を作成。JSON Fetch, ランダム抽出, UIレンダリングを実装（完了）。
+* 機能要件: 4択表示、正解判定、解説表示、モックデータフォールバック実装済み。
 
 
-* [ ] **Hugoショートコードの作成**
-* `layouts/shortcodes/quiz.html` を作成。
-* 記事内で `{{< quiz category="security" >}}` と書けば動くようにする。
+* [x] **Hugoショートコードの作成**
+* `layouts/shortcodes/quiz.html` を作成（完了）。
+* 記事内で `{{< quiz category="security" >}}` と書けば動くように実装。CSSもあわせて `assets/css/quiz.css` に用意。
 
 
 

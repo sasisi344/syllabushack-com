@@ -1,0 +1,30 @@
+<div class="quiz-wrapper" id="quiz-app" data-category="{{ .Get "category" }}">
+    <div class="quiz-card">
+        <div class="quiz-header">
+            <span class="quiz-badge">{{ .Get "category" }}</span>
+            <h3 id="question-text">問題データを読み込んでいます...</h3>
+        </div>
+        
+        <div class="quiz-options" id="options-container">
+            <!-- Options will be injected via JS -->
+        </div>
+
+        <div class="quiz-feedback hidden" id="feedback-container">
+            <div class="feedback-header" id="result-message"></div>
+            <div class="feedback-content" id="explanation-text"></div>
+            <button class="quiz-next-btn" id="next-button">次へ</button>
+        </div>
+        
+        <div class="quiz-footer">
+            <span id="progress-text"></span>
+        </div>
+    </div>
+</div>
+
+{{ $style := resources.Get "css/quiz.css" }}
+{{ if $style }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{ end }}
+
+{{ $script := resources.Get "ts/quiz.ts" | js.Build }}
+<script src="{{ $script.RelPermalink }}" defer></script>
