@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hack_prototypes on Syllabus Hack｜AI×IT資格試験攻略</title>
+    <link>http://localhost:1313/hack_prototype/</link>
+    <description>Recent content in Hack_prototypes on Syllabus Hack｜AI×IT資格試験攻略</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/hack_prototype/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 1: 情報セキュリティの基礎</title>
+      <link>http://localhost:1313/hack_prototype/day_001/</link>
+      <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hack_prototype/day_001/</guid>
+      <description>【AI先生の指導】今日は「情報セキュリティの基礎」を完璧にしましょう。</description>
+    </item>
+  </channel>
+</rss>

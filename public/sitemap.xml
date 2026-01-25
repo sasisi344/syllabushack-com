@@ -2,10 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://syllabushack.com/categories/</loc>
+    <loc>https://syllabushack.com/docs/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/docs/hack_prototype/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/blog/method/</loc>
+  </url><url>
+    <loc>https://syllabushack.com/blog/career/</loc>
+  </url><url>
+    <loc>https://syllabushack.com/blog/trend/</loc>
   </url><url>
     <loc>https://syllabushack.com/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/docs/hack_prototype/day_001/</loc>
+    <lastmod>2026-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/tags/day1/</loc>
+    <lastmod>2026-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/tags/syllabushack/</loc>
+    <lastmod>2026-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://syllabushack.com/tags/</loc>
+    <lastmod>2026-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/tags/%E6%83%85%E5%A0%B1%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%81%AE%E5%9F%BA%E7%A4%8E/</loc>
+    <lastmod>2026-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/test-quiz/</loc>
+    <lastmod>2026-01-17T10:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/blog/</loc>
+  </url><url>
+    <loc>https://syllabushack.com/categories/</loc>
+  </url><url>
+    <loc>https://syllabushack.com/glossary/</loc>
+  </url><url>
+    <loc>https://syllabushack.com/glossary/_index.fa/</loc>
+  </url><url>
+    <loc>https://syllabushack.com/glossary/_index.zh-cn/</loc>
+  </url><url>
+    <loc>https://syllabushack.com/glossary/_index.ja/</loc>
   </url>
 </urlset>

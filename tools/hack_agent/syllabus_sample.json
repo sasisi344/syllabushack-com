@@ -1,0 +1,48 @@
+{
+    "exam_name": "応用情報技術者試験 (AP)",
+    "category": "Security",
+    "topics": [
+        {
+            "id": "sec_01",
+            "title": "情報セキュリティの基礎",
+            "description": "機密性・完全性・可用性(CIA)や、真正性・責任追跡性などの要素について。",
+            "weight": 1
+        },
+        {
+            "id": "sec_02",
+            "title": "脅威とマルウェア",
+            "description": "ウイルス、ワーム、トロイの木馬、ランサムウェア、標的型攻撃など。",
+            "weight": 2
+        },
+        {
+            "id": "sec_03",
+            "title": "暗号技術",
+            "description": "共通鍵暗号、公開鍵暗号、ハッシュ関数、電子署名、PKI。",
+            "weight": 3
+        },
+        {
+            "id": "sec_04",
+            "title": "認証技術",
+            "description": "パスワード認証、生体認証、多要素認証、SSO、OAuth、FIDO。",
+            "weight": 2
+        },
+        {
+            "id": "sec_05",
+            "title": "ネットワークセキュリティ",
+            "description": "ファイアウォール、DMZ、IDS/IPS、WAF、VPN、IPsec。",
+            "weight": 3
+        },
+        {
+            "id": "sec_06",
+            "title": "攻撃手法",
+            "description": "SQLインジェクション、XSS、CSRF、DoS/DDoS、バッファオーバーフロー。",
+            "weight": 3
+        },
+        {
+            "id": "sec_07",
+            "title": "セキュリティ管理",
+            "description": "ISMS、リスク分析、JIS Q 27000、CSIRT。",
+            "weight": 1
+        }
+    ]
+}

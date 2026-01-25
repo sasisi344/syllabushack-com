@@ -1,4 +1,45 @@
 baseURL = 'https://syllabushack.com/'
 languageCode = 'ja'
-title = 'Syllabus Hack｜AI×IT資格試験攻略'
-theme = 'ananke'
+title = 'Syllabus Hack'
+theme = 'hextra'
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[menu]
+  [[menu.main]]
+    identifier = "docs"
+    name = "Hack Utils"
+    pageRef = "/docs"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    pageRef = "/blog"
+    weight = 2
+
+[params]
+  description = "AIとシラバスで、あらゆる資格をハックする。"
+  
+  [params.navbar]
+    displayTitle = true
+    displayLogo = false
+    
+  [params.footer]
+    enable = true
+    displayCopyright = true
+    copyright = "© 2026 Syllabus Hack"
+    
+  [params.search]
+    enable = true
+    type = "flexsearch"
+    
+  [params.blog]
+    list = { displayTags = true, sortBy = "date", sortOrder = "desc" }
+
+  [params.page]
+    width = "normal"
