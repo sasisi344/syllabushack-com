@@ -1,0 +1,37 @@
+<div class="prompt-container relative my-4 rounded-md border border-gray-200 bg-gray-50 dark:border-neutral-700 dark:bg-neutral-900 shadow-sm">
+  <div class="flex items-center justify-between px-4 py-2 border-b border-gray-200 dark:border-neutral-700 bg-gray-100 dark:bg-neutral-800 rounded-t-md">
+    <span class="text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+      {{ .Get "label" | default "PROMPT" }}
+    </span>
+    <button class="copy-prompt-btn flex items-center gap-1 text-xs px-2 py-1 rounded bg-white dark:bg-neutral-700 border border-gray-300 dark:border-neutral-600 hover:bg-gray-50 dark:hover:bg-neutral-600 transition-colors text-gray-700 dark:text-gray-200" onclick="copyPrompt(this)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+      <span>Copy</span>
+    </button>
+  </div>
+  <div class="prompt-content p-4 text-sm font-mono overflow-auto bg-white dark:bg-neutral-950 rounded-b-md text-gray-800 dark:text-gray-200 whitespace-pre-wrap">
+{{ .Inner | safeHTML }}
+  </div>
+</div>
+
+<script>
+if (typeof copyPrompt === 'undefined') {
+  function copyPrompt(btn) {
+    const container = btn.closest('.prompt-container');
+    const content = container.querySelector('.prompt-content');
+    // Get text content but handle potential HTML entities if needed
+    // Simple textContent is usually enough for prompts
+    const text = content.textContent.trim(); 
+
+    navigator.clipboard.writeText(text).then(() => {
+        const span = btn.querySelector('span');
+        const originalText = span.innerText;
+        span.innerText = 'Copied!';
+        setTimeout(() => {
+            span.innerText = originalText;
+        }, 2000);
+    }).catch(err => {
+        console.error('Failed to copy:', err);
+    });
+  }
+}
+</script>

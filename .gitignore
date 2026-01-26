@@ -1,3 +1,4 @@
 _tools/*.xlsx
 tools/*.xlsx
 tools/__pycache__/
+.env

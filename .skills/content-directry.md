@@ -17,6 +17,24 @@ content/
         └── day_003.md           # Day 3: 暗号技術
 
 
+## フォルダおよびファイル構成ルール
+
+### Page Bundle構成の徹底
+`content/` 配下のすべての記事は、以下の **Page Bundle** 構成（フォルダ + `index.md`）で作成する必要があります。単独の `.md` ファイルとしての配置は禁止します。
+
+**Good:**
+```
+content/blog/category/article-slug/
+├── index.md        # 記事本文
+├── cover.jpg       # アイキャッチ画像
+└── image.png       # 記事内画像
+```
+
+**Bad:**
+```
+content/blog/category/article-slug.md  # 禁止
+```
+
 ## 今後の指針
 - ブログとして公開するため50記事を作成する
 - 簡易的なクイズツールを改良する
