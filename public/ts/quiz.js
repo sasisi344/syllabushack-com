@@ -167,6 +167,10 @@
     }
     showResults() {
       const stored = this.getStoredStats();
+      const isPerfectScore = this.score === this.questions.length;
+      if (isPerfectScore) {
+        this.unlockReward();
+      }
       const weakAreas = [];
       const strongAreas = [];
       Object.entries(stored.tagStats).forEach(([tag, stats]) => {
@@ -233,16 +237,37 @@
       const totalAttempts = stored.results.length;
       const totalCorrect = stored.results.filter((r) => r.isCorrect).length;
       const overallAccuracy = totalAttempts > 0 ? Math.round(totalCorrect / totalAttempts * 100) : 0;
+      let rewardHtml = "";
+      if (isPerfectScore) {
+        rewardHtml = `
+                <div class="perfect-score-reward">
+                    <div class="reward-confetti">\u{1F38A}</div>
+                    <h4>\u{1F3C6} \u5168\u554F\u6B63\u89E3\u304A\u3081\u3067\u3068\u3046\uFF01</h4>
+                    <p class="reward-message">\u3042\u306A\u305F\u306F\u898B\u4E8B\u306B\u30AF\u30A4\u30BA\u3092\u30DE\u30B9\u30BF\u30FC\u3057\u307E\u3057\u305F\uFF01</p>
+                    <div class="reward-unlock">
+                        <span class="unlock-icon">\u{1F513}</span>
+                        <span class="unlock-text">\u7279\u5225\u30B3\u30F3\u30C6\u30F3\u30C4\u304C\u30A2\u30F3\u30ED\u30C3\u30AF\u3055\u308C\u307E\u3057\u305F</span>
+                    </div>
+                    <a href="/docs/hack_prototype/reward/" class="reward-link-btn">
+                        \u{1F4D6} \u3053\u306E\u30AF\u30A4\u30BA\u30B7\u30B9\u30C6\u30E0\u306E\u4F5C\u308A\u65B9\u3092\u5B66\u3076
+                    </a>
+                </div>
+            `;
+      }
+      const headerEmoji = isPerfectScore ? "\u{1F389}" : "\u{1F3AF}";
+      const headerText = isPerfectScore ? "\u30D1\u30FC\u30D5\u30A7\u30AF\u30C8\uFF01" : "\u7D50\u679C\u767A\u8868";
       this.container.innerHTML = `
-            <div class="quiz-card quiz-results">
-                <h3>\u{1F3AF} \u7D50\u679C\u767A\u8868</h3>
+            <div class="quiz-card quiz-results ${isPerfectScore ? "perfect-score" : ""}">
+                <h3>${headerEmoji} ${headerText}</h3>
                 
                 <div class="score-display">
                     <p class="score-main">
-                        ${this.questions.length}\u554F\u4E2D <span class="score-number">${this.score}</span> \u554F\u6B63\u89E3\uFF01
+                        ${this.questions.length}\u554F\u4E2D <span class="score-number ${isPerfectScore ? "perfect" : ""}">${this.score}</span> \u554F\u6B63\u89E3\uFF01
                     </p>
                     <p class="score-rate">\u6B63\u7B54\u7387: ${Math.round(this.score / this.questions.length * 100)}%</p>
                 </div>
+                
+                ${rewardHtml}
                 
                 ${sessionWrongHtml}
                 
@@ -262,6 +287,38 @@
                 </div>
             </div>
         `;
+      if (isPerfectScore) {
+        this.showConfetti();
+      }
+    }
+    unlockReward() {
+      try {
+        const stored = this.getStoredStats();
+        stored.rewardUnlocked = true;
+        stored.rewardUnlockedAt = Date.now();
+        localStorage.setItem(this.STORAGE_KEY, JSON.stringify(stored));
+      } catch (e) {
+        console.warn("Failed to save reward unlock:", e);
+      }
+    }
+    showConfetti() {
+      const confettiContainer = document.createElement("div");
+      confettiContainer.className = "confetti-container";
+      this.container.appendChild(confettiContainer);
+      const colors = ["#ff6b6b", "#4ecdc4", "#45b7d1", "#96ceb4", "#ffeaa7", "#dfe6e9", "#fd79a8", "#a29bfe"];
+      const confettiCount = 50;
+      for (let i = 0; i < confettiCount; i++) {
+        const confetti = document.createElement("div");
+        confetti.className = "confetti";
+        confetti.style.left = Math.random() * 100 + "%";
+        confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+        confetti.style.animationDelay = Math.random() * 2 + "s";
+        confetti.style.animationDuration = Math.random() * 2 + 2 + "s";
+        confettiContainer.appendChild(confetti);
+      }
+      setTimeout(() => {
+        confettiContainer.remove();
+      }, 5e3);
     }
     showError(msg) {
       if (this.container) {

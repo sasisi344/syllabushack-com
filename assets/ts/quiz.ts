@@ -36,7 +36,7 @@ class QuizApp {
     constructor(containerId: string) {
         this.container = document.getElementById(containerId) as HTMLElement;
         if (!this.container) return;
-        
+
         this.category = this.container.dataset.category || 'default';
         this.init();
     }
@@ -53,16 +53,16 @@ class QuizApp {
     async fetchQuestions() {
         try {
             const response = await fetch(`/data/${this.category}.json`);
-            
+
             if (!response.ok) {
                 console.warn(`Failed to fetch /data/${this.category}.json, falling back to mock data.`);
                 this.useMockData();
                 return;
             }
-            
+
             const data = await response.json();
             this.questions = this.shuffleArray(data).slice(0, 10);
-            
+
         } catch (error) {
             console.error('Error fetching quiz data:', error);
             this.useMockData();
@@ -104,9 +104,9 @@ class QuizApp {
         const optionsEl = document.getElementById('options-container');
         const feedbackEl = document.getElementById('feedback-container');
         const progressEl = document.getElementById('progress-text');
-        
-        if(questionEl) questionEl.textContent = `Q${this.currentQuestionIndex + 1}. ${q.question}`;
-        
+
+        if (questionEl) questionEl.textContent = `Q${this.currentQuestionIndex + 1}. ${q.question}`;
+
         if (optionsEl) {
             optionsEl.innerHTML = '';
             q.options.forEach((opt, idx) => {
@@ -118,19 +118,19 @@ class QuizApp {
             });
         }
 
-        if(feedbackEl) {
+        if (feedbackEl) {
             feedbackEl.classList.add('hidden');
             feedbackEl.classList.remove('result-correct', 'result-incorrect');
         }
-        
-        if(progressEl) progressEl.textContent = `${this.currentQuestionIndex + 1} / ${this.questions.length}`;
+
+        if (progressEl) progressEl.textContent = `${this.currentQuestionIndex + 1} / ${this.questions.length}`;
     }
 
     checkAnswer(selectedIndex: number, btnClicked: HTMLButtonElement) {
         const q = this.questions[this.currentQuestionIndex];
         const isCorrect = selectedIndex === q.answer_index;
-        
-        if(isCorrect) this.score++;
+
+        if (isCorrect) this.score++;
 
         // Record result for this question
         const result: QuizResult = {
@@ -144,14 +144,14 @@ class QuizApp {
 
         // Visual feedback on buttons
         const optionsEl = document.getElementById('options-container');
-        if(optionsEl) {
+        if (optionsEl) {
             const buttons = optionsEl.querySelectorAll('button');
             buttons.forEach((btn, idx) => {
                 btn.disabled = true;
                 if (idx === q.answer_index) {
                     btn.classList.add('correct-highlight');
                 } else if (idx === selectedIndex && !isCorrect) {
-                   btn.classList.add('wrong-highlight');
+                    btn.classList.add('wrong-highlight');
                 }
             });
         }
@@ -165,12 +165,12 @@ class QuizApp {
         if (feedbackEl && resultMsg && explanation && nextBtn) {
             feedbackEl.classList.remove('hidden');
             feedbackEl.style.borderLeftColor = isCorrect ? '#198754' : '#dc3545';
-            
+
             resultMsg.textContent = isCorrect ? '正解！⭕' : '不正解... ❌';
             resultMsg.style.color = isCorrect ? '#198754' : '#dc3545';
-            
+
             explanation.textContent = q.explanation;
-            
+
             nextBtn.onclick = () => this.nextQuestion();
         }
     }
@@ -179,10 +179,10 @@ class QuizApp {
     saveResult(result: QuizResult) {
         try {
             const stored = this.getStoredStats();
-            
+
             // Add to results history
             stored.results.push(result);
-            
+
             // Update tag stats
             result.tags.forEach(tag => {
                 if (!stored.tagStats[tag]) {
@@ -193,12 +193,12 @@ class QuizApp {
                     stored.tagStats[tag].correct++;
                 }
             });
-            
+
             // Keep only last 100 results to prevent storage bloat
             if (stored.results.length > 100) {
                 stored.results = stored.results.slice(-100);
             }
-            
+
             localStorage.setItem(this.STORAGE_KEY, JSON.stringify(stored));
         } catch (e) {
             console.warn('Failed to save quiz result to localStorage:', e);
@@ -228,11 +228,17 @@ class QuizApp {
 
     showResults() {
         const stored = this.getStoredStats();
-        
+        const isPerfectScore = this.score === this.questions.length;
+
+        // Save perfect score achievement
+        if (isPerfectScore) {
+            this.unlockReward();
+        }
+
         // Calculate weak areas (tags with < 70% accuracy and at least 2 attempts)
         const weakAreas: { tag: string; accuracy: number; total: number }[] = [];
         const strongAreas: { tag: string; accuracy: number; total: number }[] = [];
-        
+
         Object.entries(stored.tagStats).forEach(([tag, stats]) => {
             if (stats.total >= 2) {
                 const accuracy = Math.round((stats.correct / stats.total) * 100);
@@ -243,11 +249,11 @@ class QuizApp {
                 }
             }
         });
-        
+
         // Sort weak areas by accuracy (lowest first)
         weakAreas.sort((a, b) => a.accuracy - b.accuracy);
         strongAreas.sort((a, b) => b.accuracy - a.accuracy);
-        
+
         // Build weak areas HTML
         let weakAreasHtml = '';
         if (weakAreas.length > 0) {
@@ -267,7 +273,7 @@ class QuizApp {
                 </div>
             `;
         }
-        
+
         // Build strong areas HTML
         let strongAreasHtml = '';
         if (strongAreas.length > 0) {
@@ -287,12 +293,12 @@ class QuizApp {
                 </div>
             `;
         }
-        
+
         // Build session summary
         const sessionCorrect = this.sessionResults.filter(r => r.isCorrect).length;
         const sessionTotal = this.sessionResults.length;
         const sessionWrong = this.sessionResults.filter(r => !r.isCorrect);
-        
+
         let sessionWrongHtml = '';
         if (sessionWrong.length > 0) {
             const wrongTags = new Set<string>();
@@ -303,22 +309,46 @@ class QuizApp {
                 </div>
             `;
         }
-        
+
         // Calculate overall stats
         const totalAttempts = stored.results.length;
         const totalCorrect = stored.results.filter(r => r.isCorrect).length;
         const overallAccuracy = totalAttempts > 0 ? Math.round((totalCorrect / totalAttempts) * 100) : 0;
-        
+
+        // Build perfect score reward HTML
+        let rewardHtml = '';
+        if (isPerfectScore) {
+            rewardHtml = `
+                <div class="perfect-score-reward">
+                    <div class="reward-confetti">🎊</div>
+                    <h4>🏆 全問正解おめでとう！</h4>
+                    <p class="reward-message">あなたは見事にクイズをマスターしました！</p>
+                    <div class="reward-unlock">
+                        <span class="unlock-icon">🔓</span>
+                        <span class="unlock-text">特別コンテンツがアンロックされました</span>
+                    </div>
+                    <a href="/docs/hack_prototype/reward/" class="reward-link-btn">
+                        📖 このクイズシステムの作り方を学ぶ
+                    </a>
+                </div>
+            `;
+        }
+
+        const headerEmoji = isPerfectScore ? '🎉' : '🎯';
+        const headerText = isPerfectScore ? 'パーフェクト！' : '結果発表';
+
         this.container.innerHTML = `
-            <div class="quiz-card quiz-results">
-                <h3>🎯 結果発表</h3>
+            <div class="quiz-card quiz-results ${isPerfectScore ? 'perfect-score' : ''}">
+                <h3>${headerEmoji} ${headerText}</h3>
                 
                 <div class="score-display">
                     <p class="score-main">
-                        ${this.questions.length}問中 <span class="score-number">${this.score}</span> 問正解！
+                        ${this.questions.length}問中 <span class="score-number ${isPerfectScore ? 'perfect' : ''}">${this.score}</span> 問正解！
                     </p>
                     <p class="score-rate">正答率: ${Math.round((this.score / this.questions.length) * 100)}%</p>
                 </div>
+                
+                ${rewardHtml}
                 
                 ${sessionWrongHtml}
                 
@@ -338,17 +368,58 @@ class QuizApp {
                 </div>
             </div>
         `;
+
+        // Trigger confetti animation for perfect score
+        if (isPerfectScore) {
+            this.showConfetti();
+        }
+    }
+
+    unlockReward() {
+        try {
+            const stored = this.getStoredStats();
+            (stored as any).rewardUnlocked = true;
+            (stored as any).rewardUnlockedAt = Date.now();
+            localStorage.setItem(this.STORAGE_KEY, JSON.stringify(stored));
+        } catch (e) {
+            console.warn('Failed to save reward unlock:', e);
+        }
+    }
+
+    showConfetti() {
+        // Create confetti container
+        const confettiContainer = document.createElement('div');
+        confettiContainer.className = 'confetti-container';
+        this.container.appendChild(confettiContainer);
+
+        const colors = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#96ceb4', '#ffeaa7', '#dfe6e9', '#fd79a8', '#a29bfe'];
+        const confettiCount = 50;
+
+        for (let i = 0; i < confettiCount; i++) {
+            const confetti = document.createElement('div');
+            confetti.className = 'confetti';
+            confetti.style.left = Math.random() * 100 + '%';
+            confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+            confetti.style.animationDelay = Math.random() * 2 + 's';
+            confetti.style.animationDuration = (Math.random() * 2 + 2) + 's';
+            confettiContainer.appendChild(confetti);
+        }
+
+        // Remove confetti after animation
+        setTimeout(() => {
+            confettiContainer.remove();
+        }, 5000);
     }
 
     showError(msg: string) {
-        if(this.container) {
+        if (this.container) {
             this.container.innerHTML = `<div class="quiz-card"><p style="color:red">${msg}</p></div>`;
         }
     }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    if(document.getElementById('quiz-app')) {
+    if (document.getElementById('quiz-app')) {
         new QuizApp('quiz-app');
     }
 });
