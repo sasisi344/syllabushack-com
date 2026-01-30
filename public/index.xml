@@ -5,7 +5,7 @@
     <description>Recent content on Syllabus Hack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 27 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jan 2026 22:00:00 +0900</lastBuildDate>
     
 	  <atom:link href="https://syllabushack.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,6 +13,309 @@
       
       
     
+    
+    <item>
+      <title>「基本情報技術者は意味ない」論争に終止符を打つ！現役エンジニアが教える&#34;本当の&#34;使い道</title>
+      <link>https://syllabushack.com/blog/trend/trend-meaningless-controversy/</link>
+      <pubDate>Tue, 27 Jan 2026 09:00:00 +0900</pubDate>
+      
+      <guid>https://syllabushack.com/blog/trend/trend-meaningless-controversy/</guid>
+      <description>
+        
+        
+        &lt;p&gt;「基本情報技術者　意味ない」
+「基本情報　役に立たない」&lt;/p&gt;
+&lt;p&gt;Google検索のサジェストで、こんな言葉を見たことはありませんか？
+これから勉強しようと意気込んでいる時にこれを見ると、正直萎えますよね。&lt;/p&gt;
+&lt;p&gt;現役エンジニアの視点から、この論争に&lt;strong&gt;完全な決着&lt;/strong&gt;をつけたいと思います。&lt;/p&gt;
+&lt;p&gt;結論から言います。
+「過去問を丸暗記して合格しただけ」の人にとっては、確かに意味はありません。
+しかし、「シラバス（知識の体系）を理解した」人にとっては、これ以上ない最強の武器になります。&lt;/p&gt;
+&lt;p&gt;特に、生成AI時代においては、その価値が暴騰していることにお気づきでしょうか？&lt;/p&gt;
+&lt;h2&gt;なぜ「意味ない」と言われるのか？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;なぜ意味ないと言われるのか&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%aa%e3%81%9c%e6%84%8f%e5%91%b3%e3%81%aa%e3%81%84%e3%81%a8%e8%a8%80%e3%82%8f%e3%82%8c%e3%82%8b%e3%81%ae%e3%81%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;否定派の意見は大体こうです。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;「現場で使わない知識ばかりだ」&lt;/strong&gt;（COBOLとかいつ使うねん）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;「資格よりポートフォリオ（成果物）の方が大事だ」&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;「持ってるだけで仕事ができない人が多い」&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;これらは半分正解ですが、半分間違っています。
+なぜなら、彼らは資格を「即戦力スキルの証明書」だと思っているからです。&lt;/p&gt;
+&lt;p&gt;基本情報技術者の本当の価値は、そこにはありません。&lt;/p&gt;
+&lt;h2&gt;本当の価値1：IT業界の「共通言語」を手に入れる&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;本当の価値1it業界の共通言語を手に入れる&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%9c%ac%e5%bd%93%e3%81%ae%e4%be%a1%e5%80%a41it%e6%a5%ad%e7%95%8c%e3%81%ae%e5%85%b1%e9%80%9a%e8%a8%80%e8%aa%9e%e3%82%92%e6%89%8b%e3%81%ab%e5%85%a5%e3%82%8c%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;現場に入ると、飛び交う言葉は専門用語だらけです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;「DBの正規化甘いんじゃない？」&lt;/li&gt;
+&lt;li&gt;「その処理、O(n^2)（オーダーのエヌ二乗）になりそうだけど大丈夫？」&lt;/li&gt;
+&lt;li&gt;「可用性担保するために冗長化構成組んどいて」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;基本情報の勉強をしていないと、これらが呪文に聞こえます。
+会議の内容が理解できない。仕様書が読めない。結果、成長スピードが鈍化する。&lt;/p&gt;
+&lt;p&gt;基本情報技術者のシラバスは、&lt;strong&gt;ITエンジニアとして最低限会話が成立するための辞書&lt;/strong&gt;なのです。
+この辞書が頭に入っているかいないかで、コミュニケーションコストは雲泥の差になります。&lt;/p&gt;
+&lt;h2&gt;本当の価値2：AIへの「指示力（プロンプト力）」が段違いになる&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;本当の価値2aiへの指示力プロンプト力が段違いになる&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%9c%ac%e5%bd%93%e3%81%ae%e4%be%a1%e5%80%a42ai%e3%81%b8%e3%81%ae%e6%8c%87%e7%a4%ba%e5%8a%9b%e3%83%97%e3%83%ad%e3%83%b3%e3%83%97%e3%83%88%e5%8a%9b%e3%81%8c%e6%ae%b5%e9%81%95%e3%81%84%e3%81%ab%e3%81%aa%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;そしてこれが、Syllabus Hackとして最も強調したい点です。&lt;/p&gt;
+&lt;p&gt;ChatGPTやClaudeなどの生成AIは、非常に優秀です。
+しかし、彼らに「いい感じのコード書いて」と頼んでも、ゴミのようなコードしか返ってきません。&lt;/p&gt;
+&lt;p&gt;AIの能力を引き出すには、&lt;strong&gt;正確な専門用語&lt;/strong&gt;を使って指示を出す必要があります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;❌ 「データを並び替えて」&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;⭕ 「クイックソートを使って実装して。ただし最悪計算量がO(n^2)になるケースを避ける工夫をして」&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;❌ 「セキュリティ対策して」&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;⭕ 「SQLインジェクション対策としてプレースホルダを使い、XSS対策でエスケープ処理を入れて」&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この「⭕」の指示が出せるのは、&lt;strong&gt;基本情報技術者レベルの知識体系（シラバス）を持っている人だけ&lt;/strong&gt;です。&lt;/p&gt;
+&lt;h2&gt;結論：資格は「ゴール」ではなく「ブースト装置」&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;結論資格はゴールではなくブースト装置&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%b5%90%e8%ab%96%e8%b3%87%e6%a0%bc%e3%81%af%e3%82%b4%e3%83%bc%e3%83%ab%e3%81%a7%e3%81%af%e3%81%aa%e3%81%8f%e3%83%96%e3%83%bc%e3%82%b9%e3%83%88%e8%a3%85%e7%bd%ae&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;「資格さえ取れば就職できる」
+「資格さえあれば年収が上がる」&lt;/p&gt;
+&lt;p&gt;そう思っているなら、確かにそれは「意味ない」努力に終わるかもしれません。&lt;/p&gt;
+&lt;p&gt;しかし、
+&lt;strong&gt;AIという最強のパートナーを使いこなすために、ITの基礎知識（共通言語）をインストールする&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;この目的のために使うなら、基本情報技術者は&lt;strong&gt;コスパ最強の自己投資&lt;/strong&gt;です。&lt;/p&gt;
+&lt;p&gt;このサイト（Syllabus Hack）では、
+そんな「意味のある資格活用」をするための、AIを使った新しい学習法を発信していきます。&lt;/p&gt;
+&lt;p&gt;ただの「資格ホルダー」で終わるか。
+それとも、AIを味方につけた「ハッカー」になるか。&lt;/p&gt;
+&lt;p&gt;選ぶのはあなたです。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>【プロンプト配布】基本情報技術者の「科目B」を無限に生成して対策する方法</title>
+      <link>https://syllabushack.com/blog/method/practice-guide-ipa/</link>
+      <pubDate>Mon, 26 Jan 2026 10:00:00 +0900</pubDate>
+      
+      <guid>https://syllabushack.com/blog/method/practice-guide-ipa/</guid>
+      <description>
+        
+        
+        &lt;p&gt;基本情報技術者試験（FE）の最大の壁、それは**科目B（アルゴリズム）**です。
+「擬似言語が読めない」「何をやってるコードなのか全然頭に入ってこない」……そんな悩みを持っていませんか？&lt;/p&gt;
+&lt;p&gt;今回は、Syllabus Hack流の&lt;strong&gt;科目B攻略プロンプト&lt;/strong&gt;を公開します。
+これを使えば、ChatGPTやGeminiが&lt;strong&gt;あなた専属のアルゴリズム解説員&lt;/strong&gt;に早変わりします。&lt;/p&gt;
+&lt;h2&gt;戦略1: 「擬似言語」を「Python」に翻訳させる&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;戦略1-擬似言語をpythonに翻訳させる&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%88%a6%e7%95%a51-%e6%93%ac%e4%bc%bc%e8%a8%80%e8%aa%9e%e3%82%92python%e3%81%ab%e7%bf%bb%e8%a8%b3%e3%81%95%e3%81%9b%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;科目Bで使われる「擬似言語」は、試験独特の記法です。普段プログラミングに触れている人でも「配列が1始まり」だったりして混乱の元になります。
+それなら、&lt;strong&gt;読み慣れた言語に翻訳&lt;/strong&gt;させてしまえばいいのです。&lt;/p&gt;
+&lt;h3&gt;🛠️ 翻訳＆トレース プロンプト&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-翻訳トレース-プロンプト&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-%e7%bf%bb%e8%a8%b3%e3%83%88%e3%83%ac%e3%83%bc%e3%82%b9-%e3%83%97%e3%83%ad%e3%83%b3%e3%83%97%e3%83%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;以下のプロンプトをコピーして、AIに貼り付けてください。&lt;/p&gt;
+&lt;div class=&#34;prompt-container relative my-4 rounded-md border border-gray-200 bg-gray-50 dark:border-neutral-700 dark:bg-neutral-900 shadow-sm&#34;&gt;
+  &lt;div class=&#34;flex items-center justify-between px-4 py-2 border-b border-gray-200 dark:border-neutral-700 bg-gray-100 dark:bg-neutral-800 rounded-t-md&#34;&gt;
+    &lt;span class=&#34;text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider&#34;&gt;
+      翻訳＆トレース
+    &lt;/span&gt;
+    &lt;button class=&#34;copy-prompt-btn flex items-center gap-1 text-xs px-2 py-1 rounded bg-white dark:bg-neutral-700 border border-gray-300 dark:border-neutral-600 hover:bg-gray-50 dark:hover:bg-neutral-600 transition-colors text-gray-700 dark:text-gray-200&#34; onclick=&#34;copyPrompt(this)&#34;&gt;
+      &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;rect x=&#34;9&#34; y=&#34;9&#34; width=&#34;13&#34; height=&#34;13&#34; rx=&#34;2&#34; ry=&#34;2&#34;&gt;&lt;/rect&gt;&lt;path d=&#34;M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
+      &lt;span&gt;Copy&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;prompt-content p-4 text-sm font-mono overflow-auto bg-white dark:bg-neutral-950 rounded-b-md text-gray-800 dark:text-gray-200 whitespace-pre-wrap&#34;&gt;
+
+以下の擬似言語のコードを、**Pythonのコードに書き換えて**ください。
+また、このプログラムを実行した際の変数の値がどのように変化するか、
+**1ステップごとのトレース実行の結果を表形式で**出力してください。
+
+[ここに擬似言語のコード（過去問など）をコピペ]
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+if (typeof copyPrompt === &#39;undefined&#39;) {
+  function copyPrompt(btn) {
+    const container = btn.closest(&#39;.prompt-container&#39;);
+    const content = container.querySelector(&#39;.prompt-content&#39;);
+    
+    
+    const text = content.textContent.trim(); 
+
+    navigator.clipboard.writeText(text).then(() =&gt; {
+        const span = btn.querySelector(&#39;span&#39;);
+        const originalText = span.innerText;
+        span.innerText = &#39;Copied!&#39;;
+        setTimeout(() =&gt; {
+            span.innerText = originalText;
+        }, 2000);
+    }).catch(err =&gt; {
+        console.error(&#39;Failed to copy:&#39;, err);
+    });
+  }
+}
+&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;このハックのメリット:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python等の実用言語でロジックを確認できる。&lt;/li&gt;
+&lt;li&gt;「トレース表」を自動生成してくれるので、机上でのシミュレーション練習の答え合わせができる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;戦略2: アルゴリズムを「小学生レベル」で理解する&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;戦略2-アルゴリズムを小学生レベルで理解する&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%88%a6%e7%95%a52-%e3%82%a2%e3%83%ab%e3%82%b4%e3%83%aa%e3%82%ba%e3%83%a0%e3%82%92%e5%b0%8f%e5%ad%a6%e7%94%9f%e3%83%ac%e3%83%99%e3%83%ab%e3%81%a7%e7%90%86%e8%a7%a3%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;「二分探索」「クイックソート」……言葉は聞いたことあっても、中身が複雑でイメージできない。
+そんな時は、&lt;strong&gt;比喩（メタファー）の力&lt;/strong&gt;を借ります。&lt;/p&gt;
+&lt;h3&gt;🛠️ &amp;ldquo;超&amp;quot;わかりやすい解説プロンプト&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-超わかりやすい解説プロンプト&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-%e8%b6%85%e3%82%8f%e3%81%8b%e3%82%8a%e3%82%84%e3%81%99%e3%81%84%e8%a7%a3%e8%aa%ac%e3%83%97%e3%83%ad%e3%83%b3%e3%83%97%e3%83%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;prompt-container relative my-4 rounded-md border border-gray-200 bg-gray-50 dark:border-neutral-700 dark:bg-neutral-900 shadow-sm&#34;&gt;
+  &lt;div class=&#34;flex items-center justify-between px-4 py-2 border-b border-gray-200 dark:border-neutral-700 bg-gray-100 dark:bg-neutral-800 rounded-t-md&#34;&gt;
+    &lt;span class=&#34;text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider&#34;&gt;
+      メタファー解説
+    &lt;/span&gt;
+    &lt;button class=&#34;copy-prompt-btn flex items-center gap-1 text-xs px-2 py-1 rounded bg-white dark:bg-neutral-700 border border-gray-300 dark:border-neutral-600 hover:bg-gray-50 dark:hover:bg-neutral-600 transition-colors text-gray-700 dark:text-gray-200&#34; onclick=&#34;copyPrompt(this)&#34;&gt;
+      &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;rect x=&#34;9&#34; y=&#34;9&#34; width=&#34;13&#34; height=&#34;13&#34; rx=&#34;2&#34; ry=&#34;2&#34;&gt;&lt;/rect&gt;&lt;path d=&#34;M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
+      &lt;span&gt;Copy&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;prompt-content p-4 text-sm font-mono overflow-auto bg-white dark:bg-neutral-950 rounded-b-md text-gray-800 dark:text-gray-200 whitespace-pre-wrap&#34;&gt;
+
+基本情報技術者試験の科目Bに出る『[アルゴリズム名]』について、
+**小学生でもわかるような例え話（本棚や辞書、並んでいる背の順など）を使って**解説してください。
+専門用語はなるべく使わず、直感的に仕組みがわかるように説明してください。
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+if (typeof copyPrompt === &#39;undefined&#39;) {
+  function copyPrompt(btn) {
+    const container = btn.closest(&#39;.prompt-container&#39;);
+    const content = container.querySelector(&#39;.prompt-content&#39;);
+    
+    
+    const text = content.textContent.trim(); 
+
+    navigator.clipboard.writeText(text).then(() =&gt; {
+        const span = btn.querySelector(&#39;span&#39;);
+        const originalText = span.innerText;
+        span.innerText = &#39;Copied!&#39;;
+        setTimeout(() =&gt; {
+            span.innerText = originalText;
+        }, 2000);
+    }).catch(err =&gt; {
+        console.error(&#39;Failed to copy:&#39;, err);
+    });
+  }
+}
+&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;[アルゴリズム名]&lt;/strong&gt; の部分に入れ替えて使ってください。（例：ヒープソート、リスト構造 etc.）&lt;/p&gt;
+&lt;h2&gt;戦略3: 類題を「無限」に解く&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;戦略3-類題を無限に解く&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%88%a6%e7%95%a53-%e9%a1%9e%e9%a1%8c%e3%82%92%e7%84%a1%e9%99%90%e3%81%ab%e8%a7%a3%e3%81%8f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;過去問を解き終わってしまって、やる問題がない？
+AIに作らせましょう。&lt;/p&gt;
+&lt;h3&gt;🛠️ 無限ドリル生成プロンプト&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-無限ドリル生成プロンプト&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-%e7%84%a1%e9%99%90%e3%83%89%e3%83%aa%e3%83%ab%e7%94%9f%e6%88%90%e3%83%97%e3%83%ad%e3%83%b3%e3%83%97%e3%83%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;prompt-container relative my-4 rounded-md border border-gray-200 bg-gray-50 dark:border-neutral-700 dark:bg-neutral-900 shadow-sm&#34;&gt;
+  &lt;div class=&#34;flex items-center justify-between px-4 py-2 border-b border-gray-200 dark:border-neutral-700 bg-gray-100 dark:bg-neutral-800 rounded-t-md&#34;&gt;
+    &lt;span class=&#34;text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider&#34;&gt;
+      無限ドリル生成
+    &lt;/span&gt;
+    &lt;button class=&#34;copy-prompt-btn flex items-center gap-1 text-xs px-2 py-1 rounded bg-white dark:bg-neutral-700 border border-gray-300 dark:border-neutral-600 hover:bg-gray-50 dark:hover:bg-neutral-600 transition-colors text-gray-700 dark:text-gray-200&#34; onclick=&#34;copyPrompt(this)&#34;&gt;
+      &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;rect x=&#34;9&#34; y=&#34;9&#34; width=&#34;13&#34; height=&#34;13&#34; rx=&#34;2&#34; ry=&#34;2&#34;&gt;&lt;/rect&gt;&lt;path d=&#34;M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
+      &lt;span&gt;Copy&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;prompt-content p-4 text-sm font-mono overflow-auto bg-white dark:bg-neutral-950 rounded-b-md text-gray-800 dark:text-gray-200 whitespace-pre-wrap&#34;&gt;
+
+私は基本情報技術者試験の受験生です。
+「配列の操作」と「条件分岐」を組み合わせた、科目Bレベルの**オリジナルの擬似言語問題**を1問作成してください。
+難易度は「中級」でお願いします。
+
+出力形式：
+1. 問題文（擬似言語コード含む）
+2. 設問（「この変数の最終的な値は？」など）
+3. 解答と解説（トレース表付き）
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+if (typeof copyPrompt === &#39;undefined&#39;) {
+  function copyPrompt(btn) {
+    const container = btn.closest(&#39;.prompt-container&#39;);
+    const content = container.querySelector(&#39;.prompt-content&#39;);
+    
+    
+    const text = content.textContent.trim(); 
+
+    navigator.clipboard.writeText(text).then(() =&gt; {
+        const span = btn.querySelector(&#39;span&#39;);
+        const originalText = span.innerText;
+        span.innerText = &#39;Copied!&#39;;
+        setTimeout(() =&gt; {
+            span.innerText = originalText;
+        }, 2000);
+    }).catch(err =&gt; {
+        console.error(&#39;Failed to copy:&#39;, err);
+    });
+  }
+}
+&lt;/script&gt;
+
+&lt;p&gt;これを繰り返せば、問題集を買う必要はもうありません。
+AIが出した問題に正解できたら、「もう少し難しくして」「次は『スタック』を使った問題にして」とリクエストして、レベルアップしていきましょう。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;まとめ：AIを「使い倒す」ものが勝つ&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;まとめaiを使い倒すものが勝つ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%be%e3%81%a8%e3%82%81ai%e3%82%92%e4%bd%bf%e3%81%84%e5%80%92%e3%81%99%e3%82%82%e3%81%ae%e3%81%8c%e5%8b%9d%e3%81%a4&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;これらのプロンプトは、単なる一例です。
+自分なりに使いやすいようにカスタマイズして、&lt;strong&gt;自分だけの最強の学習パートナー&lt;/strong&gt;を育て上げてください。&lt;/p&gt;
+&lt;p&gt;Syllabus Hackでは、今後もこうした「使えるプロンプト」をどんどん公開していきます。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>まだ高い過去問集を買ってるの？シラバスとAIがあれば合格できる理由</title>
+      <link>https://syllabushack.com/blog/method/concept-manifesto/</link>
+      <pubDate>Mon, 26 Jan 2026 09:00:00 +0900</pubDate>
+      
+      <guid>https://syllabushack.com/blog/method/concept-manifesto/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;資格試験の勉強＝「過去問」だと思っていませんか？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;資格試験の勉強過去問だと思っていませんか&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%b3%87%e6%a0%bc%e8%a9%a6%e9%a8%93%e3%81%ae%e5%8b%89%e5%bc%b7%e9%81%8e%e5%8e%bb%e5%95%8f%e3%81%a0%e3%81%a8%e6%80%9d%e3%81%a3%e3%81%a6%e3%81%84%e3%81%be%e3%81%9b%e3%82%93%e3%81%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;「まずは過去問を３周しろ」
+「過去問道場を回せ」&lt;/p&gt;
+&lt;p&gt;これは、あらゆる資格試験で語られる「合格の定石」です。確かに、これまではそれが正解でした。
+しかし、&lt;strong&gt;生成AI（ChatGPT, Gemini, Claude）が登場した2026年現在、この常識は古いだけでなく、非効率になりつつあります。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Syllabus Hack（シラバスハック）へようこそ。
+ここは、&lt;strong&gt;公開されたシラバス（試験範囲）とAIだけを使って、最短・最速で資格を攻略する&lt;/strong&gt;ための新しい学習メソッドを提供する場所です。&lt;/p&gt;
+&lt;p&gt;これからは、高い過去問集も、分厚い参考書も必要ありません。
+必要なのは、**AIへの正しい聞き方（プロンプト）**だけです。&lt;/p&gt;
+&lt;h2&gt;なぜ「シラバス×AI」が最強なのか&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;なぜシラバスaiが最強なのか&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%aa%e3%81%9c%e3%82%b7%e3%83%a9%e3%83%90%e3%82%b9ai%e3%81%8c%e6%9c%80%e5%bc%b7%e3%81%aa%e3%81%ae%e3%81%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. 過去問は有限だが、AIが作る問題は無限&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-過去問は有限だがaiが作る問題は無限&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-%e9%81%8e%e5%8e%bb%e5%95%8f%e3%81%af%e6%9c%89%e9%99%90%e3%81%a0%e3%81%8cai%e3%81%8c%e4%bd%9c%e3%82%8b%e5%95%8f%e9%a1%8c%e3%81%af%e7%84%a1%e9%99%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;過去問学習の弱点は、「問題数に限りがある」ことと、「答えを覚えてしまう」ことです。
+AIを使えば、&lt;strong&gt;苦手なアルゴリズムの問題を、解けるようになるまで無限に生成する&lt;/strong&gt;ことができます。
+しかも、難易度を調整したり、解説を「小学生向け」「エンジニア向け」に変えることすら可能です。&lt;/p&gt;
+&lt;h3&gt;2. 「解説を読んでも分からない」がなくなる&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-解説を読んでも分からないがなくなる&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-%e8%a7%a3%e8%aa%ac%e3%82%92%e8%aa%ad%e3%82%93%e3%81%a7%e3%82%82%e5%88%86%e3%81%8b%e3%82%89%e3%81%aa%e3%81%84%e3%81%8c%e3%81%aa%e3%81%8f%e3%81%aa%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;参考書の解説は、万人に向けた一般的な説明しかしてくれません。
+しかし、AIは&lt;strong&gt;あなた専用の家庭教師&lt;/strong&gt;です。&lt;/p&gt;
+&lt;p&gt;「この変数変名がわかりにくいから、もっと身近な『りんご』と『みかん』で例えて説明して」
+「このC言語のコード、Pythonだとどう書くの？」&lt;/p&gt;
+&lt;p&gt;そんなワガママな質問にも、AIは24時間365日、嫌な顔ひとつせず答えてくれます。
+&lt;strong&gt;わからないをその場で解決するスピードが、独学とは段違いなのです。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;3. 試験の本質は「シラバス」にある&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-試験の本質はシラバスにある&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-%e8%a9%a6%e9%a8%93%e3%81%ae%e6%9c%ac%e8%b3%aa%e3%81%af%e3%82%b7%e3%83%a9%e3%83%90%e3%82%b9%e3%81%ab%e3%81%82%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;そもそも資格試験は、「シラバス（出題範囲）」に書かれた知識を問うものです。
+シラバスの構造をAIに理解させれば、AIは&lt;strong&gt;試験作成者の思考&lt;/strong&gt;を手に入れます。&lt;/p&gt;
+&lt;p&gt;Syllabus Hackでは、この「シラバス構造化」の技術を核に、
+&lt;strong&gt;試験に出る確率が高い順に、あなたの理解度に合わせて学習する&lt;/strong&gt;ための独自プロンプトを開発しました。&lt;/p&gt;
+&lt;h2&gt;Syllabus Hackが提供するもの&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;syllabus-hackが提供するもの&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#syllabus-hack%e3%81%8c%e6%8f%90%e4%be%9b%e3%81%99%e3%82%8b%e3%82%82%e3%81%ae&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;当サイトでは、以下のコンテンツを中心に発信していきます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hack Method&lt;/strong&gt;: AIを使った具体的な学習ハック術（プロンプト解説）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prompt Tools&lt;/strong&gt;: コピペですぐに使える、試験対策専用プロンプト集&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Success Reports&lt;/strong&gt;: 実際にこのメソッドで合格した実録レポート&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;さあ、勉強のやり方を「アップデート」しよう&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;さあ勉強のやり方をアップデートしよう&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%95%e3%81%82%e5%8b%89%e5%bc%b7%e3%81%ae%e3%82%84%e3%82%8a%e6%96%b9%e3%82%92%e3%82%a2%e3%83%83%e3%83%97%e3%83%87%e3%83%bc%e3%83%88%e3%81%97%e3%82%88%e3%81%86&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;まだ、重たい参考書を持ち歩きますか？
+それとも、スマホひとつで、AIという最強のパートナーと共に合格を目指しますか？&lt;/p&gt;
+&lt;p&gt;Syllabus Hackは、あなたの学習を「苦行」から「ハック（攻略）」へと変えるお手伝いをします。
+まずは、次の記事で紹介する&lt;strong&gt;無限ドリル生成プロンプト&lt;/strong&gt;を試してみてください。
+勉強の景色が、ガラリと変わるはずです。&lt;/p&gt;
+
+      </description>
+    </item>
     
   </channel>
 </rss>

@@ -1,0 +1,71 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Syllabus Hack – 勉強法</title>
+    <link>https://syllabushack.com/tags/%E5%8B%89%E5%BC%B7%E6%B3%95/</link>
+    <description>Recent content in 勉強法 on Syllabus Hack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 26 Jan 2026 09:00:00 +0900</lastBuildDate>
+    
+	  <atom:link href="https://syllabushack.com/tags/%E5%8B%89%E5%BC%B7%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>まだ高い過去問集を買ってるの？シラバスとAIがあれば合格できる理由</title>
+      <link>https://syllabushack.com/blog/method/concept-manifesto/</link>
+      <pubDate>Mon, 26 Jan 2026 09:00:00 +0900</pubDate>
+      
+      <guid>https://syllabushack.com/blog/method/concept-manifesto/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;資格試験の勉強＝「過去問」だと思っていませんか？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;資格試験の勉強過去問だと思っていませんか&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%b3%87%e6%a0%bc%e8%a9%a6%e9%a8%93%e3%81%ae%e5%8b%89%e5%bc%b7%e9%81%8e%e5%8e%bb%e5%95%8f%e3%81%a0%e3%81%a8%e6%80%9d%e3%81%a3%e3%81%a6%e3%81%84%e3%81%be%e3%81%9b%e3%82%93%e3%81%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;「まずは過去問を３周しろ」
+「過去問道場を回せ」&lt;/p&gt;
+&lt;p&gt;これは、あらゆる資格試験で語られる「合格の定石」です。確かに、これまではそれが正解でした。
+しかし、&lt;strong&gt;生成AI（ChatGPT, Gemini, Claude）が登場した2026年現在、この常識は古いだけでなく、非効率になりつつあります。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Syllabus Hack（シラバスハック）へようこそ。
+ここは、&lt;strong&gt;公開されたシラバス（試験範囲）とAIだけを使って、最短・最速で資格を攻略する&lt;/strong&gt;ための新しい学習メソッドを提供する場所です。&lt;/p&gt;
+&lt;p&gt;これからは、高い過去問集も、分厚い参考書も必要ありません。
+必要なのは、**AIへの正しい聞き方（プロンプト）**だけです。&lt;/p&gt;
+&lt;h2&gt;なぜ「シラバス×AI」が最強なのか&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;なぜシラバスaiが最強なのか&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%aa%e3%81%9c%e3%82%b7%e3%83%a9%e3%83%90%e3%82%b9ai%e3%81%8c%e6%9c%80%e5%bc%b7%e3%81%aa%e3%81%ae%e3%81%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. 過去問は有限だが、AIが作る問題は無限&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-過去問は有限だがaiが作る問題は無限&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-%e9%81%8e%e5%8e%bb%e5%95%8f%e3%81%af%e6%9c%89%e9%99%90%e3%81%a0%e3%81%8cai%e3%81%8c%e4%bd%9c%e3%82%8b%e5%95%8f%e9%a1%8c%e3%81%af%e7%84%a1%e9%99%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;過去問学習の弱点は、「問題数に限りがある」ことと、「答えを覚えてしまう」ことです。
+AIを使えば、&lt;strong&gt;苦手なアルゴリズムの問題を、解けるようになるまで無限に生成する&lt;/strong&gt;ことができます。
+しかも、難易度を調整したり、解説を「小学生向け」「エンジニア向け」に変えることすら可能です。&lt;/p&gt;
+&lt;h3&gt;2. 「解説を読んでも分からない」がなくなる&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-解説を読んでも分からないがなくなる&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-%e8%a7%a3%e8%aa%ac%e3%82%92%e8%aa%ad%e3%82%93%e3%81%a7%e3%82%82%e5%88%86%e3%81%8b%e3%82%89%e3%81%aa%e3%81%84%e3%81%8c%e3%81%aa%e3%81%8f%e3%81%aa%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;参考書の解説は、万人に向けた一般的な説明しかしてくれません。
+しかし、AIは&lt;strong&gt;あなた専用の家庭教師&lt;/strong&gt;です。&lt;/p&gt;
+&lt;p&gt;「この変数変名がわかりにくいから、もっと身近な『りんご』と『みかん』で例えて説明して」
+「このC言語のコード、Pythonだとどう書くの？」&lt;/p&gt;
+&lt;p&gt;そんなワガママな質問にも、AIは24時間365日、嫌な顔ひとつせず答えてくれます。
+&lt;strong&gt;わからないをその場で解決するスピードが、独学とは段違いなのです。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;3. 試験の本質は「シラバス」にある&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-試験の本質はシラバスにある&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-%e8%a9%a6%e9%a8%93%e3%81%ae%e6%9c%ac%e8%b3%aa%e3%81%af%e3%82%b7%e3%83%a9%e3%83%90%e3%82%b9%e3%81%ab%e3%81%82%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;そもそも資格試験は、「シラバス（出題範囲）」に書かれた知識を問うものです。
+シラバスの構造をAIに理解させれば、AIは&lt;strong&gt;試験作成者の思考&lt;/strong&gt;を手に入れます。&lt;/p&gt;
+&lt;p&gt;Syllabus Hackでは、この「シラバス構造化」の技術を核に、
+&lt;strong&gt;試験に出る確率が高い順に、あなたの理解度に合わせて学習する&lt;/strong&gt;ための独自プロンプトを開発しました。&lt;/p&gt;
+&lt;h2&gt;Syllabus Hackが提供するもの&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;syllabus-hackが提供するもの&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#syllabus-hack%e3%81%8c%e6%8f%90%e4%be%9b%e3%81%99%e3%82%8b%e3%82%82%e3%81%ae&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;当サイトでは、以下のコンテンツを中心に発信していきます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hack Method&lt;/strong&gt;: AIを使った具体的な学習ハック術（プロンプト解説）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prompt Tools&lt;/strong&gt;: コピペですぐに使える、試験対策専用プロンプト集&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Success Reports&lt;/strong&gt;: 実際にこのメソッドで合格した実録レポート&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;さあ、勉強のやり方を「アップデート」しよう&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;さあ勉強のやり方をアップデートしよう&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%95%e3%81%82%e5%8b%89%e5%bc%b7%e3%81%ae%e3%82%84%e3%82%8a%e6%96%b9%e3%82%92%e3%82%a2%e3%83%83%e3%83%97%e3%83%87%e3%83%bc%e3%83%88%e3%81%97%e3%82%88%e3%81%86&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;まだ、重たい参考書を持ち歩きますか？
+それとも、スマホひとつで、AIという最強のパートナーと共に合格を目指しますか？&lt;/p&gt;
+&lt;p&gt;Syllabus Hackは、あなたの学習を「苦行」から「ハック（攻略）」へと変えるお手伝いをします。
+まずは、次の記事で紹介する&lt;strong&gt;無限ドリル生成プロンプト&lt;/strong&gt;を試してみてください。
+勉強の景色が、ガラリと変わるはずです。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

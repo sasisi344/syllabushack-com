@@ -1,0 +1,136 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Syllabus Hack – Features</title>
+    <link>https://syllabushack.com/features/</link>
+    <description>Recent content in Features on Syllabus Hack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 30 Jan 2026 22:00:00 +0900</lastBuildDate>
+    
+	  <atom:link href="https://syllabushack.com/features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Agent Teacher</title>
+      <link>https://syllabushack.com/features/agent-teacher/</link>
+      <pubDate>Fri, 30 Jan 2026 22:00:00 +0900</pubDate>
+      
+      <guid>https://syllabushack.com/features/agent-teacher/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;Agent Teacher&lt;/h1&gt;&lt;h2&gt;「教えてもらう」から「使い倒す」へ&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;教えてもらうから使い倒すへ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%95%99%e3%81%88%e3%81%a6%e3%82%82%e3%82%89%e3%81%86%e3%81%8b%e3%82%89%e4%bd%bf%e3%81%84%e5%80%92%e3%81%99%e3%81%b8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;従来の学習は、先生や参考書が「教えてくれる」のを待つ受動的なものでした。
+Agent Teacher は、生成AI（ChatGPT, Gemini, Claude）を&lt;strong&gt;自分専属の家庭教師&lt;/strong&gt;として定義し、能動的に使い倒す学習スタイルです。&lt;/p&gt;
+&lt;h3&gt;できること&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;できること&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%a7%e3%81%8d%e3%82%8b%e3%81%93%e3%81%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;24時間365日の質問対応&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;「今の説明、もっと簡単に言って？」&lt;/li&gt;
+&lt;li&gt;「この用語、小学生にもわかるように例えて」&lt;/li&gt;
+&lt;li&gt;なんていうワガママな質問にも、AIは無限に付き合ってくれます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;パーソナライズされたカリキュラム&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;あなたの苦手分野を分析し、「今日やるべき3問」を提示します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;メンタルコーチング&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;モチベーションが落ちた時、学習が進まない時、AIが励まし、ペース配分を再調整してくれます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;始めるには&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;始めるには&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%a7%8b%e3%82%81%e3%82%8b%e3%81%ab%e3%81%af&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;まずは &lt;a href=&#34;https://syllabushack.com/blog/method/&#34;&gt;Method カテゴリ&lt;/a&gt; の記事で紹介している「プロンプト」をコピーして、お使いのAIに投げかけてみてください。
+その瞬間から、あなたの学習体験は劇的に変化します。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Universal Syllabus</title>
+      <link>https://syllabushack.com/features/universal/</link>
+      <pubDate>Fri, 30 Jan 2026 22:00:00 +0900</pubDate>
+      
+      <guid>https://syllabushack.com/features/universal/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;Universal Syllabus&lt;/h1&gt;&lt;h2&gt;資格試験の「OS」をハックする&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;資格試験のosをハックする&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%b3%87%e6%a0%bc%e8%a9%a6%e9%a8%93%e3%81%aeos%e3%82%92%e3%83%8f%e3%83%83%e3%82%af%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Syllabus Hack のメソッドは、特定の試験（例えば基本情報技術者）だけに特化したものではありません。
+&lt;strong&gt;シラバス（試験範囲）が存在するすべての試験&lt;/strong&gt;に適用可能です。&lt;/p&gt;
+&lt;h3&gt;なぜ Universal なのか？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;なぜ-universal-なのか&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%aa%e3%81%9c-universal-%e3%81%aa%e3%81%ae%e3%81%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;すべての資格試験は、以下の共通構造を持っています。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;シラバス&lt;/strong&gt;: 何を問うかが定義されている仕様書。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;過去問&lt;/strong&gt;: シラバスに基づいたサンプリングデータ。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;評価基準&lt;/strong&gt;: 合格ラインという閾値。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;この構造さえあれば、AIはそこから逆算して最適な学習プランと教材を生成できます。&lt;/p&gt;
+&lt;h3&gt;対応予定ジャンル&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;対応予定ジャンル&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%af%be%e5%bf%9c%e4%ba%88%e5%ae%9a%e3%82%b8%e3%83%a3%e3%83%b3%e3%83%ab&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;IT系&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;ITパスポート、基本情報、応用情報、高度試験&lt;/li&gt;
+&lt;li&gt;AWS認定、G検定（AI）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ビジネス系&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;簿記、FP（ファイナンシャルプランナー）&lt;/li&gt;
+&lt;li&gt;中小企業診断士&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;語学&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;TOEIC、英検&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;「この資格のハック方法が知りたい」というリクエストがあれば、ぜひSNS等でお知らせください。
+シラバスを解析し、攻略プロンプトを開発します。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Vibe Coding</title>
+      <link>https://syllabushack.com/features/vibe-coding/</link>
+      <pubDate>Fri, 30 Jan 2026 22:00:00 +0900</pubDate>
+      
+      <guid>https://syllabushack.com/features/vibe-coding/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;Vibe Coding&lt;/h1&gt;&lt;h2&gt;Generate, Don&amp;rsquo;t Write.&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;generate-dont-write&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#generate-dont-write&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Vibe Coding（バイブ・コーディング）とは、本来は「AIを使って感覚的・直感的にコードを書く」というプログラミング用語ですが、Syllabus Hackではこれを&lt;strong&gt;学習コンテンツの生成&lt;/strong&gt;に応用しています。&lt;/p&gt;
+&lt;h3&gt;学習における Vibe Coding&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;学習における-vibe-coding&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%ad%a6%e7%bf%92%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b-vibe-coding&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;自分専用問題集の生成&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;過去問は有限ですが、AIが生成する類題は&lt;strong&gt;無限&lt;/strong&gt;です。&lt;/li&gt;
+&lt;li&gt;Pythonスクリプトによる「トレース表」の自動生成や、暗記カードの作成など、面倒な作業はすべてAIに任せましょう。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;データの可視化&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;学習進捗や苦手分野を、AIにグラフ化させることも可能です。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Philosophy&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;philosophy&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#philosophy&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;「人間は思考（Vibe）に集中し、実作業（Coding/Writing）はAIが行う」
+これがSyllabus Hackが提案する、新時代の知的生産スタイルです。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

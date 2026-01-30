@@ -7,12 +7,31 @@ interface QuizData {
     tags?: string[];
 }
 
+interface QuizResult {
+    questionId: string;
+    isCorrect: boolean;
+    tags: string[];
+    timestamp: number;
+}
+
+interface TagStats {
+    correct: number;
+    total: number;
+}
+
+interface StoredStats {
+    results: QuizResult[];
+    tagStats: { [tag: string]: TagStats };
+}
+
 class QuizApp {
     private container: HTMLElement;
     private category: string;
     private questions: QuizData[] = [];
     private currentQuestionIndex: number = 0;
     private score: number = 0;
+    private sessionResults: QuizResult[] = [];
+    private readonly STORAGE_KEY = 'syllabushack_quiz_stats';
 
     constructor(containerId: string) {
         this.container = document.getElementById(containerId) as HTMLElement;
@@ -33,19 +52,15 @@ class QuizApp {
 
     async fetchQuestions() {
         try {
-            // Note: In static generation, data often lives in /data/ or similar. 
-            // Phase 1 plan said static/data/, so it would be available at /data/file.json
             const response = await fetch(`/data/${this.category}.json`);
             
             if (!response.ok) {
-                // Determine if we should show mock data for demo purposes
                 console.warn(`Failed to fetch /data/${this.category}.json, falling back to mock data.`);
                 this.useMockData();
                 return;
             }
             
             const data = await response.json();
-            // Shuffle and pick 5-10
             this.questions = this.shuffleArray(data).slice(0, 10);
             
         } catch (error) {
@@ -61,14 +76,16 @@ class QuizApp {
                 question: '【DEMO】情報セキュリティの3要素に含まれないものは？',
                 options: ['機密性 (Confidentiality)', '完全性 (Integrity)', '可用性 (Availability)', '脆弱性 (Vulnerability)'],
                 answer_index: 3,
-                explanation: '情報セキュリティの3要素（CIA）は、機密性、完全性、可用性です。脆弱性はセキュリティ上の欠陥を指す言葉です。'
+                explanation: '情報セキュリティの3要素（CIA）は、機密性、完全性、可用性です。脆弱性はセキュリティ上の欠陥を指す言葉です。',
+                tags: ['セキュリティ']
             },
             {
                 id: 'mock2',
                 question: '【DEMO】パスワードリスト攻撃の説明として適切なものは？',
                 options: ['順列組み合わせですべてのパスワードを試す', 'よく使われるパスワードの辞書を用いて攻撃する', '別のサービスから流出したIDとパスワードの組み合わせを用いて攻撃する', 'キーロガーを使って入力を盗む'],
                 answer_index: 2,
-                explanation: 'パスワードリスト攻撃は、他サイトから流出したID/Passリストを使ってログインを試行する攻撃手法です。'
+                explanation: 'パスワードリスト攻撃は、他サイトから流出したID/Passリストを使ってログインを試行する攻撃手法です。',
+                tags: ['セキュリティ', '攻撃手法']
             }
         ];
     }
@@ -104,7 +121,7 @@ class QuizApp {
         if(feedbackEl) {
             feedbackEl.classList.add('hidden');
             feedbackEl.classList.remove('result-correct', 'result-incorrect');
-        } // Hide previous feedback
+        }
         
         if(progressEl) progressEl.textContent = `${this.currentQuestionIndex + 1} / ${this.questions.length}`;
     }
@@ -114,6 +131,16 @@ class QuizApp {
         const isCorrect = selectedIndex === q.answer_index;
         
         if(isCorrect) this.score++;
+
+        // Record result for this question
+        const result: QuizResult = {
+            questionId: q.id,
+            isCorrect: isCorrect,
+            tags: q.tags || [],
+            timestamp: Date.now()
+        };
+        this.sessionResults.push(result);
+        this.saveResult(result);
 
         // Visual feedback on buttons
         const optionsEl = document.getElementById('options-container');
@@ -148,6 +175,48 @@ class QuizApp {
         }
     }
 
+    // Save result to localStorage
+    saveResult(result: QuizResult) {
+        try {
+            const stored = this.getStoredStats();
+            
+            // Add to results history
+            stored.results.push(result);
+            
+            // Update tag stats
+            result.tags.forEach(tag => {
+                if (!stored.tagStats[tag]) {
+                    stored.tagStats[tag] = { correct: 0, total: 0 };
+                }
+                stored.tagStats[tag].total++;
+                if (result.isCorrect) {
+                    stored.tagStats[tag].correct++;
+                }
+            });
+            
+            // Keep only last 100 results to prevent storage bloat
+            if (stored.results.length > 100) {
+                stored.results = stored.results.slice(-100);
+            }
+            
+            localStorage.setItem(this.STORAGE_KEY, JSON.stringify(stored));
+        } catch (e) {
+            console.warn('Failed to save quiz result to localStorage:', e);
+        }
+    }
+
+    getStoredStats(): StoredStats {
+        try {
+            const data = localStorage.getItem(this.STORAGE_KEY);
+            if (data) {
+                return JSON.parse(data);
+            }
+        } catch (e) {
+            console.warn('Failed to read quiz stats from localStorage:', e);
+        }
+        return { results: [], tagStats: {} };
+    }
+
     nextQuestion() {
         this.currentQuestionIndex++;
         if (this.currentQuestionIndex < this.questions.length) {
@@ -158,13 +227,115 @@ class QuizApp {
     }
 
     showResults() {
+        const stored = this.getStoredStats();
+        
+        // Calculate weak areas (tags with < 70% accuracy and at least 2 attempts)
+        const weakAreas: { tag: string; accuracy: number; total: number }[] = [];
+        const strongAreas: { tag: string; accuracy: number; total: number }[] = [];
+        
+        Object.entries(stored.tagStats).forEach(([tag, stats]) => {
+            if (stats.total >= 2) {
+                const accuracy = Math.round((stats.correct / stats.total) * 100);
+                if (accuracy < 70) {
+                    weakAreas.push({ tag, accuracy, total: stats.total });
+                } else {
+                    strongAreas.push({ tag, accuracy, total: stats.total });
+                }
+            }
+        });
+        
+        // Sort weak areas by accuracy (lowest first)
+        weakAreas.sort((a, b) => a.accuracy - b.accuracy);
+        strongAreas.sort((a, b) => b.accuracy - a.accuracy);
+        
+        // Build weak areas HTML
+        let weakAreasHtml = '';
+        if (weakAreas.length > 0) {
+            weakAreasHtml = `
+                <div class="weak-areas-section">
+                    <h4>📚 重点復習が必要な分野</h4>
+                    <ul class="weak-areas-list">
+                        ${weakAreas.slice(0, 5).map(w => `
+                            <li class="weak-area-item">
+                                <span class="tag-name">${w.tag}</span>
+                                <span class="tag-accuracy" style="color: ${w.accuracy < 50 ? '#dc3545' : '#f0ad4e'}">
+                                    ${w.accuracy}% (${w.total}問)
+                                </span>
+                            </li>
+                        `).join('')}
+                    </ul>
+                </div>
+            `;
+        }
+        
+        // Build strong areas HTML
+        let strongAreasHtml = '';
+        if (strongAreas.length > 0) {
+            strongAreasHtml = `
+                <div class="strong-areas-section">
+                    <h4>✅ 得意な分野</h4>
+                    <ul class="strong-areas-list">
+                        ${strongAreas.slice(0, 3).map(s => `
+                            <li class="strong-area-item">
+                                <span class="tag-name">${s.tag}</span>
+                                <span class="tag-accuracy" style="color: #198754">
+                                    ${s.accuracy}% (${s.total}問)
+                                </span>
+                            </li>
+                        `).join('')}
+                    </ul>
+                </div>
+            `;
+        }
+        
+        // Build session summary
+        const sessionCorrect = this.sessionResults.filter(r => r.isCorrect).length;
+        const sessionTotal = this.sessionResults.length;
+        const sessionWrong = this.sessionResults.filter(r => !r.isCorrect);
+        
+        let sessionWrongHtml = '';
+        if (sessionWrong.length > 0) {
+            const wrongTags = new Set<string>();
+            sessionWrong.forEach(r => r.tags.forEach(t => wrongTags.add(t)));
+            sessionWrongHtml = `
+                <div class="session-wrong-tags">
+                    <p>今回間違えた分野: ${Array.from(wrongTags).map(t => `<span class="wrong-tag">${t}</span>`).join(' ')}</p>
+                </div>
+            `;
+        }
+        
+        // Calculate overall stats
+        const totalAttempts = stored.results.length;
+        const totalCorrect = stored.results.filter(r => r.isCorrect).length;
+        const overallAccuracy = totalAttempts > 0 ? Math.round((totalCorrect / totalAttempts) * 100) : 0;
+        
         this.container.innerHTML = `
-            <div class="quiz-card" style="text-align: center;">
-                <h3>結果発表</h3>
-                <p style="font-size: 1.5rem; margin: 1rem 0;">
-                    ${this.questions.length}問中 <span style="font-weight: bold; color: #1565c0;">${this.score}</span> 問正解！
-                </p>
-                <button class="quiz-next-btn" onclick="location.reload()">もう一度挑戦する</button>
+            <div class="quiz-card quiz-results">
+                <h3>🎯 結果発表</h3>
+                
+                <div class="score-display">
+                    <p class="score-main">
+                        ${this.questions.length}問中 <span class="score-number">${this.score}</span> 問正解！
+                    </p>
+                    <p class="score-rate">正答率: ${Math.round((this.score / this.questions.length) * 100)}%</p>
+                </div>
+                
+                ${sessionWrongHtml}
+                
+                <hr class="results-divider">
+                
+                <div class="cumulative-stats">
+                    <h4>📊 累計成績 (全${totalAttempts}問)</h4>
+                    <p>累計正答率: <strong>${overallAccuracy}%</strong></p>
+                </div>
+                
+                ${weakAreasHtml}
+                ${strongAreasHtml}
+                
+                <div class="results-actions">
+                    <button class="quiz-next-btn" onclick="location.reload()">もう一度挑戦する</button>
+                    <button class="quiz-reset-btn" onclick="localStorage.removeItem('syllabushack_quiz_stats'); location.reload();">履歴をリセット</button>
+                </div>
             </div>
         `;
     }
@@ -177,7 +348,6 @@ class QuizApp {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Only init if the element exists
     if(document.getElementById('quiz-app')) {
         new QuizApp('quiz-app');
     }
