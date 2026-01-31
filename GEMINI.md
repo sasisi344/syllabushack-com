@@ -5,13 +5,17 @@ This is a Hugo static site project focused on "Syllabus Hack" - using GenAI to c
 
 ## Content Rules
 
-### Writing Style & Tone (Updated 2026-01-30)
+### Writing Style & Tone (Updated 2026-01-31)
 *   **Target Audience**:
     *   Treat the reader as a **Beginner to GenAI**.
     *   When introducing prompts or AI operations, assume zero prior knowledge. Provide careful, step-by-step guidance (e.g., "Copy this text and paste it into ChatGPT").
 *   **Emphasis Guidelines**:
-    *   **Do NOT use brackets (`「」`) for emphasis.** Use brackets ONLY for dialogue (conversational content) or direct quotes.
-    *   **Limit logic bolding (`**`)**: Use bold text ONLY for critical keywords or absolute takeaways. Avoid over-bolding entire sentences.
+    *   **Headers**: Do NOT use brackets (`「」`) in article headers. (e.g., `## 落ちる人の計画` not `## 「落ちる人」の計画`)
+    *   **Metaphors/Terms**: Do NOT use brackets for emphasis in body text. Trust the context. (e.g., `借金のように` not `「借金」のように`)
+    *   **Bold Usage**:
+        *   **Keywords Only**: Bold only the core keywords, never entire sentences or instructions.
+        *   **No Bracket Bolding**: Do NOT wrap brackets in bold (`**「text」**`). Use `「**text**」` or simply `**text**` if brackets aren't needed.
+        *   **Punctuation**: Add a comma (`、`) before bolded segments for better rhythm where appropriate.
 
 ### Directory Structure & Categories
 Articles must be created in `content/blog/{category}/`.
@@ -28,6 +32,8 @@ The allowed categories are exactly these three:
     -   **Content**: Career paths after passing, salary info, portfolio building, success stories.
 
 ### Frontmatter Constraint
+For the full standard template, refer to [Post Writer Skill](file:///c:/Users/sasis/344dev/syllabushack-com/.skills/post_writer.md).
+
 - `categories`: Must be an array with a SINGLE string value matching the directory name.
   - OK: `categories: ["trend"]`
   - OK: `categories: ["method"]`

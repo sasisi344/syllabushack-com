@@ -1,0 +1,100 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Syllabus Hack – プログラミング</title>
+    <link>https://syllabushack.com/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/</link>
+    <description>Recent content in プログラミング on Syllabus Hack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://syllabushack.com/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>科目Bのアルゴリズムは「Python」で学ぶな！試験対策で陥る3つの罠と攻略法</title>
+      <link>https://syllabushack.com/blog/trend/fe-pseudo-language-trap/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://syllabushack.com/blog/trend/fe-pseudo-language-trap/</guid>
+      <description>
+        
+        
+        &lt;p&gt;「基本情報技術者試験の科目B（アルゴリズム）対策、どうしよう？」&lt;/p&gt;
+&lt;p&gt;そう考えた時、多くの人が思いつくのが**「とりあえず人気のPythonを勉強しよう」**という手段です。
+ネット上でも「Pythonは初心者向けだし、仕事にも使えるし一石二鳥！」なんて声が溢れています。&lt;/p&gt;
+&lt;p&gt;しかし、断言します。
+&lt;strong&gt;試験合格だけを目指すなら、Pythonでの学習は「罠」だらけです。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;実際、Pythonをある程度書けるようになったのに、科目Bの過去問を解くと**「なぜか答えが合わない」「時間が足りない」**と落ち込む受験生が後を絶ちません。&lt;/p&gt;
+&lt;p&gt;なぜそんな悲劇が起きるのか？
+Pythonの便利さが裏目に出る「3つの罠」と、それでもPythonを活かして合格するための「Syllabus Hack流・攻略法」を解説します。&lt;/p&gt;
+&lt;h2&gt;罠1：配列の「添字（インデックス）」問題&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;罠1配列の添字インデックス問題&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%bd%a01%e9%85%8d%e5%88%97%e3%81%ae%e6%b7%bb%e5%ad%97%e3%82%a4%e3%83%b3%e3%83%87%e3%83%83%e3%82%af%e3%82%b9%e5%95%8f%e9%a1%8c&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;これが最大の罠です。
+プログラマーなら常識の「配列は0番目から始まる」というルール。Pythonも当然 &lt;code&gt;list[0]&lt;/code&gt; が先頭です。&lt;/p&gt;
+&lt;p&gt;しかし、基本情報技術者試験の「擬似言語」では、&lt;strong&gt;配列の添字は「1」から始まります&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python: &lt;code&gt;a[0]&lt;/code&gt; が先頭&lt;/li&gt;
+&lt;li&gt;擬似言語: &lt;code&gt;array[1]&lt;/code&gt; が先頭&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;「たかが1のズレでしょ？」と思いましたか？
+アルゴリズム問題、特にループ処理において、この「1のズレ」は致命的です。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;for i in range(len(a))&lt;/code&gt; で書いていた感覚のまま、試験中に &lt;code&gt;for i from 1 to array.length&lt;/code&gt; のトレース（コードを追いかける作業）をすると、&lt;strong&gt;必ずどこかで参照する場所がズレます。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;結果、計算結果が合わなくなり、パニックになっている間に試験時間が終了します。&lt;/p&gt;
+&lt;h2&gt;罠2：便利な関数が存在しない&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;罠2便利な関数が存在しない&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%bd%a02%e4%be%bf%e5%88%a9%e3%81%aa%e9%96%a2%e6%95%b0%e3%81%8c%e5%ad%98%e5%9c%a8%e3%81%97%e3%81%aa%e3%81%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Pythonは「バッテリー同梱」と言われるほど便利な言語です。
+リストを並べ替えたければ &lt;code&gt;list.sort()&lt;/code&gt;、逆にしたければ &lt;code&gt;reverse()&lt;/code&gt;、特定の値が含まれているかは &lt;code&gt;in&lt;/code&gt; を使うだけで終わります。&lt;/p&gt;
+&lt;p&gt;しかし、擬似言語にはそんな魔法の杖はありません。&lt;/p&gt;
+&lt;p&gt;要素を並べ替えるなら、**「値を比較して、一時変数（tmp）に退避させて、入れ替える」**という泥臭い交換処理（スワップ）を自分で書く必要があります。&lt;/p&gt;
+&lt;p&gt;Pythonの便利さに慣れきっていると、いざ「バブルソートのロジックを答えよ」と問われた時に、「えっ、sort関数呼べばいいんじゃないの？」と手が止まってしまうのです。&lt;/p&gt;
+&lt;h2&gt;罠3：参照渡しとポインタの概念&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;罠3参照渡しとポインタの概念&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%bd%a03%e5%8f%82%e7%85%a7%e6%b8%a1%e3%81%97%e3%81%a8%e3%83%9d%e3%82%a4%e3%83%b3%e3%82%bf%e3%81%ae%e6%a6%82%e5%bf%b5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Pythonを使っていると、メモリのアドレスやポインタを意識することはあまりありません。
+しかし、擬似言語の問題では、リストやオブジェクトを関数に渡した時、それが「値そのもの」なのか「参照（ポインタ）」なのかを理解していないと解けない問題が出ます。&lt;/p&gt;
+&lt;p&gt;「リストを関数内で書き換えたら、呼び出し元のリストも変わってしまった！」
+この挙動を論理的に説明できないと、ポインタ系の問題で確実に失点します。&lt;/p&gt;
+&lt;h2&gt;解法：Pythonを「捨て」ずに「活かす」方法&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;解法pythonを捨てずに活かす方法&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%a7%a3%e6%b3%95python%e3%82%92%e6%8d%a8%e3%81%a6%e3%81%9a%e3%81%ab%e6%b4%bb%e3%81%8b%e3%81%99%e6%96%b9%e6%b3%95&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;では、Python学習は無駄なのでしょうか？
+いいえ、&lt;strong&gt;動かして確認できる&lt;/strong&gt;という点で、Pythonは最高の学習ツールです。&lt;/p&gt;
+&lt;p&gt;擬似言語のテキストを眺めているだけでは、頭の中で動きをイメージするのは天才でもない限り困難です。
+重要なのは、**「Pythonで動かしたロジックを、擬似言語に脳内変換する」**トレーニングです。&lt;/p&gt;
+&lt;h2&gt;攻略の切り札：AIプロンプト翻訳&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;攻略の切り札aiプロンプト翻訳&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%94%bb%e7%95%a5%e3%81%ae%e5%88%87%e3%82%8a%e6%9c%adai%e3%83%97%e3%83%ad%e3%83%b3%e3%83%97%e3%83%88%e7%bf%bb%e8%a8%b3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;そこで提案したいのが、生成AI（ChatGPTやGemini）を使った**「逆翻訳学習法」**です。&lt;/p&gt;
+&lt;p&gt;通常は「擬似言語→Python」にしたがりますが、逆に**「Pythonコード→擬似言語」**に変換させるのです。
+自分で書いたPythonコードが、試験ではどう表現されるかを知ることで、脳内のスイッチを切り替える練習になります。&lt;/p&gt;
+&lt;h3&gt;擬似言語翻訳プロンプト&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;擬似言語翻訳プロンプト&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%93%ac%e4%bc%bc%e8%a8%80%e8%aa%9e%e7%bf%bb%e8%a8%b3%e3%83%97%e3%83%ad%e3%83%b3%e3%83%97%e3%83%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;以下のプロンプトをChatGPTに投げてみてください。&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;あなたは情報処理技術者試験の作問者です。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;以下のPythonコードを、基本情報技術者試験科目Bで使われる「擬似言語」の形式に書き換えてください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;要件：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 配列の添字は1始まりに修正すること
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Python特有の関数（sort, inなど）は使わず、基本的な制御構文で展開すること
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 変換前後でどこが変わったか、特に「添字」と「ロジック」の違いを解説すること
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ここにPythonコードを貼り付け]&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;これを使えば、あなたの書いたPythonコードが、瞬時に「試験に出る形」に翻訳されます。
+「あ、Pythonの &lt;code&gt;range(5)&lt;/code&gt; は、擬似言語だと &lt;code&gt;1から5まで&lt;/code&gt; になるんだ！」といった発見が、合格への近道になります。&lt;/p&gt;
+&lt;h2&gt;まとめ&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;まとめ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%be%e3%81%a8%e3%82%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;試験本番は、便利なライブラリも補完機能もない、泥臭いロジックとの戦いです。
+Pythonの便利さを一度忘れ、プログラミングの「原型」に立ち返る勇気を持ってください。&lt;/p&gt;
+&lt;p&gt;Syllabus Hackでは、この他にも&lt;a href=&#34;../method/chatgpt-prompt-collection/&#34;&gt;「自分専用の過去問」を作るプロンプト&lt;/a&gt;などを多数紹介しています。AIをうまく使って、効率的に合格を勝ち取りましょう！&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

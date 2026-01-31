@@ -1,0 +1,116 @@
+{{ $url := .Get "url" | default (.Get 0) }}
+{{ $title := .Get "title" | default "Link" }}
+{{ $desc := .Get "description" | default "" }}
+{{ $domain := replaceRE "^https?://([^/]+).*" "$1" $url }}
+
+<a href="{{ $url }}" class="blogcard" target="_blank" rel="noopener">
+    <div class="blogcard-content">
+        <div class="blogcard-title">{{ $title }}</div>
+        <div class="blogcard-desc">{{ $desc }}</div>
+        <div class="blogcard-meta">
+            <img src="https://www.google.com/s2/favicons?domain={{ $url }}&sz=32" alt="favicon"
+                class="blogcard-favicon">
+            <span class="blogcard-domain">{{ $domain }}</span>
+        </div>
+    </div>
+    {{ with .Get "image" }}
+    <div class="blogcard-image">
+        <img src="{{ . }}" alt="">
+    </div>
+    {{ end }}
+</a>
+
+<style>
+    .blogcard {
+        display: flex !important;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        overflow: hidden;
+        text-decoration: none !important;
+        color: inherit;
+        margin: 1.5rem 0;
+        transition: transform 0.2s, box-shadow 0.2s;
+        background-color: var(--bg-color, #fff);
+        max-width: 100%;
+    }
+
+    .blogcard:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        text-decoration: none;
+    }
+
+    .blogcard-content {
+        flex: 1;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .blogcard-title {
+        font-weight: bold;
+        font-size: 1.1em;
+        margin-bottom: 0.5rem;
+        color: var(--text-color, #111);
+        line-height: 1.3;
+    }
+
+    .blogcard-desc {
+        font-size: 0.9em;
+        color: #6b7280;
+        margin-bottom: 0.8rem;
+        line-height: 1.4;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .blogcard-meta {
+        display: flex;
+        align-items: center;
+        font-size: 0.8em;
+        color: #9ca3af;
+    }
+
+    .blogcard-favicon {
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+    }
+
+    .blogcard-image {
+        width: 160px;
+        min-height: 100px;
+        background: #f3f4f6;
+        flex-shrink: 0;
+    }
+
+    .blogcard-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Dark mode adaptation */
+    html.dark .blogcard {
+        background-color: #1f2937;
+        border-color: #374151;
+    }
+
+    html.dark .blogcard-title {
+        color: #f3f4f6;
+    }
+
+    html.dark .blogcard-desc {
+        color: #d1d5db;
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+        .blogcard-image {
+            display: none;
+        }
+    }
+</style>
