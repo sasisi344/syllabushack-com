@@ -5,7 +5,7 @@
     <description>Recent content in プロンプト on Syllabus Hack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="https://syllabushack.com/tags/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,32 +16,35 @@
     
     
     <item>
-      <title>ChatGPTに自分専用の過去問を作らせる最強プロンプト集【コピペOK】</title>
-      <link>https://syllabushack.com/blog/method/chatgpt-prompt-collection/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <title>Geminiに自分専用の過去問を作らせる最強プロンプト集【コピペOK】</title>
+      <link>https://syllabushack.com/blog/method/gemini-prompt-collection/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://syllabushack.com/blog/method/chatgpt-prompt-collection/</guid>
+      <guid>https://syllabushack.com/blog/method/gemini-prompt-collection/</guid>
       <description>
         
         
         &lt;p&gt;過去問を解き終わって、もっと練習問題が欲しいと思ったことはありませんか？&lt;/p&gt;
 &lt;p&gt;参考書の解説を読んでも理解できず、誰かに質問したいけれど深夜で誰もいない。そんな経験、ありますよね。&lt;/p&gt;
-&lt;p&gt;ChatGPTは、そんなストレスを全て解決する、24時間対応の専属AI家庭教師です。&lt;/p&gt;
+&lt;p&gt;Googleの生成AI「Gemini」は、そんなストレスを全て解決する、24時間対応の専属AI家庭教師です。&lt;/p&gt;
 &lt;p&gt;この記事では、基本情報技術者試験などIPA資格試験の学習に今すぐ使える、実践的なプロンプト集を公開します。全てコピペOK。あなたの学習効率を劇的に変えましょう。&lt;/p&gt;
-&lt;h2&gt;なぜChatGPTが資格試験学習に最適なのか&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;なぜchatgptが資格試験学習に最適なのか&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e3%81%aa%e3%81%9cchatgpt%e3%81%8c%e8%b3%87%e6%a0%bc%e8%a9%a6%e9%a8%93%e5%ad%a6%e7%bf%92%e3%81%ab%e6%9c%80%e9%81%a9%e3%81%aa%e3%81%ae%e3%81%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;まず、ChatGPTを使うメリットを3つ確認しましょう。&lt;/p&gt;
+&lt;h2&gt;なぜGeminiが資格試験学習に最適なのか&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;なぜgeminiが資格試験学習に最適なのか&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%aa%e3%81%9cgemini%e3%81%8c%e8%b3%87%e6%a0%bc%e8%a9%a6%e9%a8%93%e5%ad%a6%e7%bf%92%e3%81%ab%e6%9c%80%e9%81%a9%e3%81%aa%e3%81%ae%e3%81%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;まず、Geminiを使うメリットを3つ確認しましょう。&lt;/p&gt;
 &lt;h3&gt;1. 24時間いつでも質問できる&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-24時間いつでも質問できる&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#1-24%e6%99%82%e9%96%93%e3%81%84%e3%81%a4%e3%81%a7%e3%82%82%e8%b3%aa%e5%95%8f%e3%81%a7%e3%81%8d%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;深夜2時に勉強していて、どうしても理解できない用語がある。そんな時、ChatGPTなら即座に解説してくれます。&lt;/p&gt;
+    &lt;a href=&#34;#1-24%e6%99%82%e9%96%93%e3%81%84%e3%81%a4%e3%81%a7%e3%82%82%e8%b3%aa%e5%95%8f%e3%81%a7%e3%81%8d%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;深夜2時に勉強していて、どうしても理解できない用語がある。そんな時、Geminiなら即座に解説してくれます。&lt;/p&gt;
 &lt;p&gt;人間の講師に質問する時、どうしても躊躇した瞬間があると思います。
-AI相手なら遠慮する必要もありません。何度でも、納得いくまで質問し直せます。&lt;/p&gt;
+AI相手なら遠慮する必要もありません。
+何度でも、納得いくまで質問し直せます。&lt;/p&gt;
 &lt;h3&gt;2. あなたの理解度に合わせた解説&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-あなたの理解度に合わせた解説&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-%e3%81%82%e3%81%aa%e3%81%9f%e3%81%ae%e7%90%86%e8%a7%a3%e5%ba%a6%e3%81%ab%e5%90%88%e3%82%8f%e3%81%9b%e3%81%9f%e8%a7%a3%e8%aa%ac&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;初心者レベルで説明してほしい、逆にもっと専門的に掘り下げてほしい。そんなリクエストも自在です。&lt;/p&gt;
+    &lt;a href=&#34;#2-%e3%81%82%e3%81%aa%e3%81%9f%e3%81%ae%e7%90%86%e8%a7%a3%e5%ba%a6%e3%81%ab%e5%90%88%e3%82%8f%e3%81%9b%e3%81%9f%e8%a7%a3%e8%aa%ac&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;初心者レベルで説明してほしい、逆にもっと専門的に掘り下げてほしい。
+そんなリクエストも自在です。&lt;/p&gt;
 &lt;p&gt;プロンプト次第で、解説のレベルを完全にコントロールできます。&lt;/p&gt;
 &lt;h3&gt;3. 無限に問題を生成できる&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-無限に問題を生成できる&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#3-%e7%84%a1%e9%99%90%e3%81%ab%e5%95%8f%e9%a1%8c%e3%82%92%e7%94%9f%e6%88%90%e3%81%a7%e3%81%8d%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;過去問道場を何周もして、もう新しい問題がない。そんな状況でも、ChatGPTなら苦手分野の類題を無限に生成できます。&lt;/p&gt;
+    &lt;a href=&#34;#3-%e7%84%a1%e9%99%90%e3%81%ab%e5%95%8f%e9%a1%8c%e3%82%92%e7%94%9f%e6%88%90%e3%81%a7%e3%81%8d%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;過去問道場を何周もして、もう新しい問題がない。そんな状況でも、Geminiなら苦手分野の類題を無限に生成できます。&lt;/p&gt;
 &lt;p&gt;特に2023年のCBT化以降、過去問だけでは対応しきれない問題が増えています。AI生成の問題で、本質的な理解を深めましょう。&lt;/p&gt;
 &lt;h2&gt;【コピペOK】すぐ使える最強プロンプト集&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;コピペokすぐ使える最強プロンプト集&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e3%82%b3%e3%83%94%e3%83%9aok%e3%81%99%e3%81%90%e4%bd%bf%e3%81%88%e3%82%8b%e6%9c%80%e5%bc%b7%e3%83%97%e3%83%ad%e3%83%b3%e3%83%97%e3%83%88%e9%9b%86&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;それでは、実践的なプロンプトを5つ紹介します。&lt;/p&gt;
+    &lt;a href=&#34;#%e3%82%b3%e3%83%94%e3%83%9aok%e3%81%99%e3%81%90%e4%bd%bf%e3%81%88%e3%82%8b%e6%9c%80%e5%bc%b7%e3%83%97%e3%83%ad%e3%83%b3%e3%83%97%e3%83%88%e9%9b%86&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;それでは、実践的なプロンプトを5つ紹介します。
+（ChatGPTなど他のAIでもそのまま使えます）&lt;/p&gt;
 &lt;h3&gt;プロンプト1: 理解度チェック（基礎知識の確認）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;プロンプト1-理解度チェック基礎知識の確認&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e3%83%97%e3%83%ad%e3%83%b3%e3%83%97%e3%83%881-%e7%90%86%e8%a7%a3%e5%ba%a6%e3%83%81%e3%82%a7%e3%83%83%e3%82%af%e5%9f%ba%e7%a4%8e%e7%9f%a5%e8%ad%98%e3%81%ae%e7%a2%ba%e8%aa%8d&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;目的&lt;/strong&gt;: 用語や概念の理解度を確認する&lt;br&gt;
 &lt;strong&gt;使用タイミング&lt;/strong&gt;: インプット後の確認、曖昧な用語の理解&lt;/p&gt;
@@ -68,7 +71,8 @@ AI相手なら遠慮する必要もありません。何度でも、納得いく
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;使用例&lt;/strong&gt;: 【用語】に「正規化」「TCP/IP」「公開鍵暗号」など、理解したい用語を入れるだけです。&lt;/p&gt;
 &lt;p&gt;このプロンプトの優れている点は、単なる定義ではなく、具体例と関連用語の違いまで解説してくれることです。&lt;/p&gt;
-&lt;p&gt;資格試験では、似た用語の区別を問う問題が頻出します。たとえば「共通鍵暗号」と「公開鍵暗号」、「第1正規形」と「第3正規形」など。関連用語を同時に学ぶことで、混同しやすいポイントを事前に整理でき、本番での取りこぼしを防げます。&lt;/p&gt;
+&lt;p&gt;資格試験では、似た用語の区別を問う問題が頻出します。たとえば「共通鍵暗号」と「公開鍵暗号」、「第1正規形」と「第3正規形」など。
+関連用語を同時に学ぶことで、混同しやすいポイントを事前に整理でき、本番での取りこぼしを防げます。&lt;/p&gt;
 &lt;h3&gt;プロンプト2: オリジナル問題生成（苦手分野の克服）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;プロンプト2-オリジナル問題生成苦手分野の克服&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e3%83%97%e3%83%ad%e3%83%b3%e3%83%97%e3%83%882-%e3%82%aa%e3%83%aa%e3%82%b8%e3%83%8a%e3%83%ab%e5%95%8f%e9%a1%8c%e7%94%9f%e6%88%90%e8%8b%a6%e6%89%8b%e5%88%86%e9%87%8e%e3%81%ae%e5%85%8b%e6%9c%8d&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;目的&lt;/strong&gt;: 特定分野の類題を無限に生成する&lt;br&gt;
 &lt;strong&gt;使用タイミング&lt;/strong&gt;: 弱点補強、過去問演習が足りない時&lt;/p&gt;
@@ -125,7 +129,8 @@ AI相手なら遠慮する必要もありません。何度でも、納得いく
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;使用例&lt;/strong&gt;: 過去問やサンプル問題の擬似言語コードを【擬似言語コード】にそのまま貼り付けます。&lt;/p&gt;
-&lt;p&gt;擬似言語は、特定のプログラミング言語に慣れている人ほど逆に読みにくいものです。このプロンプトで、慣れ親しんだ言語に翻訳すれば、ロジックの本質が見えてきます。&lt;/p&gt;
+&lt;p&gt;擬似言語は、特定のプログラミング言語に慣れている人ほど逆に読みにくいものです。
+このプロンプトで、慣れ親しんだ言語に翻訳すれば、ロジックの本質が見えてきます。&lt;/p&gt;
 &lt;h3&gt;プロンプト4: 弱点分析と補強プラン&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;プロンプト4-弱点分析と補強プラン&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e3%83%97%e3%83%ad%e3%83%b3%e3%83%97%e3%83%884-%e5%bc%b1%e7%82%b9%e5%88%86%e6%9e%90%e3%81%a8%e8%a3%9c%e5%bc%b7%e3%83%97%e3%83%a9%e3%83%b3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;目的&lt;/strong&gt;: 間違えた問題から弱点を特定する&lt;br&gt;
 &lt;strong&gt;使用タイミング&lt;/strong&gt;: 模試や過去問演習後、学習方針の見直し時&lt;/p&gt;
@@ -191,18 +196,18 @@ AI相手なら遠慮する必要もありません。何度でも、納得いく
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;使用例&lt;/strong&gt;: あなたの試験日と現在の実力を正直に入力します。&lt;/p&gt;
-&lt;p&gt;スケジュール作成は時間がかかる割に、後で調整が必要になることも多い作業です。ChatGPTに任せて、その時間を勉強に使いましょう。
-ChatGPTはタスクスケジュールを記録し、アプリで通知してくれる機能もあります。勉強を習慣づけしたい場合はベストな方法になるでしょう。&lt;/p&gt;
+&lt;p&gt;スケジュール作成は時間がかかる割に、後で調整が必要になることも多い作業です。Geminiに任せて、その時間を勉強に使いましょう。
+Googleカレンダーと連携してスケジュールを管理するのもおすすめです。&lt;/p&gt;
 &lt;h2&gt;プロンプトを最大限活用するための3つのコツ&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;プロンプトを最大限活用するための3つのコツ&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e3%83%97%e3%83%ad%e3%83%b3%e3%83%97%e3%83%88%e3%82%92%e6%9c%80%e5%a4%a7%e9%99%90%e6%b4%bb%e7%94%a8%e3%81%99%e3%82%8b%e3%81%9f%e3%82%81%e3%81%ae3%e3%81%a4%e3%81%ae%e3%82%b3%e3%83%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;良いプロンプトを書くことは、良い質問をすることと同じです。
 &lt;strong&gt;3つのコツ&lt;/strong&gt;を押さえましょう。&lt;/p&gt;
 &lt;h3&gt;コツ1: 役割（ロール）を明確に指定する&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;コツ1-役割ロールを明確に指定する&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e3%82%b3%e3%83%841-%e5%bd%b9%e5%89%b2%e3%83%ad%e3%83%bc%e3%83%ab%e3%82%92%e6%98%8e%e7%a2%ba%e3%81%ab%e6%8c%87%e5%ae%9a%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;プロンプトの冒頭で、ChatGPTに役割を与えます。&lt;/p&gt;
+    &lt;a href=&#34;#%e3%82%b3%e3%83%841-%e5%bd%b9%e5%89%b2%e3%83%ad%e3%83%bc%e3%83%ab%e3%82%92%e6%98%8e%e7%a2%ba%e3%81%ab%e6%8c%87%e5%ae%9a%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;プロンプトの冒頭で、Geminiに役割を与えます。&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;あなたは〇〇の専門家です&lt;/p&gt;
 
 &lt;/blockquote&gt;
-&lt;p&gt;この一文があるかないかで、回答の質が劇的に変わります。専門家モードになったChatGPTは、より深く、正確な回答を返してくれます。&lt;/p&gt;
+&lt;p&gt;この一文があるかないかで、回答の質が劇的に変わります。専門家モードになったGeminiは、より深く、正確な回答を返してくれます。&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;※もし無くても問題なく動作はしますが、AIの思考時間が増えたり見当外れの回答が返ってくる可能性が高くなります。&lt;/p&gt;
 
@@ -218,22 +223,22 @@ ChatGPTはタスクスケジュールを記録し、アプリで通知してく�
 &lt;p&gt;曖昧な指示では、曖昧な回答しか返ってきません。&lt;/p&gt;
 &lt;h3&gt;コツ3: 段階的に深掘りする&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;コツ3-段階的に深掘りする&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e3%82%b3%e3%83%843-%e6%ae%b5%e9%9a%8e%e7%9a%84%e3%81%ab%e6%b7%b1%e6%8e%98%e3%82%8a%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;一度のプロンプトで完璧を求めず、追加質問で精度を上げていきます。&lt;/p&gt;
-&lt;p&gt;最初の回答が物足りなければ、もっと詳しく、別の例で、といった追加要求をしましょう。会話を重ねるほど、ChatGPTの理解度が深まります。&lt;/p&gt;
-&lt;h2&gt;注意点: ChatGPTの限界を理解する&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;注意点-chatgptの限界を理解する&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e6%b3%a8%e6%84%8f%e7%82%b9-chatgpt%e3%81%ae%e9%99%90%e7%95%8c%e3%82%92%e7%90%86%e8%a7%a3%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ChatGPTは強力なツールですが、万能ではありません。&lt;/p&gt;
+&lt;p&gt;最初の回答が物足りなければ、もっと詳しく、別の例で、といった追加要求をしましょう。会話を重ねるほど、Geminiの理解度が深まります。&lt;/p&gt;
+&lt;h2&gt;注意点: Geminiの限界を理解する&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;注意点-geminiの限界を理解する&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%b3%a8%e6%84%8f%e7%82%b9-gemini%e3%81%ae%e9%99%90%e7%95%8c%e3%82%92%e7%90%86%e8%a7%a3%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Geminiは強力なツールですが、万能ではありません。&lt;/p&gt;
 &lt;h3&gt;情報の正確性を確認する&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;情報の正確性を確認する&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e6%83%85%e5%a0%b1%e3%81%ae%e6%ad%a3%e7%a2%ba%e6%80%a7%e3%82%92%e7%a2%ba%e8%aa%8d%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;AIの情報収集は不完全な場合があります。
 特に最新の試験情報や法改正には対応しきれない部分もあるので、最新情報についてはIPA公式サイトで必ず確認してください。&lt;/p&gt;
 &lt;p&gt;もし試験情報に新しい注釈だったり、旧来の方法とは別の解釈が示されているなら、その文章をAIに学習させて最新情報を反映させるのも手です。&lt;/p&gt;
 &lt;h3&gt;最終的な理解は自分で&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;最終的な理解は自分で&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e6%9c%80%e7%b5%82%e7%9a%84%e3%81%aa%e7%90%86%e8%a7%a3%e3%81%af%e8%87%aa%e5%88%86%e3%81%a7&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;ChatGPTは補助ツールです。解説を読んで理解した気になるだけでは、試験には合格できません。&lt;/p&gt;
+    &lt;a href=&#34;#%e6%9c%80%e7%b5%82%e7%9a%84%e3%81%aa%e7%90%86%e8%a7%a3%e3%81%af%e8%87%aa%e5%88%86%e3%81%a7&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Geminiは補助ツールです。解説を読んで理解した気になるだけでは、試験には合格できません。&lt;/p&gt;
 &lt;p&gt;自分の言葉で説明できるか、手を動かして解けるかを確認しましょう。
 インプットは読むことでも、アウトプットは必ず手書きでノートに書き出すことをしたほうが、習熟度の効率は上がります。&lt;/p&gt;
 &lt;h3&gt;著作権への配慮&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;著作権への配慮&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e8%91%97%e4%bd%9c%e6%a8%a9%e3%81%b8%e3%81%ae%e9%85%8d%e6%85%ae&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;過去問を丸ごとChatGPTに入力することは、著作権的にグレーゾーンです。&lt;/p&gt;
+    &lt;a href=&#34;#%e8%91%97%e4%bd%9c%e6%a8%a9%e3%81%b8%e3%81%ae%e9%85%8d%e6%85%ae&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;過去問を丸ごとGeminiに入力することは、著作権的にグレーゾーンです。&lt;/p&gt;
 &lt;p&gt;個人学習の範囲であれば問題ないケースがほとんどですが、生成した問題を販売したり、大量にSNSで公開したりするのは控えましょう。&lt;/p&gt;
 &lt;h2&gt;まとめ: AI時代の資格攻略法を実践しよう&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;まとめ-ai時代の資格攻略法を実践しよう&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e3%81%be%e3%81%a8%e3%82%81-ai%e6%99%82%e4%bb%a3%e3%81%ae%e8%b3%87%e6%a0%bc%e6%94%bb%e7%95%a5%e6%b3%95%e3%82%92%e5%ae%9f%e8%b7%b5%e3%81%97%e3%82%88%e3%81%86&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ChatGPTは、24時間365日あなたに寄り添うAI家庭教師です。&lt;/p&gt;
+    &lt;a href=&#34;#%e3%81%be%e3%81%a8%e3%82%81-ai%e6%99%82%e4%bb%a3%e3%81%ae%e8%b3%87%e6%a0%bc%e6%94%bb%e7%95%a5%e6%b3%95%e3%82%92%e5%ae%9f%e8%b7%b5%e3%81%97%e3%82%88%e3%81%86&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Geminiは、24時間365日あなたに寄り添うAI家庭教師です。&lt;/p&gt;
 &lt;p&gt;今回紹介した5つのプロンプトは全てコピペOK。今すぐ試してみてください。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;理解度チェック: 用語の深掘り&lt;/li&gt;
@@ -243,8 +248,161 @@ ChatGPTはタスクスケジュールを記録し、アプリで通知してく�
 &lt;li&gt;学習計画: 試験日から逆算したスケジュール&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;プロンプト次第で、学習効率は劇的に変わります。&lt;/p&gt;
-&lt;p&gt;Syllabus Hackでは、ChatGPTで生成した問題を試せるクイズ機能も提供予定です。AI×資格試験の最前線を、一緒に走りましょう。&lt;/p&gt;
+&lt;p&gt;Syllabus Hackでは、Geminiで生成した問題を試せるクイズ機能も提供予定です。AI×資格試験の最前線を、一緒に走りましょう。&lt;/p&gt;
 &lt;p&gt;さあ、次はあなたの番です。このページをブックマークして、今日から実践してみてください。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>解説を読んでも分からないをゼロにする、Geminiへの聞き方テンプレート</title>
+      <link>https://syllabushack.com/blog/method/gemini-explanation-template/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://syllabushack.com/blog/method/gemini-explanation-template/</guid>
+      <description>
+        
+        
+        &lt;p&gt;過去問を解いていて、解説を読んだ瞬間にこう思ったことはありませんか？&lt;/p&gt;
+&lt;p&gt;「いや、その解説の意味が分からんのよ」&lt;/p&gt;
+&lt;p&gt;専門用語を専門用語で説明されたり、数式だけポンと置かれていたり。
+特に基本情報などのIT試験では、解説の解説が欲しくなる瞬間が多々あります。&lt;/p&gt;
+&lt;p&gt;そんな時こそ、&lt;strong&gt;Gemini先生&lt;/strong&gt;の出番です。&lt;/p&gt;
+&lt;p&gt;しかし、ただ「〇〇って何？」と聞くだけでは、教科書通りの堅い答えしか返ってきません。&lt;/p&gt;
+&lt;p&gt;今回は、あなたの脳に腹落ちさせるための、Geminiへの&lt;strong&gt;賢い聞き方（プロンプト）テンプレート&lt;/strong&gt;を4つ紹介します。&lt;/p&gt;
+&lt;h2&gt;なぜ解説が頭に入らないのか？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;なぜ解説が頭に入らないのか&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%aa%e3%81%9c%e8%a7%a3%e8%aa%ac%e3%81%8c%e9%a0%ad%e3%81%ab%e5%85%a5%e3%82%89%e3%81%aa%e3%81%84%e3%81%ae%e3%81%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;理由は単純で、&lt;strong&gt;あなたの前提知識と解説のレベルが合っていないから&lt;/strong&gt;です。&lt;/p&gt;
+&lt;p&gt;教科書や過去問の解説は、万人に向けた平均的な説明しかしません。
+しかし、Geminiなら、あなたの理解のクセに合わせて説明の切り口を変えさせることができます。&lt;/p&gt;
+&lt;p&gt;コツは、「どう説明してほしいか」というモードを指定することです。&lt;/p&gt;
+&lt;h2&gt;モード1：レベルダウン（5歳児化）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;モード1レベルダウン5歳児化&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%a2%e3%83%bc%e3%83%891%e3%83%ac%e3%83%99%e3%83%ab%e3%83%80%e3%82%a6%e3%83%b35%e6%ad%b3%e5%85%90%e5%8c%96&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;一番使えるのがこれです。
+プライドを捨てて、徹底的にレベルを下げてもらいます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;【テンプレート】&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;あなたはプロのIT講師です。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;以下の用語について、「小学生でも分かるように」噛み砕いて説明してください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;難しい専門用語は使わず、身近な言葉だけで表現してください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;【用語・概念】：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ここに分からない用語を入れる（例：公開鍵暗号方式）]&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;効果：&lt;/strong&gt;
+「素因数分解が〜」といった数学的な話が消え、「誰でも開けられる貯金箱と、鍵を持ってる人しか開けられない金庫」といった、直感的なイメージで説明してくれます。
+まずはここで&lt;strong&gt;大枠のイメージ&lt;/strong&gt;を掴むのが最優先です。&lt;/p&gt;
+&lt;h2&gt;モード2：アナロジー（例え話）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;モード2アナロジー例え話&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%a2%e3%83%bc%e3%83%892%e3%82%a2%e3%83%8a%e3%83%ad%e3%82%b8%e3%83%bc%e4%be%8b%e3%81%88%e8%a9%b1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;抽象的な概念は、具体的な「何か」に例えると一瞬で理解できます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;【テンプレート】&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;以下の概念を、「料理」に例えて説明してください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;もし料理が難しければ、「交通ルール」や「会社組織」など、日常的なもので例えてください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;【概念】：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ここに分からない概念を入れる（例：API）]&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;効果：&lt;/strong&gt;
+APIなら「レストランのウェイター（客と厨房の仲介役）」、
+TCP/IPなら「荷物の配送ラベルと配送トラック」など。
+既存の知識と結びつけることで、脳への定着率が段違いに上がります。&lt;/p&gt;
+&lt;h2&gt;モード3：ビジュアル化（構造化）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;モード3ビジュアル化構造化&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%a2%e3%83%bc%e3%83%893%e3%83%93%e3%82%b8%e3%83%a5%e3%82%a2%e3%83%ab%e5%8c%96%e6%a7%8b%e9%80%a0%e5%8c%96&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;文章だけで関係性を追うのが辛い時は、図解させます。
+画像生成ではなく、テキスト図解（ASCIIアート）なら確実に意図が伝わります。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;【テンプレート】&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;以下の仕組みについて、文章だけでなく、**関係性がわかる図（矢印や図形を使ったテキスト図）**を用いて可視化してください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;処理の流れや、データの行き来が分かるようにしてください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;【仕組み】：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ここに仕組みを入れる（例：DHCPのIPアドレス割り当て手順）]&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;効果：&lt;/strong&gt;
+クライアント → [Discover] → サーバー
+クライアント ← [Offer] ← サーバー
+といったフロー図が一瞬で出力されます。手順系の問題はこれで完封できます。&lt;/p&gt;
+&lt;h2&gt;モード4：コントラスト（違いの明確化）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;モード4コントラスト違いの明確化&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%a2%e3%83%bc%e3%83%894%e3%82%b3%e3%83%b3%e3%83%88%e3%83%a9%e3%82%b9%e3%83%88%e9%81%95%e3%81%84%e3%81%ae%e6%98%8e%e7%a2%ba%e5%8c%96&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;「AとB、どっちも同じに見えるんだけど…」という時。
+単体で調べるのではなく、&lt;strong&gt;比較&lt;/strong&gt;させます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;【テンプレート】&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;「A」と「B」の違いがよく分かりません。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;以下の観点で比較した表を作成し、決定的な違いを教えてください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;【比較対象】：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;A：[用語A（例：TCP）]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;B：[用語B（例：UDP）]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;【比較観点】：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 信頼性
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 速度
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 用途（どんな時に使われるか）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- もし間違えて使うとどうなるか&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;効果：&lt;/strong&gt;
+表形式で整理されることで、「あ、要するにスピード重視か確実性重視かの違いね」と、脳内の整理整頓が完了します。&lt;/p&gt;
+&lt;h2&gt;【奥義】ソクラテス・メソッド&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;奥義ソクラテスメソッド&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%a5%a5%e7%be%a9%e3%82%bd%e3%82%af%e3%83%a9%e3%83%86%e3%82%b9%e3%83%a1%e3%82%bd%e3%83%83%e3%83%89&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;最後に、どうしても理解できない時の最終奥義です。
+Geminiに「逆に質問してもらう」のです。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;【テンプレート】&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;私は「[用語]」について勉強していますが、まだ完全に理解できていません。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;私の理解度を確認するために、私に対してクイズや質問を投げかけてください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;私が回答したら、その回答が合っているか採点し、足らない部分を補足してください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;これを私が「理解した」と言うまで続けてください。&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;効果：&lt;/strong&gt;
+自分が言葉にすることで、分かったつもりになっていた部分が露呈します。
+対話型の学習は、記憶への定着において最強のメソッドです。&lt;/p&gt;
+&lt;h2&gt;まとめ：質問力は、学習効率そのもの&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;まとめ質問力は学習効率そのもの&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%be%e3%81%a8%e3%82%81%e8%b3%aa%e5%95%8f%e5%8a%9b%e3%81%af%e5%ad%a6%e7%bf%92%e5%8a%b9%e7%8e%87%e3%81%9d%e3%81%ae%e3%82%82%e3%81%ae&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;「頭が良い」とは、答えを知っていることではなく、&lt;strong&gt;適切な問いを立てられること&lt;/strong&gt;です。&lt;/p&gt;
+&lt;p&gt;解説を読んで10分悩むなら、Geminiに1分で聞きましょう。
+この4つのテンプレートを辞書登録しておけば、あなたの学習速度は間違いなく2倍、3倍になります。&lt;/p&gt;
+&lt;p&gt;さあ、今すぐGeminiを開いて、直近で間違えたあの問題について聞いてみてください。
+「なるほど、そういうことか！」という快感が待っています。&lt;/p&gt;
 
       </description>
     </item>

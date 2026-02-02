@@ -1,0 +1,172 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Syllabus Hack – 質問力</title>
+    <link>https://syllabushack.com/tags/%E8%B3%AA%E5%95%8F%E5%8A%9B/</link>
+    <description>Recent content in 質問力 on Syllabus Hack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://syllabushack.com/tags/%E8%B3%AA%E5%95%8F%E5%8A%9B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>解説を読んでも分からないをゼロにする、Geminiへの聞き方テンプレート</title>
+      <link>https://syllabushack.com/blog/method/gemini-explanation-template/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://syllabushack.com/blog/method/gemini-explanation-template/</guid>
+      <description>
+        
+        
+        &lt;p&gt;過去問を解いていて、解説を読んだ瞬間にこう思ったことはありませんか？&lt;/p&gt;
+&lt;p&gt;「いや、その解説の意味が分からんのよ」&lt;/p&gt;
+&lt;p&gt;専門用語を専門用語で説明されたり、数式だけポンと置かれていたり。
+特に基本情報などのIT試験では、解説の解説が欲しくなる瞬間が多々あります。&lt;/p&gt;
+&lt;p&gt;そんな時こそ、&lt;strong&gt;Gemini先生&lt;/strong&gt;の出番です。&lt;/p&gt;
+&lt;p&gt;しかし、ただ「〇〇って何？」と聞くだけでは、教科書通りの堅い答えしか返ってきません。&lt;/p&gt;
+&lt;p&gt;今回は、あなたの脳に腹落ちさせるための、Geminiへの&lt;strong&gt;賢い聞き方（プロンプト）テンプレート&lt;/strong&gt;を4つ紹介します。&lt;/p&gt;
+&lt;h2&gt;なぜ解説が頭に入らないのか？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;なぜ解説が頭に入らないのか&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%aa%e3%81%9c%e8%a7%a3%e8%aa%ac%e3%81%8c%e9%a0%ad%e3%81%ab%e5%85%a5%e3%82%89%e3%81%aa%e3%81%84%e3%81%ae%e3%81%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;理由は単純で、&lt;strong&gt;あなたの前提知識と解説のレベルが合っていないから&lt;/strong&gt;です。&lt;/p&gt;
+&lt;p&gt;教科書や過去問の解説は、万人に向けた平均的な説明しかしません。
+しかし、Geminiなら、あなたの理解のクセに合わせて説明の切り口を変えさせることができます。&lt;/p&gt;
+&lt;p&gt;コツは、「どう説明してほしいか」というモードを指定することです。&lt;/p&gt;
+&lt;h2&gt;モード1：レベルダウン（5歳児化）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;モード1レベルダウン5歳児化&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%a2%e3%83%bc%e3%83%891%e3%83%ac%e3%83%99%e3%83%ab%e3%83%80%e3%82%a6%e3%83%b35%e6%ad%b3%e5%85%90%e5%8c%96&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;一番使えるのがこれです。
+プライドを捨てて、徹底的にレベルを下げてもらいます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;【テンプレート】&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;あなたはプロのIT講師です。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;以下の用語について、「小学生でも分かるように」噛み砕いて説明してください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;難しい専門用語は使わず、身近な言葉だけで表現してください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;【用語・概念】：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ここに分からない用語を入れる（例：公開鍵暗号方式）]&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;効果：&lt;/strong&gt;
+「素因数分解が〜」といった数学的な話が消え、「誰でも開けられる貯金箱と、鍵を持ってる人しか開けられない金庫」といった、直感的なイメージで説明してくれます。
+まずはここで&lt;strong&gt;大枠のイメージ&lt;/strong&gt;を掴むのが最優先です。&lt;/p&gt;
+&lt;h2&gt;モード2：アナロジー（例え話）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;モード2アナロジー例え話&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%a2%e3%83%bc%e3%83%892%e3%82%a2%e3%83%8a%e3%83%ad%e3%82%b8%e3%83%bc%e4%be%8b%e3%81%88%e8%a9%b1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;抽象的な概念は、具体的な「何か」に例えると一瞬で理解できます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;【テンプレート】&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;以下の概念を、「料理」に例えて説明してください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;もし料理が難しければ、「交通ルール」や「会社組織」など、日常的なもので例えてください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;【概念】：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ここに分からない概念を入れる（例：API）]&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;効果：&lt;/strong&gt;
+APIなら「レストランのウェイター（客と厨房の仲介役）」、
+TCP/IPなら「荷物の配送ラベルと配送トラック」など。
+既存の知識と結びつけることで、脳への定着率が段違いに上がります。&lt;/p&gt;
+&lt;h2&gt;モード3：ビジュアル化（構造化）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;モード3ビジュアル化構造化&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%a2%e3%83%bc%e3%83%893%e3%83%93%e3%82%b8%e3%83%a5%e3%82%a2%e3%83%ab%e5%8c%96%e6%a7%8b%e9%80%a0%e5%8c%96&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;文章だけで関係性を追うのが辛い時は、図解させます。
+画像生成ではなく、テキスト図解（ASCIIアート）なら確実に意図が伝わります。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;【テンプレート】&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;以下の仕組みについて、文章だけでなく、**関係性がわかる図（矢印や図形を使ったテキスト図）**を用いて可視化してください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;処理の流れや、データの行き来が分かるようにしてください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;【仕組み】：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ここに仕組みを入れる（例：DHCPのIPアドレス割り当て手順）]&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;効果：&lt;/strong&gt;
+クライアント → [Discover] → サーバー
+クライアント ← [Offer] ← サーバー
+といったフロー図が一瞬で出力されます。手順系の問題はこれで完封できます。&lt;/p&gt;
+&lt;h2&gt;モード4：コントラスト（違いの明確化）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;モード4コントラスト違いの明確化&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%a2%e3%83%bc%e3%83%894%e3%82%b3%e3%83%b3%e3%83%88%e3%83%a9%e3%82%b9%e3%83%88%e9%81%95%e3%81%84%e3%81%ae%e6%98%8e%e7%a2%ba%e5%8c%96&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;「AとB、どっちも同じに見えるんだけど…」という時。
+単体で調べるのではなく、&lt;strong&gt;比較&lt;/strong&gt;させます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;【テンプレート】&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;「A」と「B」の違いがよく分かりません。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;以下の観点で比較した表を作成し、決定的な違いを教えてください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;【比較対象】：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;A：[用語A（例：TCP）]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;B：[用語B（例：UDP）]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;【比較観点】：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 信頼性
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 速度
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 用途（どんな時に使われるか）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- もし間違えて使うとどうなるか&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;効果：&lt;/strong&gt;
+表形式で整理されることで、「あ、要するにスピード重視か確実性重視かの違いね」と、脳内の整理整頓が完了します。&lt;/p&gt;
+&lt;h2&gt;【奥義】ソクラテス・メソッド&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;奥義ソクラテスメソッド&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%a5%a5%e7%be%a9%e3%82%bd%e3%82%af%e3%83%a9%e3%83%86%e3%82%b9%e3%83%a1%e3%82%bd%e3%83%83%e3%83%89&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;最後に、どうしても理解できない時の最終奥義です。
+Geminiに「逆に質問してもらう」のです。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;【テンプレート】&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;私は「[用語]」について勉強していますが、まだ完全に理解できていません。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;私の理解度を確認するために、私に対してクイズや質問を投げかけてください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;私が回答したら、その回答が合っているか採点し、足らない部分を補足してください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;これを私が「理解した」と言うまで続けてください。&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;効果：&lt;/strong&gt;
+自分が言葉にすることで、分かったつもりになっていた部分が露呈します。
+対話型の学習は、記憶への定着において最強のメソッドです。&lt;/p&gt;
+&lt;h2&gt;まとめ：質問力は、学習効率そのもの&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;まとめ質問力は学習効率そのもの&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%be%e3%81%a8%e3%82%81%e8%b3%aa%e5%95%8f%e5%8a%9b%e3%81%af%e5%ad%a6%e7%bf%92%e5%8a%b9%e7%8e%87%e3%81%9d%e3%81%ae%e3%82%82%e3%81%ae&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;「頭が良い」とは、答えを知っていることではなく、&lt;strong&gt;適切な問いを立てられること&lt;/strong&gt;です。&lt;/p&gt;
+&lt;p&gt;解説を読んで10分悩むなら、Geminiに1分で聞きましょう。
+この4つのテンプレートを辞書登録しておけば、あなたの学習速度は間違いなく2倍、3倍になります。&lt;/p&gt;
+&lt;p&gt;さあ、今すぐGeminiを開いて、直近で間違えたあの問題について聞いてみてください。
+「なるほど、そういうことか！」という快感が待っています。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,87 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Syllabus Hack – 進捗管理</title>
+    <link>https://syllabushack.com/tags/%E9%80%B2%E6%8D%97%E7%AE%A1%E7%90%86/</link>
+    <description>Recent content in 進捗管理 on Syllabus Hack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://syllabushack.com/tags/%E9%80%B2%E6%8D%97%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Notionで進捗管理！「落ちる人」と「受かる人」のダッシュボードの違い</title>
+      <link>https://syllabushack.com/blog/method/notion-study-tracker/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://syllabushack.com/blog/method/notion-study-tracker/</guid>
+      <description>
+        
+        
+        &lt;p&gt;「よーし、今回こそは受かるぞ！」&lt;/p&gt;
+&lt;p&gt;そう意気込んで、Excelで完璧なスケジュール表を作った経験はありませんか？
+「4月1日はテキストP.10〜20」「4月2日はP.21〜30」……&lt;/p&gt;
+&lt;p&gt;しかし、その計画表、&lt;strong&gt;3日後にはもうズレていませんでしたか？&lt;/strong&gt;
+そして一度ズレた計画を修正するのが億劫になり、やがて勉強自体をやめてしまう。&lt;/p&gt;
+&lt;p&gt;これが、多くの人が陥る「計画倒れ（ドミノ倒し）」の正体です。&lt;/p&gt;
+&lt;p&gt;今回は、そんな挫折スパイラルから脱出し、**自動的に勉強したくなる「合格ダッシュボード」**をNotionで作る方法を紹介します。&lt;/p&gt;
+&lt;h2&gt;落ちる人の計画 vs 受かる人のダッシュボード&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;落ちる人の計画-vs-受かる人のダッシュボード&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%90%bd%e3%81%a1%e3%82%8b%e4%ba%ba%e3%81%ae%e8%a8%88%e7%94%bb-vs-%e5%8f%97%e3%81%8b%e3%82%8b%e4%ba%ba%e3%81%ae%e3%83%80%e3%83%83%e3%82%b7%e3%83%a5%e3%83%9c%e3%83%bc%e3%83%89&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;なぜ、これまでの計画管理はうまくいかなかったのでしょうか。
+それは、管理の視点が根本的に違うからです。&lt;/p&gt;
+&lt;h3&gt;落ちる人：「カレンダー」で未来を管理する&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;落ちる人カレンダーで未来を管理する&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%90%bd%e3%81%a1%e3%82%8b%e4%ba%ba%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc%e3%81%a7%e6%9c%aa%e6%9d%a5%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;落ちる人は、カレンダーに「予定」を詰め込みます。
+「今日&lt;strong&gt;やらなければならない&lt;/strong&gt;こと」が並んでいるため、仕事が忙しくてできないと、それが借金のように積み重なります。
+Notionや手帳を開くたびに「未達成」の文字を見せられれば、誰だって開きたくなくなります。&lt;/p&gt;
+&lt;h3&gt;受かる人：「データベース」で過去（実績）を管理する&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;受かる人データベースで過去実績を管理する&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%8f%97%e3%81%8b%e3%82%8b%e4%ba%ba%e3%83%87%e3%83%bc%e3%82%bf%e3%83%99%e3%83%bc%e3%82%b9%e3%81%a7%e9%81%8e%e5%8e%bb%e5%ae%9f%e7%b8%be%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;一方、受かる人は「データベース」で管理します。
+見るのは未来の予定ではなく、&lt;strong&gt;「今日どれだけ積み上げたか」という実績&lt;/strong&gt;です。
+「今日は5問解いた」「進捗が42%になった」というプラスの変化を可視化することで、脳に報酬(ドーパミン)を与えます。&lt;/p&gt;
+&lt;h2&gt;Notionで作る「合格ダッシュボード」の極意&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;notionで作る合格ダッシュボードの極意&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#notion%e3%81%a7%e4%bd%9c%e3%82%8b%e5%90%88%e6%a0%bc%e3%83%80%e3%83%83%e3%82%b7%e3%83%a5%e3%83%9c%e3%83%bc%e3%83%89%e3%81%ae%e6%a5%b5%e6%84%8f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;「Notionって難しそう…関数とか書けないし…」
+安心してください。合格するために複雑な関数は一切不要です。&lt;/p&gt;
+&lt;p&gt;使う機能はたった一つ。「&lt;strong&gt;プロパティの進捗バー機能&lt;/strong&gt;」です。&lt;/p&gt;
+&lt;h3&gt;必要なのはこの3つのViewだけ&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;必要なのはこの3つのviewだけ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%bf%85%e8%a6%81%e3%81%aa%e3%81%ae%e3%81%af%e3%81%93%e3%81%ae3%e3%81%a4%e3%81%aeview%e3%81%a0%e3%81%91&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;ダッシュボードに必要なのは、以下の3つの要素だけです。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;全体進捗（％）&lt;/strong&gt;: RPGのレベルゲージのように、「今どれくらい進んでいるか」が一目でわかるバー。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;今日のログ&lt;/strong&gt;: Study Log。「今日やったこと」を記録する場所。ここが空だと気持ち悪い、埋めたい、という心理を利用します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;苦手リスト&lt;/strong&gt;: 「要復習」のチェックがついた問題だけが溜まる場所。試験直前はここを見るだけでOKになります。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;具体的な作り方（3ステップ）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;具体的な作り方3ステップ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%85%b7%e4%bd%93%e7%9a%84%e3%81%aa%e4%bd%9c%e3%82%8a%e6%96%b93%e3%82%b9%e3%83%86%e3%83%83%e3%83%97&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;実際にNotionでサクッと作ってみましょう。&lt;/p&gt;
+&lt;h3&gt;STEP 1：「単元リスト」DBを作る&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-1単元リストdbを作る&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-1%e5%8d%98%e5%85%83%e3%83%aa%e3%82%b9%e3%83%88db%e3%82%92%e4%bd%9c%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;まず、新しいデータベース（テーブルビュー）を作成し、学習する単元を登録します。
+（例：基本情報なら「テクノロジ系」「マネジメント系」「ストラテジ系」など）&lt;/p&gt;
+&lt;h3&gt;STEP 2：プロパティを設定する&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-2プロパティを設定する&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-2%e3%83%97%e3%83%ad%e3%83%91%e3%83%86%e3%82%a3%e3%82%92%e8%a8%ad%e5%ae%9a%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;次に、数字を入力する「数値プロパティ」を作成します。
+名前は「完了数」などにします。&lt;/p&gt;
+&lt;h3&gt;STEP 3：魔法のスイッチ「バー表示」&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-3魔法のスイッチバー表示&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-3%e9%ad%94%e6%b3%95%e3%81%ae%e3%82%b9%e3%82%a4%e3%83%83%e3%83%81%e3%83%90%e3%83%bc%e8%a1%a8%e7%a4%ba&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;ここが最大のポイントです。
+作成した数値プロパティの設定を開き、「表示方法」を「バー（Bar）」または「リング（Ring）」に変更します。
+そして「最大値（分母）」にその単元の問題数を入力します。&lt;/p&gt;
+&lt;p&gt;これだけで、ただの数字の羅列が、&lt;strong&gt;視覚的なプログレスバー&lt;/strong&gt;に早変わりします！&lt;/p&gt;
+&lt;p&gt;勉強して数字を &lt;code&gt;10&lt;/code&gt; → &lt;code&gt;15&lt;/code&gt; に書き換えるたびに、バーがグイッと伸びる。
+この「バーが伸びる快感」こそが、ゲーム感覚で学習を継続させるエンジンの正体です。&lt;/p&gt;
+&lt;h2&gt;運用ルール：計画は「修正」するためにある&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;運用ルール計画は修正するためにある&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e9%81%8b%e7%94%a8%e3%83%ab%e3%83%bc%e3%83%ab%e8%a8%88%e7%94%bb%e3%81%af%e4%bf%ae%e6%ad%a3%e3%81%99%e3%82%8b%e3%81%9f%e3%82%81%e3%81%ab%e3%81%82%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;最後に、運用のコツをお伝えします。
+それは、&lt;strong&gt;計画は毎週修正する&lt;/strong&gt;ことです。&lt;/p&gt;
+&lt;p&gt;Notionは、あなたの「今の現在地」を教えてくれるカーナビです。
+渋滞（残業）にはまったら、到着予想時刻（目標達成日）は当然遅れます。&lt;/p&gt;
+&lt;p&gt;週末にダッシュボードを見て、「今週は進みが悪かったな。じゃあ来週の目標は少し下げよう」と&lt;strong&gt;下方修正&lt;/strong&gt;できる人こそが、最後まで走り切って合格できる人です。
+一番ダメなのは、遅れを取り戻そうとして無理な計画を立て、自爆することです。&lt;/p&gt;
+&lt;h2&gt;まとめ&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;まとめ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%be%e3%81%a8%e3%82%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;道具が変われば、思考が変わります。
+「やらなきゃいけない」で縛るカレンダー管理を卒業し、「積み上げが楽しい」Notionダッシュボードに移行しませんか？&lt;/p&gt;
+&lt;p&gt;もし「具体的なテンプレートが欲しい！」という声があれば、Syllabus Hack公式テンプレートの配布も検討しますので、ぜひSNSなどで教えてくださいね。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

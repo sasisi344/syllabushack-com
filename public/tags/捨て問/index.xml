@@ -1,0 +1,88 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Syllabus Hack – 捨て問</title>
+    <link>https://syllabushack.com/tags/%E6%8D%A8%E3%81%A6%E5%95%8F/</link>
+    <description>Recent content in 捨て問 on Syllabus Hack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://syllabushack.com/tags/%E6%8D%A8%E3%81%A6%E5%95%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>【文系・未経験】3ヶ月で応用情報に受かるための「全力捨て問」戦略</title>
+      <link>https://syllabushack.com/blog/method/ap-discard-strategy/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://syllabushack.com/blog/method/ap-discard-strategy/</guid>
+      <description>
+        
+        
+        &lt;p&gt;「応用情報を受けたいけど、プログラミングが全くわからない…」
+「範囲が広すぎて、勉強時間が足りない…」&lt;/p&gt;
+&lt;p&gt;もしあなたが文系未経験で、3ヶ月後の合格を目指しているなら、一つだけアドバイスがあります。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;潔く、プログラミングを捨ててください。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;真面目な人ほど「全部やらなきゃ」と考えがちですが、それが一番の不合格フラグです。
+応用情報技術者試験は、満点を取る試験ではありません。
+6割を、泥臭く「かすめ取る」試験です。&lt;/p&gt;
+&lt;p&gt;今回は、非エンジニアが最短で合格証書を手にするための「捨て問戦略」を解説します。&lt;/p&gt;
+&lt;h2&gt;午後の文系・黄金セットとは？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;午後の文系黄金セットとは&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%8d%88%e5%be%8c%e3%81%ae%e6%96%87%e7%b3%bb%e9%bb%84%e9%87%91%e3%82%bb%e3%83%83%e3%83%88%e3%81%a8%e3%81%af&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;午後試験は、記述式で最も重い壁です。
+しかし、選択科目には明確な「文系の逃げ道」が存在します。&lt;/p&gt;
+&lt;p&gt;それが、以下の&lt;strong&gt;黄金セット&lt;/strong&gt;です。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;情報セキュリティ&lt;/strong&gt;（必須）：ここだけは死ぬ気でやってください。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;経営戦略&lt;/strong&gt;：ほぼ現代文です。文章読解力があれば解けます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;プロジェクトマネジメント&lt;/strong&gt;：スケジュール管理やリーダーシップの話。常識で戦えます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;サービスマネジメント&lt;/strong&gt;：ITサービスの運用ルール。覚えることは少ないです。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;システム監査&lt;/strong&gt;：「やってはいけないこと」を指摘するパターンゲーです。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;この5つには、コードを書く要素も、複雑な計算もほとんどありません。
+必要なのは &lt;strong&gt;国語力&lt;/strong&gt; です。
+問題文のヒントを読み解き、適切な日本語で答える能力があれば、知識ゼロからでも戦えます。&lt;/p&gt;
+&lt;h2&gt;なぜプログラミングを捨てるのか&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;なぜプログラミングを捨てるのか&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%aa%e3%81%9c%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%e3%82%92%e6%8d%a8%e3%81%a6%e3%82%8b%e3%81%ae%e3%81%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;理由は単純、&lt;strong&gt;コストパフォーマンスが最悪だから&lt;/strong&gt;です。&lt;/p&gt;
+&lt;p&gt;プログラミング問題（アルゴリズム）は、配点20点です。
+一方、経営戦略も同じ20点です。&lt;/p&gt;
+&lt;p&gt;未経験者がアルゴリズムで20点を取るには、おそらく100時間以上の勉強が必要です。
+しかし、経営戦略なら20時間で合格ラインに届くでしょう。
+同じ20点を取るのに、&lt;strong&gt;5倍の労力&lt;/strong&gt;がかかるのです。&lt;/p&gt;
+&lt;p&gt;さらに、プログラミング問題には「1つのミスで全滅する」リスクがあります。
+文系科目は部分点が狙いやすいですが、プログラムは論理が破綻したら0点です。
+本番一発勝負でこのリスクを背負うのは、ギャンブルすぎます。&lt;/p&gt;
+&lt;h2&gt;リスク管理：4つに絞ると死ぬ理由&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;リスク管理4つに絞ると死ぬ理由&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%aa%e3%82%b9%e3%82%af%e7%ae%a1%e7%90%864%e3%81%a4%e3%81%ab%e7%b5%9e%e3%82%8b%e3%81%a8%e6%ad%bb%e3%81%ac%e7%90%86%e7%94%b1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;「じゃあ、この5つだけ勉強すればいいんですね？」&lt;/p&gt;
+&lt;p&gt;いいえ、それも危険です。
+なぜなら、&lt;strong&gt;特定の科目が激ムズ化する年があるから&lt;/strong&gt;です。
+「経営戦略が得意だったのに、今年は意味不明な問題が出た…」とパニックになり、落ちるパターンです。&lt;/p&gt;
+&lt;p&gt;そこで、&lt;strong&gt;6科目準備法&lt;/strong&gt;を推奨します。&lt;/p&gt;
+&lt;p&gt;上記の5つに加えて、比較的文系でも解きやすい「システムアーキテクチャ」や「データベース（の基礎）」などを1つ、予備として勉強しておきます。
+そして本番開始10分で、全科目の問題文をチラ見します。&lt;/p&gt;
+&lt;p&gt;「うわ、今年の経営戦略はヤバそうだな…よし、予備のシステムアーキテクチャに逃げよう」&lt;/p&gt;
+&lt;p&gt;この&lt;strong&gt;逃げ道&lt;/strong&gt;があるだけで、精神的な余裕が驚くほど変わります。&lt;/p&gt;
+&lt;h2&gt;午前試験の捨て問戦略&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;午前試験の捨て問戦略&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%8d%88%e5%89%8d%e8%a9%a6%e9%a8%93%e3%81%ae%e6%8d%a8%e3%81%a6%e5%95%8f%e6%88%a6%e7%95%a5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;午前試験にも、捨てていい問題があります。
+それは、&lt;strong&gt;複雑な計算問題&lt;/strong&gt;です。&lt;/p&gt;
+&lt;p&gt;数学的な基礎理論で、解くのに5分以上かかるような問題は、本番では即捨て（適当にマーク）でOKです。
+そこに時間を使うくらいなら、&lt;strong&gt;過去問道場&lt;/strong&gt;で「情報セキュリティ」や「マネジメント系」の暗記問題を鬼周回してください。&lt;/p&gt;
+&lt;p&gt;80問中32問（4割）は間違えていいのです。
+完璧主義は捨ててください。&lt;/p&gt;
+&lt;h2&gt;まとめ&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;まとめ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%be%e3%81%a8%e3%82%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;「プログラミングを捨てるなんて、エンジニアとしてどうなのか？」&lt;/p&gt;
+&lt;p&gt;そう思うかもしれません。
+しかし、資格試験の目的は「合格すること」です。
+スキルは、合格した後でゆっくり身につければいいのです。&lt;/p&gt;
+&lt;p&gt;3ヶ月という限られた時間で勝利するには、&lt;strong&gt;戦略的撤退&lt;/strong&gt;こそが最強の武器になります。
+勇気を持って捨て、勝てる場所で確実に勝ちましょう。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
