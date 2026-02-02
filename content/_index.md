@@ -26,3 +26,14 @@ title: Syllabus Hack
     <p>IPA、簿記、FP... シラバスが公開されている全ての資格試験に対応可能です。</p>
   </a>
 </div>
+
+<div class="hx:max-w-[800px] hx:mx-auto hx:mt-16 hx:px-4 hx:text-center">
+  <h2 class="hx:text-3xl hx:font-bold hx:mb-4">最新の記事</h2>
+</div>
+
+{{< recent-posts >}}
+
+<div class="hx:max-w-[800px] hx:mx-auto hx:mt-8 hx:text-center hx:px-4">
+  <a href="/blog/" class="hx:text-primary-600 hx:font-semibold hx:hover:underline">すべての記事を見る →</a>
+</div>
+

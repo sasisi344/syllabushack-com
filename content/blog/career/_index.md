@@ -3,6 +3,7 @@ title: "キャリア・資格の価値"
 menu:
   sidebar:
     parent: "blog"
+image: "cover.png"
 weight: 2
 ---
 

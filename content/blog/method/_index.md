@@ -3,6 +3,7 @@ title: "学習メソッド"
 menu:
   sidebar:
     parent: "blog"
+image: "cover.png"
 weight: 1
 ---
 

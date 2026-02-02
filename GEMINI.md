@@ -45,6 +45,15 @@ For the full standard template, refer to [Post Writer Skill](file:///c:/Users/sa
     - OK: `tags: ["基本情報技術者", "アルゴリズム", "SyllabusHack"]`
     - NG: `tags: ["FE", "基本情報", "アルゴリズム"]` (Duplicate meaning, alias used)
 
+### Visual Style Guidelines (New 2026-02-03)
+*   **Style**: Use **Minimalist Pictogram-style** illustrations.
+*   **Design**: Flat design with simple white icons/shapes.
+*   **Background**: Solid color backgrounds (e.g., Deep Indigo, Navy, Charcoal) or very subtle gradients.
+*   **Constraint**: 
+    *   Avoid complex "AI-style" or high-energy cyberpunk art with excessive details.
+    *   No text embedded in the image unless absolutely necessary.
+    *   Preferred Aspect Ratio: **16:9** for both categories and article thumbnails.
+
 ## Development Rules
 
 ### CSS & Styling

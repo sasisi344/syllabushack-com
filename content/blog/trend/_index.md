@@ -3,6 +3,7 @@ title: "トレンド・試験情報"
 menu:
   sidebar:
     parent: "blog"
+image: "cover.png"
 weight: 3
 ---
 
