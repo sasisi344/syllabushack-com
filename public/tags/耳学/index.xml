@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Syllabus Hack – 耳学</title>
-    <link>http://localhost:1313/tags/%E8%80%B3%E5%AD%A6/</link>
+    <link>https://syllabushack.com/tags/%E8%80%B3%E5%AD%A6/</link>
     <description>Recent content in 耳学 on Syllabus Hack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 07 Feb 2026 09:00:00 +0900</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/tags/%E8%80%B3%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://syllabushack.com/tags/%E8%80%B3%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,19 +17,14 @@
     
     <item>
       <title>【NotebookLM】試験シラバスを「聴く参考書」に変える！音声学習の極意と裏技</title>
-      <link>http://localhost:1313/blog/method/notebooklm-podcast/</link>
+      <link>https://syllabushack.com/blog/method/notebooklm-podcast/</link>
       <pubDate>Sat, 07 Feb 2026 09:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/blog/method/notebooklm-podcast/</guid>
+      <guid>https://syllabushack.com/blog/method/notebooklm-podcast/</guid>
       <description>
         
         
-        &lt;!--
-Image Generation Prompt:
-minimalist pictogram, flat design, white icon on dark solid background, vector style, simple shapes, 16:9 aspect ratio,
-A document icon (PDF) on the left dissolving into sound waves that feed into a pair of headphones on the right. Representing text-to-audio conversion.
---&gt;
-&lt;p&gt;IPA（情報処理推進機構）の試験シラバスや、数百ページある技術書。
+        &lt;p&gt;IPA（情報処理推進機構）の試験シラバスや、数百ページある技術書。
 &lt;strong&gt;「読むだけで眠くなる」「文字ばかりで頭に入らない」&lt;/strong&gt; と感じたことはありませんか？&lt;/p&gt;
 &lt;p&gt;NotebookLMの &lt;strong&gt;「音声オーバービュー（Audio Overview）」&lt;/strong&gt; 機能を使えば、これらを &lt;strong&gt;「AI二人が解説してくれるポッドキャスト」&lt;/strong&gt; に一瞬で変換できます。
 通勤・通学中や家事の合間など、 &lt;strong&gt;「耳学（みみがく）」&lt;/strong&gt; で勉強時間を捻出できる最強のツールです。&lt;/p&gt;
@@ -84,7 +79,7 @@ A document icon (PDF) on the left dissolving into sound waves that feed into a p
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;slider.jpg&#34; alt=&#34;slider interface&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://syllabushack.com/blog/method/notebooklm-podcast/slider_hu_1d8304b3e82d95e0.webp&#34; alt=&#34;slider interface&#34; width=&#34;1376&#34;  height=&#34;768&#34;   loading=&#34;lazy&#34;  /&gt;&lt;/p&gt;
 &lt;h2&gt;まとめ&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;まとめ&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e3%81%be%e3%81%a8%e3%82%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;NotebookLMの音声機能は、シラバスという「無機質なデータ」を、&lt;strong&gt;「親しみやすい学習パートナー」&lt;/strong&gt; に変える魔法のようなツールです。&lt;/p&gt;
 &lt;ol&gt;

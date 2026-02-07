@@ -5,14 +5,10 @@ date: 2026-02-07T08:30:00+09:00
 categories: ["method"]
 tags: ["NotebookLM", "ITパスポート", "応用情報技術者", "勉強法", "SyllabusHack"]
 image: "cover.jpg"
+toc: true
 draft: false
 ---
 
-<!-- 
-Image Generation Prompt:
-minimalist pictogram, flat design, white icon on dark solid background, vector style, simple shapes, 16:9 aspect ratio, 
-Two distinct card decks. One deck labeled 'Basic' with simple shapes, the other labeled 'Pro' glowing with digital energy and complexity. Connected by a neural network line.
--->
 
 資格試験の勉強で、**「膨大な専門用語が覚えられない」「テキストを読んでも頭に残らない」** と悩んでいませんか？
 

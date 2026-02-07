@@ -2,336 +2,366 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/method/</loc>
+    <loc>https://syllabushack.com/blog/method/</loc>
     <lastmod>2026-02-07T10:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/</loc>
+    <loc>https://syllabushack.com/docs/</loc>
     <lastmod>2026-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/hack_prototype/</loc>
+    <loc>https://syllabushack.com/docs/hack_prototype/</loc>
     <lastmod>2026-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/career/</loc>
+    <loc>https://syllabushack.com/blog/career/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/trend/</loc>
+    <loc>https://syllabushack.com/blog/trend/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://syllabushack.com/blog/method/notebooklm-anystudy/</loc>
     <lastmod>2026-02-07T10:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://syllabushack.com/blog/</loc>
     <lastmod>2026-02-07T10:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/method/notebooklm-podcast/</loc>
+    <loc>https://syllabushack.com/categories/</loc>
+    <lastmod>2026-02-07T10:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/categories/method/</loc>
+    <lastmod>2026-02-07T10:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/tags/notebooklm/</loc>
+    <lastmod>2026-02-07T10:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/</loc>
+    <lastmod>2026-02-07T10:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/tags/syllabushack/</loc>
+    <lastmod>2026-02-07T10:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/tags/</loc>
+    <lastmod>2026-02-07T10:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/tags/%E3%83%84%E3%83%BC%E3%83%AB%E6%AF%94%E8%BC%83/</loc>
+    <lastmod>2026-02-07T10:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/tags/%E5%8A%B9%E7%8E%87%E5%8C%96/</loc>
+    <lastmod>2026-02-07T10:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/tags/%E5%8B%89%E5%BC%B7%E6%B3%95/</loc>
+    <lastmod>2026-02-07T10:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/blog/method/notebooklm-quiz/</loc>
+    <lastmod>2026-02-07T09:30:00+09:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/tags/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%B3%E3%83%9E%E3%83%B3%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF/</loc>
+    <lastmod>2026-02-07T09:30:00+09:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/tags/%E5%BC%B1%E7%82%B9%E5%85%8B%E6%9C%8D/</loc>
+    <lastmod>2026-02-07T09:30:00+09:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/blog/method/notebooklm-mindmap/</loc>
+    <lastmod>2026-02-07T09:15:00+09:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/tags/mermaid/</loc>
+    <lastmod>2026-02-07T09:15:00+09:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/tags/%E3%83%A1%E3%82%BF%E8%AA%8D%E7%9F%A5/</loc>
+    <lastmod>2026-02-07T09:15:00+09:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/tags/%E8%87%AA%E5%B7%B1%E5%88%86%E6%9E%90/</loc>
+    <lastmod>2026-02-07T09:15:00+09:00</lastmod>
+  </url><url>
+    <loc>https://syllabushack.com/blog/method/notebooklm-podcast/</loc>
     <lastmod>2026-02-07T09:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://syllabushack.com/tags/gemini/</loc>
     <lastmod>2026-02-07T09:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/gemini/</loc>
+    <loc>https://syllabushack.com/tags/%E8%80%B3%E5%AD%A6/</loc>
     <lastmod>2026-02-07T09:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/method/</loc>
-    <lastmod>2026-02-07T09:00:00+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/notebooklm/</loc>
-    <lastmod>2026-02-07T09:00:00+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/syllabushack/</loc>
-    <lastmod>2026-02-07T09:00:00+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-02-07T09:00:00+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E5%8B%89%E5%BC%B7%E6%B3%95/</loc>
-    <lastmod>2026-02-07T09:00:00+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E8%80%B3%E5%AD%A6/</loc>
-    <lastmod>2026-02-07T09:00:00+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/method/notebooklm-movie/</loc>
+    <loc>https://syllabushack.com/blog/method/notebooklm-movie/</loc>
     <lastmod>2026-02-07T08:45:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/youtube/</loc>
+    <loc>https://syllabushack.com/tags/youtube/</loc>
     <lastmod>2026-02-07T08:45:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%99%82%E7%9F%AD%E5%AD%A6%E7%BF%92/</loc>
+    <loc>https://syllabushack.com/tags/%E6%99%82%E7%9F%AD%E5%AD%A6%E7%BF%92/</loc>
     <lastmod>2026-02-07T08:45:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/method/notebooklm-flashcard/</loc>
+    <loc>https://syllabushack.com/blog/method/notebooklm-flashcard/</loc>
     <lastmod>2026-02-07T08:30:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/it%E3%83%91%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88/</loc>
+    <loc>https://syllabushack.com/tags/it%E3%83%91%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88/</loc>
     <lastmod>2026-02-07T08:30:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%BF%9C%E7%94%A8%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93%E8%80%85/</loc>
+    <loc>https://syllabushack.com/tags/%E5%BF%9C%E7%94%A8%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93%E8%80%85/</loc>
     <lastmod>2026-02-07T08:30:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/method/essay-trainer-script/</loc>
+    <loc>https://syllabushack.com/blog/method/essay-trainer-script/</loc>
     <lastmod>2026-02-03T01:15:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
+    <loc>https://syllabushack.com/tags/python/</loc>
     <lastmod>2026-02-03T01:15:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/method/ap-discard-strategy/</loc>
+    <loc>https://syllabushack.com/blog/method/ap-discard-strategy/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/30%E4%BB%A3/</loc>
+    <loc>https://syllabushack.com/tags/30%E4%BB%A3/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/career/30s-career-change/</loc>
+    <loc>https://syllabushack.com/blog/career/30s-career-change/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ai%E5%AD%A6%E7%BF%92%E6%B3%95/</loc>
+    <loc>https://syllabushack.com/tags/ai%E5%AD%A6%E7%BF%92%E6%B3%95/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/career/</loc>
+    <loc>https://syllabushack.com/categories/career/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/chatgpt/</loc>
+    <loc>https://syllabushack.com/tags/chatgpt/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/method/gemini-prompt-collection/</loc>
+    <loc>https://syllabushack.com/blog/method/gemini-prompt-collection/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E3%82%A2%E3%83%97%E3%83%AA/</loc>
+    <loc>https://syllabushack.com/tags/%E3%82%A2%E3%83%97%E3%83%AA/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2/</loc>
+    <loc>https://syllabushack.com/tags/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2%E3%83%91%E3%82%B9/</loc>
+    <loc>https://syllabushack.com/tags/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2%E3%83%91%E3%82%B9/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E3%83%84%E3%83%BC%E3%83%AB/</loc>
+    <loc>https://syllabushack.com/tags/%E3%83%84%E3%83%BC%E3%83%AB/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E3%83%95%E3%83%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%82%B9/</loc>
+    <loc>https://syllabushack.com/tags/%E3%83%95%E3%83%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%82%B9/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/career/freelance-fe-merit/</loc>
+    <loc>https://syllabushack.com/blog/career/freelance-fe-merit/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88/</loc>
+    <loc>https://syllabushack.com/tags/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E3%83%9D%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA/</loc>
+    <loc>https://syllabushack.com/tags/%E3%83%9D%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E3%83%AA%E3%82%B9%E3%82%AD%E3%83%AA%E3%83%B3%E3%82%B0/</loc>
+    <loc>https://syllabushack.com/tags/%E3%83%AA%E3%82%B9%E3%82%AD%E3%83%AA%E3%83%B3%E3%82%B0/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%88%9D%E5%BF%83%E8%80%85/</loc>
+    <loc>https://syllabushack.com/tags/%E5%88%9D%E5%BF%83%E8%80%85/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%8D%88%E5%BE%8C%E5%95%8F%E9%A1%8C/</loc>
+    <loc>https://syllabushack.com/tags/%E5%8D%88%E5%BE%8C%E5%95%8F%E9%A1%8C/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%8D%88%E5%BE%8C%E8%A9%A6%E9%A8%93/</loc>
+    <loc>https://syllabushack.com/tags/%E5%8D%88%E5%BE%8C%E8%A9%A6%E9%A8%93/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%8D%98%E4%BE%A1%E3%82%A2%E3%83%83%E3%83%97/</loc>
+    <loc>https://syllabushack.com/tags/%E5%8D%98%E4%BE%A1%E3%82%A2%E3%83%83%E3%83%97/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93%E8%80%85/</loc>
+    <loc>https://syllabushack.com/tags/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93%E8%80%85/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%AD%A6%E3%81%B3%E7%9B%B4%E3%81%97/</loc>
+    <loc>https://syllabushack.com/tags/%E5%AD%A6%E3%81%B3%E7%9B%B4%E3%81%97/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%B9%B4%E5%8F%8E/</loc>
+    <loc>https://syllabushack.com/tags/%E5%B9%B4%E5%8F%8E/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/career/ap-salary-impact/</loc>
+    <loc>https://syllabushack.com/blog/career/ap-salary-impact/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%BF%9C%E7%94%A8%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93%E8%80%85%E8%A9%A6%E9%A8%93/</loc>
+    <loc>https://syllabushack.com/tags/%E5%BF%9C%E7%94%A8%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93%E8%80%85%E8%A9%A6%E9%A8%93/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%8D%A8%E3%81%A6%E5%95%8F/</loc>
+    <loc>https://syllabushack.com/tags/%E6%8D%A8%E3%81%A6%E5%95%8F/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%8E%A1%E7%94%A8/</loc>
+    <loc>https://syllabushack.com/tags/%E6%8E%A1%E7%94%A8/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%96%87%E7%B3%BB/</loc>
+    <loc>https://syllabushack.com/tags/%E6%96%87%E7%B3%BB/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%99%82%E7%9F%AD/</loc>
+    <loc>https://syllabushack.com/tags/%E6%99%82%E7%9F%AD/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%9C%AA%E7%B5%8C%E9%A8%93%E8%BB%A2%E8%81%B7/</loc>
+    <loc>https://syllabushack.com/tags/%E6%9C%AA%E7%B5%8C%E9%A8%93%E8%BB%A2%E8%81%B7/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/method/gap-time-apps/</loc>
+    <loc>https://syllabushack.com/blog/method/gap-time-apps/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/method/gemini-explanation-template/</loc>
+    <loc>https://syllabushack.com/blog/method/gemini-explanation-template/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%AB%96%E6%96%87/</loc>
+    <loc>https://syllabushack.com/tags/%E8%AB%96%E6%96%87/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%B3%87%E6%A0%BC/</loc>
+    <loc>https://syllabushack.com/tags/%E8%B3%87%E6%A0%BC/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/career/portfolio-vs-cert/</loc>
+    <loc>https://syllabushack.com/blog/career/portfolio-vs-cert/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%B3%87%E6%A0%BC%E6%89%8B%E5%BD%93/</loc>
+    <loc>https://syllabushack.com/tags/%E8%B3%87%E6%A0%BC%E6%89%8B%E5%BD%93/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%B3%AA%E5%95%8F%E5%8A%9B/</loc>
+    <loc>https://syllabushack.com/tags/%E8%B3%AA%E5%95%8F%E5%8A%9B/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%BB%A2%E8%81%B7/</loc>
+    <loc>https://syllabushack.com/tags/%E8%BB%A2%E8%81%B7/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E9%9A%99%E9%96%93%E6%99%82%E9%96%93/</loc>
+    <loc>https://syllabushack.com/tags/%E9%9A%99%E9%96%93%E6%99%82%E9%96%93/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E9%AB%98%E5%BA%A6%E6%83%85%E5%A0%B1%E5%87%A6%E7%90%86%E6%8A%80%E8%A1%93%E8%80%85/</loc>
+    <loc>https://syllabushack.com/tags/%E9%AB%98%E5%BA%A6%E6%83%85%E5%A0%B1%E5%87%A6%E7%90%86%E6%8A%80%E8%A1%93%E8%80%85/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/career/gateway-to-advanced/</loc>
+    <loc>https://syllabushack.com/blog/career/gateway-to-advanced/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/notion/</loc>
+    <loc>https://syllabushack.com/tags/notion/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/method/notion-study-tracker/</loc>
+    <loc>https://syllabushack.com/blog/method/notion-study-tracker/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E3%82%BF%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86/</loc>
+    <loc>https://syllabushack.com/tags/%E3%82%BF%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E3%83%A2%E3%83%81%E3%83%99%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/</loc>
+    <loc>https://syllabushack.com/tags/%E3%83%A2%E3%83%81%E3%83%99%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E9%80%B2%E6%8D%97%E7%AE%A1%E7%90%86/</loc>
+    <loc>https://syllabushack.com/tags/%E9%80%B2%E6%8D%97%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/anki/</loc>
+    <loc>https://syllabushack.com/tags/anki/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dx/</loc>
+    <loc>https://syllabushack.com/tags/dx/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/trend/it-passport-shame-debate/</loc>
+    <loc>https://syllabushack.com/blog/trend/it-passport-shame-debate/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/trend/</loc>
+    <loc>https://syllabushack.com/categories/trend/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0/</loc>
+    <loc>https://syllabushack.com/tags/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2%E6%88%A6%E7%95%A5/</loc>
+    <loc>https://syllabushack.com/tags/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2%E6%88%A6%E7%95%A5/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E3%82%B7%E3%83%A9%E3%83%90%E3%82%B9/</loc>
+    <loc>https://syllabushack.com/tags/%E3%82%B7%E3%83%A9%E3%83%90%E3%82%B9/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/</loc>
+    <loc>https://syllabushack.com/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E3%83%9D%E3%83%A2%E3%83%89%E3%83%BC%E3%83%AD/</loc>
+    <loc>https://syllabushack.com/tags/%E3%83%9D%E3%83%A2%E3%83%89%E3%83%BC%E3%83%AD/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/method/pomodoro-anki-technique/</loc>
+    <loc>https://syllabushack.com/blog/method/pomodoro-anki-technique/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/trend/syllabus-ver9-update/</loc>
+    <loc>https://syllabushack.com/blog/trend/syllabus-ver9-update/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/trend/fe-certification-value-debate/</loc>
+    <loc>https://syllabushack.com/blog/trend/fe-certification-value-debate/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%99%82%E9%96%93%E7%AE%A1%E7%90%86/</loc>
+    <loc>https://syllabushack.com/tags/%E6%99%82%E9%96%93%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/trend/fe-pseudo-language-trap/</loc>
+    <loc>https://syllabushack.com/blog/trend/fe-pseudo-language-trap/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%84%B3%E7%A7%91%E5%AD%A6/</loc>
+    <loc>https://syllabushack.com/tags/%E8%84%B3%E7%A7%91%E5%AD%A6/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%B3%87%E6%A0%BC%E5%8F%96%E5%BE%97/</loc>
+    <loc>https://syllabushack.com/tags/%E8%B3%87%E6%A0%BC%E5%8F%96%E5%BE%97/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/features/agent-teacher/</loc>
+    <loc>https://syllabushack.com/features/agent-teacher/</loc>
     <lastmod>2026-01-30T22:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/features/</loc>
+    <loc>https://syllabushack.com/features/</loc>
     <lastmod>2026-01-30T22:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/features/universal/</loc>
+    <loc>https://syllabushack.com/features/universal/</loc>
     <lastmod>2026-01-30T22:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/features/vibe-coding/</loc>
+    <loc>https://syllabushack.com/features/vibe-coding/</loc>
     <lastmod>2026-01-30T22:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/hack_prototype/reward/</loc>
+    <loc>https://syllabushack.com/docs/hack_prototype/reward/</loc>
     <lastmod>2026-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/reward/</loc>
+    <loc>https://syllabushack.com/tags/reward/</loc>
     <lastmod>2026-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/typescript/</loc>
+    <loc>https://syllabushack.com/tags/typescript/</loc>
     <lastmod>2026-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/hack_prototype/day_003/</loc>
+    <loc>https://syllabushack.com/docs/hack_prototype/day_003/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/day3/</loc>
+    <loc>https://syllabushack.com/tags/day3/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%9A%97%E5%8F%B7%E6%8A%80%E8%A1%93/</loc>
+    <loc>https://syllabushack.com/tags/%E6%9A%97%E5%8F%B7%E6%8A%80%E8%A1%93/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/method/practice-guide-ipa/</loc>
+    <loc>https://syllabushack.com/blog/method/practice-guide-ipa/</loc>
     <lastmod>2026-01-26T10:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E9%85%8D%E5%B8%83/</loc>
+    <loc>https://syllabushack.com/tags/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E9%85%8D%E5%B8%83/</loc>
     <lastmod>2026-01-26T10:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E7%A7%91%E7%9B%AEb/</loc>
+    <loc>https://syllabushack.com/tags/%E7%A7%91%E7%9B%AEb/</loc>
     <lastmod>2026-01-26T10:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/hack_prototype/day_002/</loc>
+    <loc>https://syllabushack.com/docs/hack_prototype/day_002/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/day2/</loc>
+    <loc>https://syllabushack.com/tags/day2/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/method/concept-manifesto/</loc>
+    <loc>https://syllabushack.com/blog/method/concept-manifesto/</loc>
     <lastmod>2026-01-26T09:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E7%94%9F%E6%88%90ai/</loc>
+    <loc>https://syllabushack.com/tags/%E7%94%9F%E6%88%90ai/</loc>
     <lastmod>2026-01-26T09:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%84%85%E5%A8%81%E3%81%A8%E3%83%9E%E3%83%AB%E3%82%A6%E3%82%A7%E3%82%A2/</loc>
+    <loc>https://syllabushack.com/tags/%E8%84%85%E5%A8%81%E3%81%A8%E3%83%9E%E3%83%AB%E3%82%A6%E3%82%A7%E3%82%A2/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/hack_prototype/day_001/</loc>
+    <loc>https://syllabushack.com/docs/hack_prototype/day_001/</loc>
     <lastmod>2026-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/day1/</loc>
+    <loc>https://syllabushack.com/tags/day1/</loc>
     <lastmod>2026-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%83%85%E5%A0%B1%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%81%AE%E5%9F%BA%E7%A4%8E/</loc>
+    <loc>https://syllabushack.com/tags/%E6%83%85%E5%A0%B1%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%81%AE%E5%9F%BA%E7%A4%8E/</loc>
     <lastmod>2026-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/test-quiz/</loc>
+    <loc>https://syllabushack.com/test-quiz/</loc>
     <lastmod>2026-01-17T10:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/glossary/</loc>
+    <loc>https://syllabushack.com/glossary/</loc>
   </url><url>
-    <loc>http://localhost:1313/glossary/_index.fa/</loc>
+    <loc>https://syllabushack.com/glossary/_index.fa/</loc>
   </url><url>
-    <loc>http://localhost:1313/glossary/_index.zh-cn/</loc>
+    <loc>https://syllabushack.com/glossary/_index.zh-cn/</loc>
   </url><url>
-    <loc>http://localhost:1313/glossary/_index.ja/</loc>
+    <loc>https://syllabushack.com/glossary/_index.ja/</loc>
   </url>
 </urlset>

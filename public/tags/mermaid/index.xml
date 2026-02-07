@@ -1,0 +1,95 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Syllabus Hack – Mermaid</title>
+    <link>https://syllabushack.com/tags/mermaid/</link>
+    <description>Recent content in Mermaid on Syllabus Hack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 07 Feb 2026 09:15:00 +0900</lastBuildDate>
+    
+	  <atom:link href="https://syllabushack.com/tags/mermaid/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>【NotebookLM】マインドマップ機能で自分の「脳内バグ」を可視化する弱点分析術</title>
+      <link>https://syllabushack.com/blog/method/notebooklm-mindmap/</link>
+      <pubDate>Sat, 07 Feb 2026 09:15:00 +0900</pubDate>
+      
+      <guid>https://syllabushack.com/blog/method/notebooklm-mindmap/</guid>
+      <description>
+        
+        
+        &lt;p&gt;NotebookLMに最近追加された「マインドマップ（Studio機能）」、皆さんはどう使っていますか？
+多くの人が「教科書やシラバスをまとめて、体系的に理解しよう」とする使い道を思いつくはずです。&lt;/p&gt;
+&lt;p&gt;しかし、実際にやってみると「AIが作った分類がしっくりこない」「そこは重要じゃないのに」と、モヤモヤした経験はありませんか？&lt;/p&gt;
+&lt;p&gt;実は、マインドマップ機能の真骨頂は、インプットの整理ではなく、&lt;strong&gt;アウトプット（試験結果）の分析&lt;/strong&gt; にあります。
+この記事では、自分の「脳内の思考の偏り」や「ミスの傾向」を可視化し、&lt;strong&gt;合格への最短ルートを描くための「弱点分析マップ」&lt;/strong&gt; の作り方を紹介します。&lt;/p&gt;
+&lt;h2&gt;1. 教科書ではなく「自分のミス」をソースにする&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-教科書ではなく自分のミスをソースにする&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-%e6%95%99%e7%a7%91%e6%9b%b8%e3%81%a7%e3%81%af%e3%81%aa%e3%81%8f%e8%87%aa%e5%88%86%e3%81%ae%e3%83%9f%e3%82%b9%e3%82%92%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ab%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;AIに分析させるべきは、完璧なシラバスではなく、不完全な &lt;strong&gt;あなたの学習ログ&lt;/strong&gt; です。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;手順:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;データの用意&lt;/strong&gt;: 過去問で間違えた問題をテキストデータにします。
+&lt;ul&gt;
+&lt;li&gt;例: &lt;code&gt;2025春-問15: 不正解 (セキュリティ/ゼロトラスト)&lt;/code&gt;, &lt;code&gt;2024秋-問3: 不正解 (ネットワーク/OSI参照モデル)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NotebookLMへの投入&lt;/strong&gt;: この学習ログをソースとしてアップロードします。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;分析プロンプト&lt;/strong&gt;: チャット欄で以下のように指示します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;アップロードした学習ログを分析し、私が頻繁に間違えている『根本的な概念』を抽出してください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;単なる用語リストではなく、どの分野の理解が欠けているために失点しているか、階層構造（カテゴリ &amp;gt; 原因 &amp;gt; 具体的な用語）で整理してください。&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;この状態でマインドマップを生成すると、教科書の目次ではなく、&lt;strong&gt;「あなたの脳内のバグ発生マップ」&lt;/strong&gt; が可視化されます。
+「ネットワーク」の枝が異常に太い、特定のジャンルだけ分岐が多い、といった視覚的なフィードバックにより、&lt;strong&gt;「今、何を潰すべきか」&lt;/strong&gt; が一目でわかります。&lt;/p&gt;
+&lt;h2&gt;2. エンジニア向け裏技：Mermaid記法で出力する&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-エンジニア向け裏技mermaid記法で出力する&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2%e5%90%91%e3%81%91%e8%a3%8f%e6%8a%80mermaid%e8%a8%98%e6%b3%95%e3%81%a7%e5%87%ba%e5%8a%9b%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;NotebookLM標準のマインドマップ機能は閲覧専用に近く、編集の自由度が低いのが難点です。
+そこで、普段からVS CodeやObsidian、Notionを使っているエンジニアの皆さんには、以下の方法がおすすめです。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;プロンプト:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;この弱点分析の結果を、**Mermaid記法のマインドマップ形式**でコードブロックに出力してください。&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;これを行えば、出力されたコードをコピーして、使い慣れたエディタ（Obsidianなど）に貼り付けるだけで完了です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://syllabushack.com/blog/method/notebooklm-mindmap/mermaid_hu_b58229e4750ea9f.webp&#34; alt=&#34;mermaid conversion&#34; width=&#34;1376&#34;  height=&#34;768&#34;   loading=&#34;lazy&#34;  /&gt;&lt;/p&gt;
+&lt;h3&gt;なぜこれが最強なのか？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;なぜこれが最強なのか&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%aa%e3%81%9c%e3%81%93%e3%82%8c%e3%81%8c%e6%9c%80%e5%bc%b7%e3%81%aa%e3%81%ae%e3%81%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;編集可能&lt;/strong&gt; : AIの分析を叩き台にして、自分で対策や気づきを追記（枝分かれ）できます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自分だけの攻略本&lt;/strong&gt; : AIが作った「他人のまとめ」ではなく、自分が手を加えた「自分専用の戦略マップ」に育っていきます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;まとめ：マインドマップ機能は弱点分析に使う&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;まとめマインドマップ機能は弱点分析に使う&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%be%e3%81%a8%e3%82%81%e3%83%9e%e3%82%a4%e3%83%b3%e3%83%89%e3%83%9e%e3%83%83%e3%83%97%e6%a9%9f%e8%83%bd%e3%81%af%e5%bc%b1%e7%82%b9%e5%88%86%e6%9e%90%e3%81%ab%e4%bd%bf%e3%81%86&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;マインドマップ機能は、知識を詰め込むためではなく、&lt;strong&gt;自分の思考の癖を客観視する（メタ認知する）&lt;/strong&gt; ために使いましょう。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;インプット整理&lt;/strong&gt; : しっくりこないことが多い。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;弱点分析&lt;/strong&gt; : 感情を排して、スコアアップの阻害要因を突きつけてくれる最強の参謀になる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AIに勉強させるのではなく、AIに「自分」を分析させる。
+この使い方が、最短合格への鍵となります。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

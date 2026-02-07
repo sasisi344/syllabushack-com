@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Syllabus Hack – Gemini</title>
-    <link>http://localhost:1313/tags/gemini/</link>
+    <link>https://syllabushack.com/tags/gemini/</link>
     <description>Recent content in Gemini on Syllabus Hack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 07 Feb 2026 09:00:00 +0900</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/tags/gemini/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://syllabushack.com/tags/gemini/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,19 +17,14 @@
     
     <item>
       <title>【NotebookLM】試験シラバスを「聴く参考書」に変える！音声学習の極意と裏技</title>
-      <link>http://localhost:1313/blog/method/notebooklm-podcast/</link>
+      <link>https://syllabushack.com/blog/method/notebooklm-podcast/</link>
       <pubDate>Sat, 07 Feb 2026 09:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/blog/method/notebooklm-podcast/</guid>
+      <guid>https://syllabushack.com/blog/method/notebooklm-podcast/</guid>
       <description>
         
         
-        &lt;!--
-Image Generation Prompt:
-minimalist pictogram, flat design, white icon on dark solid background, vector style, simple shapes, 16:9 aspect ratio,
-A document icon (PDF) on the left dissolving into sound waves that feed into a pair of headphones on the right. Representing text-to-audio conversion.
---&gt;
-&lt;p&gt;IPA（情報処理推進機構）の試験シラバスや、数百ページある技術書。
+        &lt;p&gt;IPA（情報処理推進機構）の試験シラバスや、数百ページある技術書。
 &lt;strong&gt;「読むだけで眠くなる」「文字ばかりで頭に入らない」&lt;/strong&gt; と感じたことはありませんか？&lt;/p&gt;
 &lt;p&gt;NotebookLMの &lt;strong&gt;「音声オーバービュー（Audio Overview）」&lt;/strong&gt; 機能を使えば、これらを &lt;strong&gt;「AI二人が解説してくれるポッドキャスト」&lt;/strong&gt; に一瞬で変換できます。
 通勤・通学中や家事の合間など、 &lt;strong&gt;「耳学（みみがく）」&lt;/strong&gt; で勉強時間を捻出できる最強のツールです。&lt;/p&gt;
@@ -84,7 +79,7 @@ A document icon (PDF) on the left dissolving into sound waves that feed into a p
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;slider.jpg&#34; alt=&#34;slider interface&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://syllabushack.com/blog/method/notebooklm-podcast/slider_hu_1d8304b3e82d95e0.webp&#34; alt=&#34;slider interface&#34; width=&#34;1376&#34;  height=&#34;768&#34;   loading=&#34;lazy&#34;  /&gt;&lt;/p&gt;
 &lt;h2&gt;まとめ&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;まとめ&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e3%81%be%e3%81%a8%e3%82%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;NotebookLMの音声機能は、シラバスという「無機質なデータ」を、&lt;strong&gt;「親しみやすい学習パートナー」&lt;/strong&gt; に変える魔法のようなツールです。&lt;/p&gt;
 &lt;ol&gt;
@@ -99,10 +94,10 @@ A document icon (PDF) on the left dissolving into sound waves that feed into a p
     
     <item>
       <title>【無料配布】応用情報・記述式を無限に練習できる「論文トレーナー」スクリプトを作りました</title>
-      <link>http://localhost:1313/blog/method/essay-trainer-script/</link>
+      <link>https://syllabushack.com/blog/method/essay-trainer-script/</link>
       <pubDate>Tue, 03 Feb 2026 01:15:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/blog/method/essay-trainer-script/</guid>
+      <guid>https://syllabushack.com/blog/method/essay-trainer-script/</guid>
       <description>
         
         
@@ -122,7 +117,7 @@ A document icon (PDF) on the left dissolving into sound waves that feed into a p
 &lt;li&gt;&lt;strong&gt;即時AI採点&lt;/strong&gt;: あなたの回答を入力すると、その場で合否判定とスコア（100点満点）を表示&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;模範解答&lt;/strong&gt;: エンジニア視点での模範解答と、あなたの回答への具体的なアドバイスを提示&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/essay-trainer-demo.png&#34; alt=&#34;Demo&#34;  loading=&#34;lazy&#34; /&gt; &lt;!-- 後で差し替えるか、なしでもOK --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://syllabushack.com/images/essay-trainer-demo.png&#34; alt=&#34;Demo&#34;    loading=&#34;lazy&#34;  /&gt; &lt;!-- 後で差し替えるか、なしでもOK --&gt;&lt;/p&gt;
 &lt;h2&gt;使うための準備&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;使うための準備&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e4%bd%bf%e3%81%86%e3%81%9f%e3%82%81%e3%81%ae%e6%ba%96%e5%82%99&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;このツールは &lt;strong&gt;&amp;ldquo;Bring Your Own Key&amp;rdquo; (BYOK)&lt;/strong&gt; モデルを採用しています。
 つまり、&lt;strong&gt;あなた自身の Google Gemini API Key&lt;/strong&gt; を使用します。&lt;/p&gt;
@@ -144,7 +139,7 @@ A document icon (PDF) on the left dissolving into sound waves that feed into a p
 &lt;ul&gt;
 &lt;li&gt;以下のボタンからZIPファイルをダウンロードし、解凍してください。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/files/essay_trainer.zip&#34;&gt;📥 Essay Trainer をダウンロード&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://syllabushack.com/files/essay_trainer.zip&#34;&gt;📥 Essay Trainer をダウンロード&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;実行環境の準備&lt;/strong&gt;&lt;/p&gt;
@@ -209,10 +204,10 @@ A document icon (PDF) on the left dissolving into sound waves that feed into a p
     
     <item>
       <title>Geminiに自分専用の過去問を作らせる最強プロンプト集【コピペOK】</title>
-      <link>http://localhost:1313/blog/method/gemini-prompt-collection/</link>
+      <link>https://syllabushack.com/blog/method/gemini-prompt-collection/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/method/gemini-prompt-collection/</guid>
+      <guid>https://syllabushack.com/blog/method/gemini-prompt-collection/</guid>
       <description>
         
         
@@ -448,10 +443,10 @@ Googleカレンダーと連携してスケジュールを管理するのもお�
     
     <item>
       <title>解説を読んでも分からないをゼロにする、Geminiへの聞き方テンプレート</title>
-      <link>http://localhost:1313/blog/method/gemini-explanation-template/</link>
+      <link>https://syllabushack.com/blog/method/gemini-explanation-template/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/method/gemini-explanation-template/</guid>
+      <guid>https://syllabushack.com/blog/method/gemini-explanation-template/</guid>
       <description>
         
         

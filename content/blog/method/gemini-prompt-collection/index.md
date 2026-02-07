@@ -6,6 +6,7 @@ categories: ["method"]
 tags: ["Gemini", "ChatGPT", "プロンプト", "AI学習法", "基本情報技術者"]
 image: "cover.png"
 draft: false
+toc: true
 ---
 
 過去問を解き終わって、もっと練習問題が欲しいと思ったことはありませんか？

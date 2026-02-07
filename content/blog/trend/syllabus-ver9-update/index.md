@@ -6,6 +6,7 @@ categories: ["trend"]
 tags: ["基本情報技術者", "ITパスポート", "AI学習法", "シラバス"]
 image: "cover.jpg"
 draft: false
+toc: true
 ---
 
 「家にある兄の参考書（2023年版）を使って勉強しています」

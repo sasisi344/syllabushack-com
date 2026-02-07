@@ -5,14 +5,10 @@ date: 2026-02-07T08:45:00+09:00
 categories: ["method"]
 tags: ["NotebookLM", "勉強法", "YouTube", "SyllabusHack", "時短学習"]
 image: "cover.jpg"
+toc: true
 draft: false
 ---
 
-<!--
-Image Generation Prompt:
-minimalist pictogram, flat design, white icon on dark solid background, vector style, simple shapes, 16:9 aspect ratio,
-An icon of a YouTube play button transforming into a sound wave (podcast), symbolizing conversion from video to audio.
--->
 
 NotebookLMには「ビデオの内容を理解する」機能に加え、**「音声オーバービュー（Audio Overview）」** という強力な機能があります。
 これは、読み込ませた資料を元に、AI（ホスト2人）が対話形式で内容を解説してくれる機能です。

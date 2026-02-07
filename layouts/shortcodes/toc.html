@@ -1,0 +1,9 @@
+{{- $toc := .Page.TableOfContents -}}
+{{- if $toc -}}
+<nav class="inline-toc" aria-label="目次">
+    <details open>
+        <summary class="inline-toc-title"><span class="toc-icon">📑</span>この記事の目次</summary>
+        {{ $toc }}
+    </details>
+</nav>
+{{- end -}}

@@ -6,6 +6,7 @@ categories: ["method"]
 tags: ["勉強法", "Anki", "ポモドーロ", "時間管理", "脳科学"]
 image: "cover.jpg"
 draft: false
+toc: true
 ---
 
 「毎日残業でクタクタ。家に帰っても勉強なんてできない……」

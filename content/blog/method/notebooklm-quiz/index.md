@@ -5,14 +5,12 @@ date: 2026-02-07T09:30:00+09:00
 categories: ["method"]
 tags: ["NotebookLM", "勉強法", "ファインマンテクニック", "SyllabusHack", "弱点克服"]
 image: "cover.jpg"
+toc: true
 draft: false
 ---
 
-<!--
-Image Generation Prompt:
-minimalist pictogram, flat design, white icon on dark solid background, vector style, simple shapes, 16:9 aspect ratio,
-An icon of a target board with arrows hitting the bullseye repeatedly. Symbolizing targeted learning and weakness elimination.
--->
+
+
 
 NotebookLMには、資料から自動的にクイズを作ってくれる「学習ガイド」機能があります。
 ボタン一つで問題が出るので便利ですが、**「全体からランダム」に出題されるため、実は効率があまり良くありません。**
@@ -28,7 +26,7 @@ NotebookLMには、資料から自動的にクイズを作ってくれる「学�
 
 **プロンプト:**
 ```markdown
-シラバスの全範囲から、あえて『間違いやすいひっかけ問題』を5問作成してください。
+シラバスの全範囲から、あえて「間違いやすいひっかけ問題」を5問作成してください。
 用語の単純な記憶ではなく、仕組みの理解を問う4択問題にしてください。
 ```
 
@@ -42,7 +40,7 @@ NotebookLMには、資料から自動的にクイズを作ってくれる「学�
 
 **プロンプト:**
 ```markdown
-私は「公開鍵暗号」の仕組みが苦手なようです。このトピック**だけ**に絞って、難易度を徐々に上げながら3問出題してください。
+私は「公開鍵暗号」の仕組みが苦手なようです。このトピックだけに絞って、難易度を徐々に上げながら3問出題してください。
 
 1問目は基本原理。
 2問目は「共通鍵」との違いやメリット・デメリット。

@@ -5,14 +5,10 @@ date: 2026-02-07T09:15:00+09:00
 categories: ["method"]
 tags: ["NotebookLM", "自己分析", "メタ認知", "Mermaid", "勉強法"]
 image: "cover.jpg"
+toc: true
 draft: false
 ---
 
-<!--
-Image Generation Prompt:
-minimalist pictogram, flat design, white icon on dark solid background, vector style, simple shapes, 16:9 aspect ratio,
-A simple brain icon with circuit board lines (mind map branches) extending from it. Some branches are red (signifying errors/bugs) and others green.
--->
 
 NotebookLMに最近追加された「マインドマップ（Studio機能）」、皆さんはどう使っていますか？
 多くの人が「教科書やシラバスをまとめて、体系的に理解しよう」とする使い道を思いつくはずです。

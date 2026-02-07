@@ -19,6 +19,7 @@ date: 2026-XX-XX
 categories: ["category_name"]
 tags: ["Tag1", "Tag2", "Tag3"]
 image: "cover.jpg"
+toc: true
 draft: false
 ---
 ```
@@ -34,9 +35,14 @@ draft: false
     *   `"career"`: キャリア戦略
 *   **tags**: 3〜5個。必ず `.skills/tag_rules.md` の標準化タグを使用すること。
 *   **image**: 原則として `cover.jpg` を使用。
+*   **toc**: 目次を表示する場合は `true`（最初のH2直前に表示）、不要な場合は `false`。
 *   **draft**: 公開時は `false`。
 
-## 3. Writing Process Reference
+## 3. Publication Rules (Before Moving to content/)
+
+*   **Remove Prompts**: When moving an article from `_draft/` to `content/blog/`, you MUST remove any HTML comments containing image generation prompts (e.g., `<!-- Image Generation Prompt: ... -->`).
+
+## 4. Writing Process Reference
 
 *   Directory Structure: See `category_rules.md`
 *   Tagging Strategy: See `tag_rules.md`

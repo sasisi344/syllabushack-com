@@ -6,6 +6,7 @@ categories: ["trend"]
 tags: ["基本情報技術者", "アルゴリズム", "プログラミング", "Python"]
 image: "cover.jpg"
 draft: false
+toc: true
 ---
 
 「基本情報技術者試験の科目B（アルゴリズム）対策、どうしよう？」

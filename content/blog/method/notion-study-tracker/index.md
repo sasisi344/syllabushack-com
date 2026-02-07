@@ -6,6 +6,7 @@ categories: ["method"]
 tags: ["勉強法", "Notion", "タスク管理", "モチベーション", "進捗管理"]
 image: "cover.jpg"
 draft: false
+toc: true
 ---
 
 「よーし、今回こそは受かるぞ！」

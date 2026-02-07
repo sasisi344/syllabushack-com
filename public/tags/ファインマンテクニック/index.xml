@@ -1,0 +1,106 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Syllabus Hack – ファインマンテクニック</title>
+    <link>https://syllabushack.com/tags/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%B3%E3%83%9E%E3%83%B3%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF/</link>
+    <description>Recent content in ファインマンテクニック on Syllabus Hack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 07 Feb 2026 09:30:00 +0900</lastBuildDate>
+    
+	  <atom:link href="https://syllabushack.com/tags/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%B3%E3%83%9E%E3%83%B3%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>【NotebookLM】AIを「スパルタ専属コーチ」にするクイズ機能のハック術</title>
+      <link>https://syllabushack.com/blog/method/notebooklm-quiz/</link>
+      <pubDate>Sat, 07 Feb 2026 09:30:00 +0900</pubDate>
+      
+      <guid>https://syllabushack.com/blog/method/notebooklm-quiz/</guid>
+      <description>
+        
+        
+        &lt;p&gt;NotebookLMには、資料から自動的にクイズを作ってくれる「学習ガイド」機能があります。
+ボタン一つで問題が出るので便利ですが、&lt;strong&gt;「全体からランダム」に出題されるため、実は効率があまり良くありません。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;本気で試験に合格したいなら、AIを「ただの出題マシーン」ではなく、&lt;strong&gt;「あなたの弱点を知り尽くした専属コーチ」&lt;/strong&gt; に進化させる必要があります。&lt;/p&gt;
+&lt;p&gt;この記事では、標準機能を卒業し、チャット機能を使った &lt;strong&gt;「弱点撲滅・パーソナライズクイズ戦略」&lt;/strong&gt; を紹介します。&lt;/p&gt;
+&lt;h2&gt;フェーズ1：弱点のあぶり出し（ショットガン方式）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;フェーズ1弱点のあぶり出しショットガン方式&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%95%e3%82%a7%e3%83%bc%e3%82%ba1%e5%bc%b1%e7%82%b9%e3%81%ae%e3%81%82%e3%81%b6%e3%82%8a%e5%87%ba%e3%81%97%e3%82%b7%e3%83%a7%e3%83%83%e3%83%88%e3%82%ac%e3%83%b3%e6%96%b9%e5%bc%8f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;まずは、AIにあなたの「理解度の穴」を見つけさせます。
+標準のクイズ機能よりも意地悪な、&lt;strong&gt;「ひっかけ問題」&lt;/strong&gt; を作らせるのがポイントです。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;プロンプト:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;シラバスの全範囲から、あえて「間違いやすいひっかけ問題」を5問作成してください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;用語の単純な記憶ではなく、仕組みの理解を問う4択問題にしてください。&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;これを解いてみて、間違えた問題の「ジャンル（例：セキュリティ、計算問題）」をメモしておきましょう。
+これが、次に潰すべきターゲットになります。&lt;/p&gt;
+&lt;h2&gt;フェーズ2：弱点特化の深掘り（ドリルダウン方式）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;フェーズ2弱点特化の深掘りドリルダウン方式&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%95%e3%82%a7%e3%83%bc%e3%82%ba2%e5%bc%b1%e7%82%b9%e7%89%b9%e5%8c%96%e3%81%ae%e6%b7%b1%e6%8e%98%e3%82%8a%e3%83%89%e3%83%aa%e3%83%ab%e3%83%80%e3%82%a6%e3%83%b3%e6%96%b9%e5%bc%8f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ここがパーソナライズ学習の真骨頂です。
+苦手な分野（例えば「公開鍵暗号」）が見つかったら、徹底的にそこだけを攻めるようAIに指示します。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;プロンプト:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;私は「公開鍵暗号」の仕組みが苦手なようです。このトピックだけに絞って、難易度を徐々に上げながら3問出題してください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;1問目は基本原理。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2問目は「共通鍵」との違いやメリット・デメリット。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;3問目は実際の攻撃手法（中間者攻撃など）との関連。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;一気に答えを出さず、1問ずつ出題して、私の回答を待ってから解説と次の問題を出してください。&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;この対話形式なら間違えた瞬間に、 &lt;strong&gt;「なぜ間違えたか」&lt;/strong&gt; をその場で解説してもらえるため、理解の定着度が段違いです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://syllabushack.com/blog/method/notebooklm-quiz/drill_hu_1c95f084719152f0.webp&#34; alt=&#34;drill down&#34; width=&#34;1376&#34;  height=&#34;768&#34;   loading=&#34;lazy&#34;  /&gt;&lt;/p&gt;
+&lt;h2&gt;フェーズ3：逆クイズ（ファインマン・テクニック）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;フェーズ3逆クイズファインマンテクニック&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%95%e3%82%a7%e3%83%bc%e3%82%ba3%e9%80%86%e3%82%af%e3%82%a4%e3%82%ba%e3%83%95%e3%82%a1%e3%82%a4%e3%83%b3%e3%83%9e%e3%83%b3%e3%83%86%e3%82%af%e3%83%8b%e3%83%83%e3%82%af&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;仕上げは、立場を逆転させます。
+あなたが先生役になり、AIに教えることで、&lt;strong&gt;「わかったつもり」&lt;/strong&gt; を完全に排除します。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;プロンプト:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;今度は君（AI）が生徒役になって、私に「公開鍵暗号」について質問してください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;私が先生として答えます。私の説明に論理的な飛躍や間違いがあれば、遠慮なくツッコミを入れてください。&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;AIからの鋭い質問に答えられなければ、そこがまだ理解できていない証拠です。&lt;/p&gt;
+&lt;h2&gt;まとめ：おすすめの運用サイクル&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;まとめおすすめの運用サイクル&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%be%e3%81%a8%e3%82%81%e3%81%8a%e3%81%99%e3%81%99%e3%82%81%e3%81%ae%e9%81%8b%e7%94%a8%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;NotebookLMを使い倒す、最強のルーティンはこれです。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;朝（ウォーミングアップ）&lt;/strong&gt; : 「学習ガイド」ボタンでランダムな5問をサクッと解く。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;移動中（インプット）&lt;/strong&gt; : 音声機能で解説を聞き流す。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;夜（ガチ演習）&lt;/strong&gt; : チャットで「フェーズ2（弱点特化）」のプロンプトを打ち込み、弱点を徹底的に潰す。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;AIに受動的に従うのではなく、&lt;strong&gt;AIを能動的に使い倒す&lt;/strong&gt;。
+これこそが、Syllabus Hack流の学習スタイルです。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

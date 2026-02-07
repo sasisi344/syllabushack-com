@@ -6,6 +6,7 @@ categories: ["method"]
 tags: ["Gemini", "勉強法", "プロンプト", "質問力", "初心者"]
 image: "cover.png"
 draft: false
+toc: true
 ---
 
 過去問を解いていて、解説を読んだ瞬間にこう思ったことはありませんか？

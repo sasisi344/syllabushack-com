@@ -6,6 +6,7 @@ categories: ["method"]
 tags: ["応用情報技術者試験", "勉強法", "文系", "午後試験", "捨て問"]
 image: "cover.jpg"
 draft: false
+toc: true
 ---
 
 「応用情報を受けたいけど、プログラミングが全くわからない…」

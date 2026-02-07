@@ -6,6 +6,7 @@ categories: ["career"]
 tags: ["フリーランス", "基本情報技術者", "キャリア", "学び直し", "単価アップ"]
 image: "cover.png"
 draft: false
+toc: true
 ---
 
 「フリーランスは実力主義。資格なんて意味ない」

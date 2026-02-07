@@ -5,14 +5,10 @@ date: 2026-02-07T09:00:00+09:00
 categories: ["method"]
 tags: ["NotebookLM", "勉強法", "耳学", "SyllabusHack", "Gemini"]
 image: "cover.jpg"
+toc: true
 draft: false
 ---
 
-<!--
-Image Generation Prompt:
-minimalist pictogram, flat design, white icon on dark solid background, vector style, simple shapes, 16:9 aspect ratio,
-A document icon (PDF) on the left dissolving into sound waves that feed into a pair of headphones on the right. Representing text-to-audio conversion.
--->
 
 IPA（情報処理推進機構）の試験シラバスや、数百ページある技術書。
 **「読むだけで眠くなる」「文字ばかりで頭に入らない」** と感じたことはありませんか？

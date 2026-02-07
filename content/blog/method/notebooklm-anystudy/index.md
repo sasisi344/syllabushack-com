@@ -5,14 +5,10 @@ date: 2026-02-07T10:00:00+09:00
 categories: ["method"]
 tags: ["NotebookLM", "勉強法", "ツール比較", "SyllabusHack", "効率化"]
 image: "cover.jpg"
+toc: true
 draft: false
 ---
 
-<!--
-Image Generation Prompt:
-minimalist pictogram, flat design, white icon on dark solid background, vector style, simple shapes, 16:9 aspect ratio,
-A weighing scale. One side has a few glowing golden gems (useful features), the other side has a pile of grey rocks (useless features). The gems side is heavier (more valuable).
--->
 
 NotebookLMを使っていると、たくさんのボタンや機能が目に入ります。「これ全部使わないといけないのかな？」「どれが勉強に役立つのかな？」と迷ったことはありませんか？
 

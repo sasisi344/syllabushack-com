@@ -1,0 +1,61 @@
+{{- $alt := .PlainText | safeHTML -}}
+{{- $lazyLoading := .Page.Site.Params.enableImageLazyLoading | default true -}}
+{{- $enableImageZoom := .Page.Site.Params.imageZoom.enable | default false -}}
+{{- if not (eq .Page.Params.imageZoom nil) -}}
+{{- $enableImageZoom = .Page.Params.imageZoom -}}
+{{- end -}}
+{{- $dest := .Destination -}}
+{{- $url := urls.Parse $dest -}}
+
+{{- $isLocal := not $url.Scheme -}}
+{{- $imgResource := "" -}}
+
+{{- if and $dest $isLocal -}}
+{{- if hasPrefix $dest "/" -}}
+{{- $imgResource = or (.PageInner.Resources.Get $url.Path) (resources.Get $url.Path) -}}
+{{- else -}}
+{{- $imgResource = .PageInner.Resources.Get $url.Path -}}
+{{- end -}}
+{{- end -}}
+
+{{- $finalSrc := $dest -}}
+{{- $width := "" -}}
+{{- $height := "" -}}
+
+{{/* Process as WebP if it's a local image and not an SVG */}}
+{{- if and $imgResource (not (eq $imgResource.MediaType.SubType "svg")) -}}
+{{- $webp := $imgResource.Process "webp" -}}
+{{- $finalSrc = $webp.RelPermalink -}}
+{{- $width = $webp.Width -}}
+{{- $height = $webp.Height -}}
+{{- else if and $dest $isLocal -}}
+{{/* Fallback for static folder or images that Hugo couldn't find as resources */}}
+{{- if hasPrefix $dest "/" -}}
+{{- $finalSrc = (relURL (strings.TrimPrefix "/" $dest)) -}}
+{{- end -}}
+{{- end -}}
+
+{{- $attributes := "" -}}
+{{- range $key, $value := .Attributes -}}
+{{- if $value -}}
+{{- $pair := printf "%s=%q" $key ($value | transform.HTMLEscape) -}}
+{{- $attributes = printf "%s %s" $attributes $pair -}}
+{{- end -}}
+{{- end -}}
+
+{{- if $enableImageZoom -}}
+{{- .Page.Store.Set "hasImageZoom" true -}}
+{{- end -}}
+
+{{- if .Title -}}
+<figure>
+    <img src="{{ $finalSrc | safeURL }}" title="{{ .Title }}" alt="{{ $alt }}" {{ if $width }}width="{{ $width }}" {{
+        end }} {{ if $height }}height="{{ $height }}" {{ end }} {{ $attributes | safeHTMLAttr }}{{ if $enableImageZoom
+        }} data-zoomable{{ end }}{{ if $lazyLoading }} loading="lazy" {{ end }} />
+    <figcaption>{{ .Title }}</figcaption>
+</figure>
+{{- else -}}
+<img src="{{ $finalSrc | safeURL }}" alt="{{ $alt }}" {{ if $width }}width="{{ $width }}" {{ end }} {{ if $height
+    }}height="{{ $height }}" {{ end }} {{ $attributes | safeHTMLAttr }}{{ if $enableImageZoom }} data-zoomable{{ end
+    }}{{ if $lazyLoading }} loading="lazy" {{ end }} />
+{{- end -}}

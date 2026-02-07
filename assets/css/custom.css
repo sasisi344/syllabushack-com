@@ -49,3 +49,120 @@
         /* Lighter blue for dark mode visibility */
     }
 }
+
+/* ========================================
+   Inline Table of Contents (TOC)
+   ======================================== */
+.inline-toc {
+    background: #f1f5f9;
+    /* Slightly darker than page background for light mode */
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+}
+
+.inline-toc-title {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.4rem;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: inherit;
+    cursor: pointer;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.inline-toc-title::-webkit-details-marker {
+    display: none;
+}
+
+.toc-icon {
+    margin-right: 0.25rem;
+}
+
+.inline-toc nav>ul {
+    margin: 0.75rem 0 0 0;
+    padding-left: 1.25rem;
+    list-style: none;
+}
+
+.inline-toc li {
+    margin: 0.35rem 0;
+    line-height: 1.5;
+}
+
+.inline-toc a {
+    color: #4b5563;
+    text-decoration: none;
+    transition: color 0.15s ease;
+}
+
+.inline-toc a:hover {
+    color: #3b82f6;
+    text-decoration: underline;
+}
+
+/* Nested list indentation */
+.inline-toc ul ul {
+    padding-left: 1rem;
+    margin-top: 0.25rem;
+}
+
+/* Dark Mode - slightly lighter than dark page background */
+html.dark .inline-toc {
+    background: #2d3748;
+    /* Slightly lighter than #111 page bg */
+    border-color: #4a5568;
+}
+
+/* Title inherits text color automatically */
+
+html.dark .inline-toc a {
+    color: #9ca3af;
+}
+
+html.dark .inline-toc a:hover {
+    color: #60a5fa;
+}
+
+@media (prefers-color-scheme: dark) {
+    .inline-toc {
+        background: #2d3748;
+        border-color: #4a5568;
+    }
+
+    /* Title inherits text color automatically */
+
+    .inline-toc a {
+        color: #9ca3af;
+    }
+
+    .inline-toc a:hover {
+        color: #60a5fa;
+    }
+}
+
+html.light .inline-toc {
+    background: #f8fafc;
+    border-color: #e2e8f0;
+}
+
+html.dark .inline-toc {
+    background: #1e293b;
+    /* Slate-800: Lighter than black background */
+    border-color: #334155;
+    color: #e2e8f0;
+}
+
+html.dark .inline-toc a {
+    color: #cbd5e1;
+}
+
+html.dark .inline-toc a:hover {
+    color: #60a5fa;
+}

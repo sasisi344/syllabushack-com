@@ -2,6 +2,7 @@
 title: "まだ高い過去問集を買ってるの？シラバスとAIがあれば合格できる理由"
 date: 2026-01-26T09:00:00+09:00
 draft: false
+toc: true
 categories: ["method"]
 tags: ["SyllabusHack", "勉強法", "基本情報技術者", "生成AI"]
 description: "「過去問が足りない」「解説が難解」…その悩み、AIなら一発で解決できます。Syllabus Hackが提唱する『AI×シラバス』で資格試験を最短攻略するメソッド。受動的な学習を卒業し、AIを家庭教師にする方法を解説します。"

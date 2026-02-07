@@ -6,6 +6,7 @@ categories: ["method"]
 tags: ["勉強法", "アプリ", "隙間時間", "時短", "ツール"]
 image: "cover.jpg"
 draft: false
+toc: true
 ---
 
 「仕事が忙しくて、勉強する時間なんてないよ…」

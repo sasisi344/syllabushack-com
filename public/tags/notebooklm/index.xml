@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Syllabus Hack – NotebookLM</title>
-    <link>http://localhost:1313/tags/notebooklm/</link>
+    <link>https://syllabushack.com/tags/notebooklm/</link>
     <description>Recent content in NotebookLM on Syllabus Hack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 07 Feb 2026 09:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 07 Feb 2026 10:00:00 +0900</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/tags/notebooklm/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://syllabushack.com/tags/notebooklm/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,20 +16,261 @@
     
     
     <item>
-      <title>【NotebookLM】試験シラバスを「聴く参考書」に変える！音声学習の極意と裏技</title>
-      <link>http://localhost:1313/blog/method/notebooklm-podcast/</link>
-      <pubDate>Sat, 07 Feb 2026 09:00:00 +0900</pubDate>
+      <title>【NotebookLM】機能の9割は捨てる！？エンジニアが選ぶ「学習に使える機能」仕分けリスト</title>
+      <link>https://syllabushack.com/blog/method/notebooklm-anystudy/</link>
+      <pubDate>Sat, 07 Feb 2026 10:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/blog/method/notebooklm-podcast/</guid>
+      <guid>https://syllabushack.com/blog/method/notebooklm-anystudy/</guid>
       <description>
         
         
-        &lt;!--
-Image Generation Prompt:
-minimalist pictogram, flat design, white icon on dark solid background, vector style, simple shapes, 16:9 aspect ratio,
-A document icon (PDF) on the left dissolving into sound waves that feed into a pair of headphones on the right. Representing text-to-audio conversion.
---&gt;
-&lt;p&gt;IPA（情報処理推進機構）の試験シラバスや、数百ページある技術書。
+        &lt;p&gt;NotebookLMを使っていると、たくさんのボタンや機能が目に入ります。「これ全部使わないといけないのかな？」「どれが勉強に役立つのかな？」と迷ったことはありませんか？&lt;/p&gt;
+&lt;p&gt;結論から言うと、&lt;strong&gt;機能の9割は無視してOKです。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;特に、ITパスポートや応用情報技術者試験のような「正確な知識」が求められる学習において、すべての機能が役立つわけではありません。中には、&lt;strong&gt;かえって時間の無駄（ノイズ）になる機能&lt;/strong&gt; も存在します。&lt;/p&gt;
+&lt;p&gt;この記事では、現役エンジニアである筆者が、NotebookLMの全機能を &lt;strong&gt;「学習に使えるか否か」&lt;/strong&gt; でS・B・Cの3段階に冷徹にランク付けしました。&lt;/p&gt;
+&lt;h2&gt;【Sランク】学習に必須レベルな三種の神器&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;sランク学習に必須レベルな三種の神器&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#s%e3%83%a9%e3%83%b3%e3%82%af%e5%ad%a6%e7%bf%92%e3%81%ab%e5%bf%85%e9%a0%88%e3%83%ac%e3%83%99%e3%83%ab%e3%81%aa%e4%b8%89%e7%a8%ae%e3%81%ae%e7%a5%9e%e5%99%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;地味に見えますが、以下の3つこそがNotebookLMの本質であり、最強の機能です。&lt;/p&gt;
+&lt;h3&gt;1. インライン引用（[1], [2]&amp;hellip;の番号）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-インライン引用1-2の番号&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-%e3%82%a4%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e5%bc%95%e7%94%a81-2%e3%81%ae%e7%95%aa%e5%8f%b7&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;評価&lt;/strong&gt; : &lt;strong&gt;最強&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;理由&lt;/strong&gt; : AIの回答が正しいか、即座に裏取り（ファクトチェック）できるからです。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;活用法&lt;/strong&gt; :
+AIの解説を読んでいて「本当かな？」と思ったら、番号をクリック。すると、アップロードした教科書の該当箇所がハイライトされます。
+周辺の文脈も確認できるため、 &lt;strong&gt;「ハルシネーション（AIの嘘）」対策&lt;/strong&gt; として不可欠です。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. メモの保存（ピン留め）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-メモの保存ピン留め&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-%e3%83%a1%e3%83%a2%e3%81%ae%e4%bf%9d%e5%ad%98%e3%83%94%e3%83%b3%e7%95%99%e3%82%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;評価&lt;/strong&gt; : &lt;strong&gt;極めて優秀&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;理由&lt;/strong&gt; : 良い回答を一瞬でストックできるからです。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;活用法&lt;/strong&gt; :
+チャットで分かりやすい解説が出たら、すぐに「メモとして保存」。
+溜まったメモを選択して「これらをまとめて要約記事を作って」と指示すれば、 &lt;strong&gt;学習ログがあっという間に「自分専用の参考書」や「ブログの下書き」&lt;/strong&gt; に変わります。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;3. チャット（ただしプロンプトありき）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-チャットただしプロンプトありき&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-%e3%83%81%e3%83%a3%e3%83%83%e3%83%88%e3%81%9f%e3%81%a0%e3%81%97%e3%83%97%e3%83%ad%e3%83%b3%e3%83%97%e3%83%88%e3%81%82%e3%82%8a%e3%81%8d&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;評価&lt;/strong&gt; : &lt;strong&gt;本質&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;理由&lt;/strong&gt; : 結局、テキストでの対話が最も情報密度が高いからです。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;活用法&lt;/strong&gt; :
+「小学生にもわかるように例えて」「コードブロックで比較表を出して」などの具体的な指示（プロンプト）を出すことで、あなたの理解度に合わせた解説を引き出せます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;【Bランク】条件付きで使える（工夫が必要）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;bランク条件付きで使える工夫が必要&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#b%e3%83%a9%e3%83%b3%e3%82%af%e6%9d%a1%e4%bb%b6%e4%bb%98%e3%81%8d%e3%81%a7%e4%bd%bf%e3%81%88%e3%82%8b%e5%b7%a5%e5%a4%ab%e3%81%8c%e5%bf%85%e8%a6%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;使うシーンを選べば強力な武器になります。&lt;/p&gt;
+&lt;h3&gt;4. 音声解説（Audio Overview）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4-音声解説audio-overview&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-%e9%9f%b3%e5%a3%b0%e8%a7%a3%e8%aa%acaudio-overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;評価&lt;/strong&gt; : &lt;strong&gt;「ながら学習」限定&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;注意点&lt;/strong&gt; : 机に向かって聞くには情報密度が低すぎます。移動中や単純作業中の &lt;strong&gt;「耳のスキマ時間」を埋める用途&lt;/strong&gt; に絞って使いましょう。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;5. 学習ガイド（クイズ生成）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;5-学習ガイドクイズ生成&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-%e5%ad%a6%e7%bf%92%e3%82%ac%e3%82%a4%e3%83%89%e3%82%af%e3%82%a4%e3%82%ba%e7%94%9f%e6%88%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;評価&lt;/strong&gt; : &lt;strong&gt;「きっかけ作り」限定&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;注意点&lt;/strong&gt; : ボタン一つで作れるクイズは単純すぎます。本格的な演習をするなら、チャット機能で「もっと難しく」「ひっかけ問題を出して」と指示する必要があります。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;【Cランク】学習には向いていない（時間の無駄）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cランク学習には向いていない時間の無駄&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#c%e3%83%a9%e3%83%b3%e3%82%af%e5%ad%a6%e7%bf%92%e3%81%ab%e3%81%af%e5%90%91%e3%81%84%e3%81%a6%e3%81%84%e3%81%aa%e3%81%84%e6%99%82%e9%96%93%e3%81%ae%e7%84%a1%e9%a7%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ここが本題です。これらは「凄そうに見える」だけで、学習目的にはノイズになる可能性が高い機能です。&lt;/p&gt;
+&lt;h3&gt;6. 推奨される質問（Suggested Questions）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;6-推奨される質問suggested-questions&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-%e6%8e%a8%e5%a5%a8%e3%81%95%e3%82%8c%e3%82%8b%e8%b3%aa%e5%95%8fsuggested-questions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;評価&lt;/strong&gt; : &lt;strong&gt;不要（ノイズ）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;解説&lt;/strong&gt; : 画面下部に出る「〇〇とは何ですか？」というチップです。これはAIが機械的に作った「浅い質問」に過ぎません。これをポチポチ押すより、 &lt;strong&gt;自分で疑問を言語化してタイプした方が、100倍速く深く学べます&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;7. 自動要約（Summary）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;7-自動要約summary&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#7-%e8%87%aa%e5%8b%95%e8%a6%81%e7%b4%84summary&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;評価&lt;/strong&gt; : &lt;strong&gt;微妙&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;解説&lt;/strong&gt; : ソースをアップロードした瞬間に表示される要約です。
+資格試験において「ざっくりした要約」で満足するのは危険です。「細部に神が宿る」ため、 &lt;strong&gt;「わかった気」になるのを防ぐためにも無視して構いません&lt;/strong&gt; 。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;8. ブリーフィングドキュメント&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;8-ブリーフィングドキュメント&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#8-%e3%83%96%e3%83%aa%e3%83%bc%e3%83%95%e3%82%a3%e3%83%b3%e3%82%b0%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;評価&lt;/strong&gt; : &lt;strong&gt;学習には不向き&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;解説&lt;/strong&gt; : 全体のまとめ資料を作る機能ですが、教科書（ソース）を直接読んだほうが正確です。ブログ記事の構成案としては使えますが、学習者が読むメリットは薄いです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://syllabushack.com/blog/method/notebooklm-anystudy/pillars_hu_d5f8561aeccbb04c.webp&#34; alt=&#34;three pillars of learning&#34; width=&#34;1376&#34;  height=&#34;768&#34;   loading=&#34;lazy&#34;  /&gt;&lt;/p&gt;
+&lt;h2&gt;まとめ：本当に必要なのは「ツール」ではなく「問う力」&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;まとめ本当に必要なのはツールではなく問う力&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%be%e3%81%a8%e3%82%81%e6%9c%ac%e5%bd%93%e3%81%ab%e5%bf%85%e8%a6%81%e3%81%aa%e3%81%ae%e3%81%af%e3%83%84%e3%83%bc%e3%83%ab%e3%81%a7%e3%81%af%e3%81%aa%e3%81%8f%e5%95%8f%e3%81%86%e5%8a%9b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;NotebookLMで合格を目指すなら、以下のサイクル（三種の神器）に集中してください。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;ソース（In）&lt;/strong&gt; : 信頼できる教科書や過去問を入れる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;チャット（Process）&lt;/strong&gt; : 「インライン引用」で裏取りしながら、「論理的な対話」で理解を深める。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;メモ（Out）&lt;/strong&gt; : 理解した内容を即座に保存し、自分だけのノートを構築する。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;最も大切なのはツールそのものではありません。それを活用するのもプロンプト次第です。&lt;/p&gt;
+&lt;p&gt;それはつまり、 &lt;strong&gt;「自分に何が足りないのか」を言語化してAIに問う文章力&lt;/strong&gt; と、&lt;strong&gt;「今、必要な学習は何か」を見極めてそれに集中する論理力&lt;/strong&gt; です。&lt;/p&gt;
+&lt;p&gt;多機能さに惑わされず、本当に使える機能だけを武器にして、合格というゴールだけを見据えましょう。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>【NotebookLM】AIを「スパルタ専属コーチ」にするクイズ機能のハック術</title>
+      <link>https://syllabushack.com/blog/method/notebooklm-quiz/</link>
+      <pubDate>Sat, 07 Feb 2026 09:30:00 +0900</pubDate>
+      
+      <guid>https://syllabushack.com/blog/method/notebooklm-quiz/</guid>
+      <description>
+        
+        
+        &lt;p&gt;NotebookLMには、資料から自動的にクイズを作ってくれる「学習ガイド」機能があります。
+ボタン一つで問題が出るので便利ですが、&lt;strong&gt;「全体からランダム」に出題されるため、実は効率があまり良くありません。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;本気で試験に合格したいなら、AIを「ただの出題マシーン」ではなく、&lt;strong&gt;「あなたの弱点を知り尽くした専属コーチ」&lt;/strong&gt; に進化させる必要があります。&lt;/p&gt;
+&lt;p&gt;この記事では、標準機能を卒業し、チャット機能を使った &lt;strong&gt;「弱点撲滅・パーソナライズクイズ戦略」&lt;/strong&gt; を紹介します。&lt;/p&gt;
+&lt;h2&gt;フェーズ1：弱点のあぶり出し（ショットガン方式）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;フェーズ1弱点のあぶり出しショットガン方式&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%95%e3%82%a7%e3%83%bc%e3%82%ba1%e5%bc%b1%e7%82%b9%e3%81%ae%e3%81%82%e3%81%b6%e3%82%8a%e5%87%ba%e3%81%97%e3%82%b7%e3%83%a7%e3%83%83%e3%83%88%e3%82%ac%e3%83%b3%e6%96%b9%e5%bc%8f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;まずは、AIにあなたの「理解度の穴」を見つけさせます。
+標準のクイズ機能よりも意地悪な、&lt;strong&gt;「ひっかけ問題」&lt;/strong&gt; を作らせるのがポイントです。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;プロンプト:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;シラバスの全範囲から、あえて「間違いやすいひっかけ問題」を5問作成してください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;用語の単純な記憶ではなく、仕組みの理解を問う4択問題にしてください。&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;これを解いてみて、間違えた問題の「ジャンル（例：セキュリティ、計算問題）」をメモしておきましょう。
+これが、次に潰すべきターゲットになります。&lt;/p&gt;
+&lt;h2&gt;フェーズ2：弱点特化の深掘り（ドリルダウン方式）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;フェーズ2弱点特化の深掘りドリルダウン方式&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%95%e3%82%a7%e3%83%bc%e3%82%ba2%e5%bc%b1%e7%82%b9%e7%89%b9%e5%8c%96%e3%81%ae%e6%b7%b1%e6%8e%98%e3%82%8a%e3%83%89%e3%83%aa%e3%83%ab%e3%83%80%e3%82%a6%e3%83%b3%e6%96%b9%e5%bc%8f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ここがパーソナライズ学習の真骨頂です。
+苦手な分野（例えば「公開鍵暗号」）が見つかったら、徹底的にそこだけを攻めるようAIに指示します。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;プロンプト:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;私は「公開鍵暗号」の仕組みが苦手なようです。このトピックだけに絞って、難易度を徐々に上げながら3問出題してください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;1問目は基本原理。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2問目は「共通鍵」との違いやメリット・デメリット。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;3問目は実際の攻撃手法（中間者攻撃など）との関連。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;一気に答えを出さず、1問ずつ出題して、私の回答を待ってから解説と次の問題を出してください。&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;この対話形式なら間違えた瞬間に、 &lt;strong&gt;「なぜ間違えたか」&lt;/strong&gt; をその場で解説してもらえるため、理解の定着度が段違いです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://syllabushack.com/blog/method/notebooklm-quiz/drill_hu_1c95f084719152f0.webp&#34; alt=&#34;drill down&#34; width=&#34;1376&#34;  height=&#34;768&#34;   loading=&#34;lazy&#34;  /&gt;&lt;/p&gt;
+&lt;h2&gt;フェーズ3：逆クイズ（ファインマン・テクニック）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;フェーズ3逆クイズファインマンテクニック&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%95%e3%82%a7%e3%83%bc%e3%82%ba3%e9%80%86%e3%82%af%e3%82%a4%e3%82%ba%e3%83%95%e3%82%a1%e3%82%a4%e3%83%b3%e3%83%9e%e3%83%b3%e3%83%86%e3%82%af%e3%83%8b%e3%83%83%e3%82%af&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;仕上げは、立場を逆転させます。
+あなたが先生役になり、AIに教えることで、&lt;strong&gt;「わかったつもり」&lt;/strong&gt; を完全に排除します。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;プロンプト:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;今度は君（AI）が生徒役になって、私に「公開鍵暗号」について質問してください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;私が先生として答えます。私の説明に論理的な飛躍や間違いがあれば、遠慮なくツッコミを入れてください。&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;AIからの鋭い質問に答えられなければ、そこがまだ理解できていない証拠です。&lt;/p&gt;
+&lt;h2&gt;まとめ：おすすめの運用サイクル&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;まとめおすすめの運用サイクル&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%be%e3%81%a8%e3%82%81%e3%81%8a%e3%81%99%e3%81%99%e3%82%81%e3%81%ae%e9%81%8b%e7%94%a8%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;NotebookLMを使い倒す、最強のルーティンはこれです。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;朝（ウォーミングアップ）&lt;/strong&gt; : 「学習ガイド」ボタンでランダムな5問をサクッと解く。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;移動中（インプット）&lt;/strong&gt; : 音声機能で解説を聞き流す。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;夜（ガチ演習）&lt;/strong&gt; : チャットで「フェーズ2（弱点特化）」のプロンプトを打ち込み、弱点を徹底的に潰す。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;AIに受動的に従うのではなく、&lt;strong&gt;AIを能動的に使い倒す&lt;/strong&gt;。
+これこそが、Syllabus Hack流の学習スタイルです。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>【NotebookLM】マインドマップ機能で自分の「脳内バグ」を可視化する弱点分析術</title>
+      <link>https://syllabushack.com/blog/method/notebooklm-mindmap/</link>
+      <pubDate>Sat, 07 Feb 2026 09:15:00 +0900</pubDate>
+      
+      <guid>https://syllabushack.com/blog/method/notebooklm-mindmap/</guid>
+      <description>
+        
+        
+        &lt;p&gt;NotebookLMに最近追加された「マインドマップ（Studio機能）」、皆さんはどう使っていますか？
+多くの人が「教科書やシラバスをまとめて、体系的に理解しよう」とする使い道を思いつくはずです。&lt;/p&gt;
+&lt;p&gt;しかし、実際にやってみると「AIが作った分類がしっくりこない」「そこは重要じゃないのに」と、モヤモヤした経験はありませんか？&lt;/p&gt;
+&lt;p&gt;実は、マインドマップ機能の真骨頂は、インプットの整理ではなく、&lt;strong&gt;アウトプット（試験結果）の分析&lt;/strong&gt; にあります。
+この記事では、自分の「脳内の思考の偏り」や「ミスの傾向」を可視化し、&lt;strong&gt;合格への最短ルートを描くための「弱点分析マップ」&lt;/strong&gt; の作り方を紹介します。&lt;/p&gt;
+&lt;h2&gt;1. 教科書ではなく「自分のミス」をソースにする&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-教科書ではなく自分のミスをソースにする&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-%e6%95%99%e7%a7%91%e6%9b%b8%e3%81%a7%e3%81%af%e3%81%aa%e3%81%8f%e8%87%aa%e5%88%86%e3%81%ae%e3%83%9f%e3%82%b9%e3%82%92%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ab%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;AIに分析させるべきは、完璧なシラバスではなく、不完全な &lt;strong&gt;あなたの学習ログ&lt;/strong&gt; です。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;手順:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;データの用意&lt;/strong&gt;: 過去問で間違えた問題をテキストデータにします。
+&lt;ul&gt;
+&lt;li&gt;例: &lt;code&gt;2025春-問15: 不正解 (セキュリティ/ゼロトラスト)&lt;/code&gt;, &lt;code&gt;2024秋-問3: 不正解 (ネットワーク/OSI参照モデル)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NotebookLMへの投入&lt;/strong&gt;: この学習ログをソースとしてアップロードします。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;分析プロンプト&lt;/strong&gt;: チャット欄で以下のように指示します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;アップロードした学習ログを分析し、私が頻繁に間違えている『根本的な概念』を抽出してください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;単なる用語リストではなく、どの分野の理解が欠けているために失点しているか、階層構造（カテゴリ &amp;gt; 原因 &amp;gt; 具体的な用語）で整理してください。&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;この状態でマインドマップを生成すると、教科書の目次ではなく、&lt;strong&gt;「あなたの脳内のバグ発生マップ」&lt;/strong&gt; が可視化されます。
+「ネットワーク」の枝が異常に太い、特定のジャンルだけ分岐が多い、といった視覚的なフィードバックにより、&lt;strong&gt;「今、何を潰すべきか」&lt;/strong&gt; が一目でわかります。&lt;/p&gt;
+&lt;h2&gt;2. エンジニア向け裏技：Mermaid記法で出力する&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-エンジニア向け裏技mermaid記法で出力する&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2%e5%90%91%e3%81%91%e8%a3%8f%e6%8a%80mermaid%e8%a8%98%e6%b3%95%e3%81%a7%e5%87%ba%e5%8a%9b%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;NotebookLM標準のマインドマップ機能は閲覧専用に近く、編集の自由度が低いのが難点です。
+そこで、普段からVS CodeやObsidian、Notionを使っているエンジニアの皆さんには、以下の方法がおすすめです。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;プロンプト:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;この弱点分析の結果を、**Mermaid記法のマインドマップ形式**でコードブロックに出力してください。&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;これを行えば、出力されたコードをコピーして、使い慣れたエディタ（Obsidianなど）に貼り付けるだけで完了です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://syllabushack.com/blog/method/notebooklm-mindmap/mermaid_hu_b58229e4750ea9f.webp&#34; alt=&#34;mermaid conversion&#34; width=&#34;1376&#34;  height=&#34;768&#34;   loading=&#34;lazy&#34;  /&gt;&lt;/p&gt;
+&lt;h3&gt;なぜこれが最強なのか？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;なぜこれが最強なのか&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%aa%e3%81%9c%e3%81%93%e3%82%8c%e3%81%8c%e6%9c%80%e5%bc%b7%e3%81%aa%e3%81%ae%e3%81%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;編集可能&lt;/strong&gt; : AIの分析を叩き台にして、自分で対策や気づきを追記（枝分かれ）できます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自分だけの攻略本&lt;/strong&gt; : AIが作った「他人のまとめ」ではなく、自分が手を加えた「自分専用の戦略マップ」に育っていきます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;まとめ：マインドマップ機能は弱点分析に使う&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;まとめマインドマップ機能は弱点分析に使う&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%be%e3%81%a8%e3%82%81%e3%83%9e%e3%82%a4%e3%83%b3%e3%83%89%e3%83%9e%e3%83%83%e3%83%97%e6%a9%9f%e8%83%bd%e3%81%af%e5%bc%b1%e7%82%b9%e5%88%86%e6%9e%90%e3%81%ab%e4%bd%bf%e3%81%86&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;マインドマップ機能は、知識を詰め込むためではなく、&lt;strong&gt;自分の思考の癖を客観視する（メタ認知する）&lt;/strong&gt; ために使いましょう。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;インプット整理&lt;/strong&gt; : しっくりこないことが多い。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;弱点分析&lt;/strong&gt; : 感情を排して、スコアアップの阻害要因を突きつけてくれる最強の参謀になる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AIに勉強させるのではなく、AIに「自分」を分析させる。
+この使い方が、最短合格への鍵となります。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>【NotebookLM】試験シラバスを「聴く参考書」に変える！音声学習の極意と裏技</title>
+      <link>https://syllabushack.com/blog/method/notebooklm-podcast/</link>
+      <pubDate>Sat, 07 Feb 2026 09:00:00 +0900</pubDate>
+      
+      <guid>https://syllabushack.com/blog/method/notebooklm-podcast/</guid>
+      <description>
+        
+        
+        &lt;p&gt;IPA（情報処理推進機構）の試験シラバスや、数百ページある技術書。
 &lt;strong&gt;「読むだけで眠くなる」「文字ばかりで頭に入らない」&lt;/strong&gt; と感じたことはありませんか？&lt;/p&gt;
 &lt;p&gt;NotebookLMの &lt;strong&gt;「音声オーバービュー（Audio Overview）」&lt;/strong&gt; 機能を使えば、これらを &lt;strong&gt;「AI二人が解説してくれるポッドキャスト」&lt;/strong&gt; に一瞬で変換できます。
 通勤・通学中や家事の合間など、 &lt;strong&gt;「耳学（みみがく）」&lt;/strong&gt; で勉強時間を捻出できる最強のツールです。&lt;/p&gt;
@@ -84,7 +325,7 @@ A document icon (PDF) on the left dissolving into sound waves that feed into a p
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;slider.jpg&#34; alt=&#34;slider interface&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://syllabushack.com/blog/method/notebooklm-podcast/slider_hu_1d8304b3e82d95e0.webp&#34; alt=&#34;slider interface&#34; width=&#34;1376&#34;  height=&#34;768&#34;   loading=&#34;lazy&#34;  /&gt;&lt;/p&gt;
 &lt;h2&gt;まとめ&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;まとめ&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e3%81%be%e3%81%a8%e3%82%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;NotebookLMの音声機能は、シラバスという「無機質なデータ」を、&lt;strong&gt;「親しみやすい学習パートナー」&lt;/strong&gt; に変える魔法のようなツールです。&lt;/p&gt;
 &lt;ol&gt;
@@ -99,19 +340,14 @@ A document icon (PDF) on the left dissolving into sound waves that feed into a p
     
     <item>
       <title>【NotebookLM】動画解説機能（音声オーバービュー）で最強の聞き流し教材を作る方法</title>
-      <link>http://localhost:1313/blog/method/notebooklm-movie/</link>
+      <link>https://syllabushack.com/blog/method/notebooklm-movie/</link>
       <pubDate>Sat, 07 Feb 2026 08:45:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/blog/method/notebooklm-movie/</guid>
+      <guid>https://syllabushack.com/blog/method/notebooklm-movie/</guid>
       <description>
         
         
-        &lt;!--
-Image Generation Prompt:
-minimalist pictogram, flat design, white icon on dark solid background, vector style, simple shapes, 16:9 aspect ratio,
-An icon of a YouTube play button transforming into a sound wave (podcast), symbolizing conversion from video to audio.
---&gt;
-&lt;p&gt;NotebookLMには「ビデオの内容を理解する」機能に加え、&lt;strong&gt;「音声オーバービュー（Audio Overview）」&lt;/strong&gt; という強力な機能があります。
+        &lt;p&gt;NotebookLMには「ビデオの内容を理解する」機能に加え、&lt;strong&gt;「音声オーバービュー（Audio Overview）」&lt;/strong&gt; という強力な機能があります。
 これは、読み込ませた資料を元に、AI（ホスト2人）が対話形式で内容を解説してくれる機能です。&lt;/p&gt;
 &lt;p&gt;一見、「動画学習の代わりになるのでは？」と思いがちですが、実は &lt;strong&gt;向き・不向きがはっきりしています&lt;/strong&gt;。
 特に、ITパスポートや応用情報技術者のような資格試験対策において、「図解」が重要な分野では役に立たないことが多いです。&lt;/p&gt;
@@ -139,7 +375,7 @@ AIが図の内容を無理やり言葉で説明しようとして、かえって
 動画の中身に対して、チャットで &lt;strong&gt;「RPAとVBAの違いについて、動画ではどう説明している？」&lt;/strong&gt; と質問できます。
 わざわざ動画を再生して、該当箇所を探す手間がゼロになります。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;funnel.jpg&#34; alt=&#34;funnel compression&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://syllabushack.com/blog/method/notebooklm-movie/funnel_hu_dac459fe91fb2401.webp&#34; alt=&#34;funnel compression&#34; width=&#34;1376&#34;  height=&#34;768&#34;   loading=&#34;lazy&#34;  /&gt;&lt;/p&gt;
 &lt;h2&gt;3. クリエイター向け：ブログ記事の下書きにする&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-クリエイター向けブログ記事の下書きにする&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#3-%e3%82%af%e3%83%aa%e3%82%a8%e3%82%a4%e3%82%bf%e3%83%bc%e5%90%91%e3%81%91%e3%83%96%e3%83%ad%e3%82%b0%e8%a8%98%e4%ba%8b%e3%81%ae%e4%b8%8b%e6%9b%b8%e3%81%8d%e3%81%ab%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;もしあなたがブログで発信をしているなら、この機能を「コンテンツ制作」にも応用できます。&lt;/p&gt;
 &lt;ul&gt;
@@ -163,19 +399,14 @@ AIが図の内容を無理やり言葉で説明しようとして、かえって
     
     <item>
       <title>【NotebookLM】フラッシュカード機能の「癖」と最強の活用法を徹底解説</title>
-      <link>http://localhost:1313/blog/method/notebooklm-flashcard/</link>
+      <link>https://syllabushack.com/blog/method/notebooklm-flashcard/</link>
       <pubDate>Sat, 07 Feb 2026 08:30:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/blog/method/notebooklm-flashcard/</guid>
+      <guid>https://syllabushack.com/blog/method/notebooklm-flashcard/</guid>
       <description>
         
         
-        &lt;!-- 
-Image Generation Prompt:
-minimalist pictogram, flat design, white icon on dark solid background, vector style, simple shapes, 16:9 aspect ratio, 
-Two distinct card decks. One deck labeled &#39;Basic&#39; with simple shapes, the other labeled &#39;Pro&#39; glowing with digital energy and complexity. Connected by a neural network line.
---&gt;
-&lt;p&gt;資格試験の勉強で、&lt;strong&gt;「膨大な専門用語が覚えられない」「テキストを読んでも頭に残らない」&lt;/strong&gt; と悩んでいませんか？&lt;/p&gt;
+        &lt;p&gt;資格試験の勉強で、&lt;strong&gt;「膨大な専門用語が覚えられない」「テキストを読んでも頭に残らない」&lt;/strong&gt; と悩んでいませんか？&lt;/p&gt;
 &lt;p&gt;Googleの生成AIツール &lt;strong&gt;NotebookLM&lt;/strong&gt; に搭載されている「学習ガイド」機能を使えば、手持ちの資料から一瞬で問題集を作ることができます。
 特に「フラッシュカード」機能は、スキマ時間の暗記学習に革命を起こすポテンシャルを秘めています。&lt;/p&gt;
 &lt;p&gt;しかし、ただボタンを押して自動生成するだけでは、&lt;strong&gt;本当の実力&lt;/strong&gt; はつきません。
@@ -185,7 +416,7 @@ Two distinct card decks. One deck labeled &#39;Basic&#39; with simple shapes, th
     &lt;a href=&#34;#%e3%83%95%e3%83%a9%e3%83%83%e3%82%b7%e3%83%a5%e3%82%ab%e3%83%bc%e3%83%89%e8%87%aa%e5%8b%95%e7%94%9f%e6%88%90%e3%81%ae3%e3%81%a4%e3%81%ae%e5%82%be%e5%90%91&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;NotebookLMの「学習ガイド」にあるフラッシュカード機能。
 結論から言うと、この機能は &lt;strong&gt;「用語の定義」&lt;/strong&gt; と &lt;strong&gt;「箇条書きの記憶」&lt;/strong&gt; に極めて強くフォーカスする傾向があります。&lt;/p&gt;
 &lt;p&gt;ITパスポートや応用情報技術者試験といった「シラバスハック」の視点で見ると、以下のような特徴があります。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;features.jpg&#34; alt=&#34;flashcard features&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://syllabushack.com/blog/method/notebooklm-flashcard/features_hu_cde2b83681e3343.webp&#34; alt=&#34;flashcard features&#34; width=&#34;1376&#34;  height=&#34;768&#34;   loading=&#34;lazy&#34;  /&gt;&lt;/p&gt;
 &lt;h3&gt;1. 「用語解説」問題が圧倒的に多い&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-用語解説問題が圧倒的に多い&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#1-%e7%94%a8%e8%aa%9e%e8%a7%a3%e8%aa%ac%e5%95%8f%e9%a1%8c%e3%81%8c%e5%9c%a7%e5%80%92%e7%9a%84%e3%81%ab%e5%a4%9a%e3%81%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;最も典型的なパターンです。アップロードした資料（ソース）内の専門用語やキーワードを拾い出し、それを問う形式になります。&lt;/p&gt;
 &lt;ul&gt;
