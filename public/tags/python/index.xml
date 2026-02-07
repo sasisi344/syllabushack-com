@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Syllabus Hack – Python</title>
-    <link>https://syllabushack.com/tags/python/</link>
+    <link>http://localhost:1313/tags/python/</link>
     <description>Recent content in Python on Syllabus Hack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Feb 2026 01:15:00 +0900</lastBuildDate>
     
-	  <atom:link href="https://syllabushack.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,11 +16,121 @@
     
     
     <item>
+      <title>【無料配布】応用情報・記述式を無限に練習できる「論文トレーナー」スクリプトを作りました</title>
+      <link>http://localhost:1313/blog/method/essay-trainer-script/</link>
+      <pubDate>Tue, 03 Feb 2026 01:15:00 +0900</pubDate>
+      
+      <guid>http://localhost:1313/blog/method/essay-trainer-script/</guid>
+      <description>
+        
+        
+        &lt;p&gt;応用情報技術者試験（AP）や高度試験区分で最大の壁となるのが、&lt;strong&gt;午後試験の記述式（論文）問題&lt;/strong&gt;です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;「自分の回答が合っているのか分からない」&lt;/li&gt;
+&lt;li&gt;「独学だと添削してくれる人がいない」&lt;/li&gt;
+&lt;li&gt;「過去問はやり尽くしてしまって、初見の問題がない」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こうした悩みを解決するために、**Google Gemini API を活用した記述式対策スクリプト「Syllabus Hack: Essay Trainer」**を作成しました。
+完全無料で配布しますので、ぜひご活用ください。&lt;/p&gt;
+&lt;h2&gt;どんなツール？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;どんなツール&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%a9%e3%82%93%e3%81%aa%e3%83%84%e3%83%bc%e3%83%ab&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Pythonで動作するシンプルなコマンドラインツールです。
+あなたのPC上で動作し、以下の機能を提供します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;無限問題生成&lt;/strong&gt;: シラバスに基づいた記述問題をランダムに出題（またはAIが生成）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;即時AI採点&lt;/strong&gt;: あなたの回答を入力すると、その場で合否判定とスコア（100点満点）を表示&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;模範解答&lt;/strong&gt;: エンジニア視点での模範解答と、あなたの回答への具体的なアドバイスを提示&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/essay-trainer-demo.png&#34; alt=&#34;Demo&#34;  loading=&#34;lazy&#34; /&gt; &lt;!-- 後で差し替えるか、なしでもOK --&gt;&lt;/p&gt;
+&lt;h2&gt;使うための準備&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;使うための準備&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bd%bf%e3%81%86%e3%81%9f%e3%82%81%e3%81%ae%e6%ba%96%e5%82%99&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;このツールは &lt;strong&gt;&amp;ldquo;Bring Your Own Key&amp;rdquo; (BYOK)&lt;/strong&gt; モデルを採用しています。
+つまり、&lt;strong&gt;あなた自身の Google Gemini API Key&lt;/strong&gt; を使用します。&lt;/p&gt;
+&lt;h3&gt;なぜ自分のキーを使うの？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;なぜ自分のキーを使うの&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%aa%e3%81%9c%e8%87%aa%e5%88%86%e3%81%ae%e3%82%ad%e3%83%bc%e3%82%92%e4%bd%bf%e3%81%86%e3%81%ae&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;無料&lt;/strong&gt;: Google AI Studio の API は、個人利用の範囲なら現在無料で利用可能です。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;無制限&lt;/strong&gt;: 運営者のサーバーコストを気にせず、好きなだけ使い倒せます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;導入手順&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;導入手順&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%b0%8e%e5%85%a5%e6%89%8b%e9%a0%86&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Google AI Studio で API Key を取得&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aistudio.google.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google AI Studio&lt;/a&gt; にアクセスし、「Get API Key」からキーを作成します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;スクリプトをダウンロード&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;以下のボタンからZIPファイルをダウンロードし、解凍してください。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/files/essay_trainer.zip&#34;&gt;📥 Essay Trainer をダウンロード&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;実行環境の準備&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pythonがインストールされている必要があります。&lt;/li&gt;
+&lt;li&gt;解凍したフォルダで端末（コマンドプロンプトやターミナル）を開き、ライブラリをインストールします。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install -r requirements.txt&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;実行&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python trainer.py&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;起動時に API Key を求められるので、先ほど取得したキーを貼り付けてください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;カスタマイズ（上級者向け）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;カスタマイズ上級者向け&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%9e%e3%82%a4%e3%82%ba%e4%b8%8a%e7%b4%9a%e8%80%85%e5%90%91%e3%81%91&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;code&gt;syllabus_data.json&lt;/code&gt; というファイルを編集すると、出題される問題を自由に追加できます。
+「自分が間違えた過去問」や「予想問題」を登録しておけば、&lt;strong&gt;自分だけの最強のドリル&lt;/strong&gt;が完成します。&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Category Name&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;theme&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;覚えたいキーワード&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;question&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;ここに問題文...&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;ぜひ、合格に向けた学習にお役立てください！&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>科目BのアルゴリズムはPythonで学ぶな！試験対策で陥る3つの罠と攻略法</title>
-      <link>https://syllabushack.com/blog/trend/fe-pseudo-language-trap/</link>
+      <link>http://localhost:1313/blog/trend/fe-pseudo-language-trap/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://syllabushack.com/blog/trend/fe-pseudo-language-trap/</guid>
+      <guid>http://localhost:1313/blog/trend/fe-pseudo-language-trap/</guid>
       <description>
         
         
@@ -99,10 +209,10 @@ Pythonの便利さを一度忘れ、プログラミングの「原型」に立�
     
     <item>
       <title>【プロンプト配布】基本情報技術者の「科目B」を無限に生成して対策する方法</title>
-      <link>https://syllabushack.com/blog/method/practice-guide-ipa/</link>
+      <link>http://localhost:1313/blog/method/practice-guide-ipa/</link>
       <pubDate>Mon, 26 Jan 2026 10:00:00 +0900</pubDate>
       
-      <guid>https://syllabushack.com/blog/method/practice-guide-ipa/</guid>
+      <guid>http://localhost:1313/blog/method/practice-guide-ipa/</guid>
       <description>
         
         

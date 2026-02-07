@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Syllabus Hack – プロンプト配布</title>
-    <link>https://syllabushack.com/tags/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E9%85%8D%E5%B8%83/</link>
+    <link>http://localhost:1313/tags/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E9%85%8D%E5%B8%83/</link>
     <description>Recent content in プロンプト配布 on Syllabus Hack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 26 Jan 2026 10:00:00 +0900</lastBuildDate>
     
-	  <atom:link href="https://syllabushack.com/tags/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E9%85%8D%E5%B8%83/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/tags/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E9%85%8D%E5%B8%83/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>【プロンプト配布】基本情報技術者の「科目B」を無限に生成して対策する方法</title>
-      <link>https://syllabushack.com/blog/method/practice-guide-ipa/</link>
+      <link>http://localhost:1313/blog/method/practice-guide-ipa/</link>
       <pubDate>Mon, 26 Jan 2026 10:00:00 +0900</pubDate>
       
-      <guid>https://syllabushack.com/blog/method/practice-guide-ipa/</guid>
+      <guid>http://localhost:1313/blog/method/practice-guide-ipa/</guid>
       <description>
         
         

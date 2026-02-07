@@ -14,7 +14,7 @@ All new articles MUST start with this frontmatter structure. copy and paste this
 ```yaml
 ---
 title: "記事タイトル"
-description: "記事の概要・メタディスクリプション（80-120文字程度）"
+description: "記事の概要・メタディスクリプション（120-200文字程度）"
 date: 2026-XX-XX
 categories: ["category_name"]
 tags: ["Tag1", "Tag2", "Tag3"]

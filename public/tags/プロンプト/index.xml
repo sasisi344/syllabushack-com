@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Syllabus Hack – プロンプト</title>
-    <link>https://syllabushack.com/tags/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88/</link>
+    <link>http://localhost:1313/tags/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88/</link>
     <description>Recent content in プロンプト on Syllabus Hack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://syllabushack.com/tags/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/tags/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Geminiに自分専用の過去問を作らせる最強プロンプト集【コピペOK】</title>
-      <link>https://syllabushack.com/blog/method/gemini-prompt-collection/</link>
+      <link>http://localhost:1313/blog/method/gemini-prompt-collection/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://syllabushack.com/blog/method/gemini-prompt-collection/</guid>
+      <guid>http://localhost:1313/blog/method/gemini-prompt-collection/</guid>
       <description>
         
         
@@ -256,10 +256,10 @@ Googleカレンダーと連携してスケジュールを管理するのもお�
     
     <item>
       <title>解説を読んでも分からないをゼロにする、Geminiへの聞き方テンプレート</title>
-      <link>https://syllabushack.com/blog/method/gemini-explanation-template/</link>
+      <link>http://localhost:1313/blog/method/gemini-explanation-template/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://syllabushack.com/blog/method/gemini-explanation-template/</guid>
+      <guid>http://localhost:1313/blog/method/gemini-explanation-template/</guid>
       <description>
         
         

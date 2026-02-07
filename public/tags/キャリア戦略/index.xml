@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Syllabus Hack – キャリア戦略</title>
-    <link>https://syllabushack.com/tags/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2%E6%88%A6%E7%95%A5/</link>
+    <link>http://localhost:1313/tags/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2%E6%88%A6%E7%95%A5/</link>
     <description>Recent content in キャリア戦略 on Syllabus Hack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://syllabushack.com/tags/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2%E6%88%A6%E7%95%A5/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/tags/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2%E6%88%A6%E7%95%A5/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>ITパスポートを取るのは恥ずかしい？→結論：取らない方がマズい時代です</title>
-      <link>https://syllabushack.com/blog/trend/it-passport-shame-debate/</link>
+      <link>http://localhost:1313/blog/trend/it-passport-shame-debate/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://syllabushack.com/blog/trend/it-passport-shame-debate/</guid>
+      <guid>http://localhost:1313/blog/trend/it-passport-shame-debate/</guid>
       <description>
         
         
@@ -108,10 +108,10 @@ Syllabus Hackで紹介しているAI学習法も組み合わせれば、効率�
     
     <item>
       <title>基本情報技術者は意味ない論争に終止符を打つ！現役エンジニアが教える本当の使い道</title>
-      <link>https://syllabushack.com/blog/trend/fe-certification-value-debate/</link>
+      <link>http://localhost:1313/blog/trend/fe-certification-value-debate/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://syllabushack.com/blog/trend/fe-certification-value-debate/</guid>
+      <guid>http://localhost:1313/blog/trend/fe-certification-value-debate/</guid>
       <description>
         
         

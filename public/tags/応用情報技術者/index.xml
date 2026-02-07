@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Syllabus Hack – 応用情報技術者</title>
-    <link>https://syllabushack.com/tags/%E5%BF%9C%E7%94%A8%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93%E8%80%85/</link>
+    <link>http://localhost:1313/tags/%E5%BF%9C%E7%94%A8%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93%E8%80%85/</link>
     <description>Recent content in 応用情報技術者 on Syllabus Hack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Feb 2026 08:30:00 +0900</lastBuildDate>
     
-	  <atom:link href="https://syllabushack.com/tags/%E5%BF%9C%E7%94%A8%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93%E8%80%85/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/tags/%E5%BF%9C%E7%94%A8%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93%E8%80%85/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,11 +16,216 @@
     
     
     <item>
+      <title>【NotebookLM】フラッシュカード機能の「癖」と最強の活用法を徹底解説</title>
+      <link>http://localhost:1313/blog/method/notebooklm-flashcard/</link>
+      <pubDate>Sat, 07 Feb 2026 08:30:00 +0900</pubDate>
+      
+      <guid>http://localhost:1313/blog/method/notebooklm-flashcard/</guid>
+      <description>
+        
+        
+        &lt;!-- 
+Image Generation Prompt:
+minimalist pictogram, flat design, white icon on dark solid background, vector style, simple shapes, 16:9 aspect ratio, 
+Two distinct card decks. One deck labeled &#39;Basic&#39; with simple shapes, the other labeled &#39;Pro&#39; glowing with digital energy and complexity. Connected by a neural network line.
+--&gt;
+&lt;p&gt;資格試験の勉強で、&lt;strong&gt;「膨大な専門用語が覚えられない」「テキストを読んでも頭に残らない」&lt;/strong&gt; と悩んでいませんか？&lt;/p&gt;
+&lt;p&gt;Googleの生成AIツール &lt;strong&gt;NotebookLM&lt;/strong&gt; に搭載されている「学習ガイド」機能を使えば、手持ちの資料から一瞬で問題集を作ることができます。
+特に「フラッシュカード」機能は、スキマ時間の暗記学習に革命を起こすポテンシャルを秘めています。&lt;/p&gt;
+&lt;p&gt;しかし、ただボタンを押して自動生成するだけでは、&lt;strong&gt;本当の実力&lt;/strong&gt; はつきません。
+なぜなら、生成される問題にはAI特有の &lt;strong&gt;「癖」&lt;/strong&gt; があるからです。&lt;/p&gt;
+&lt;p&gt;この記事では、NotebookLMのフラッシュカード機能の「3つの癖」を解剖し、それを乗り越えて &lt;strong&gt;難関試験レベルの問題集を自作する「ハック術」&lt;/strong&gt; を紹介します。&lt;/p&gt;
+&lt;h2&gt;フラッシュカード自動生成の「3つの傾向」&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;フラッシュカード自動生成の3つの傾向&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%95%e3%83%a9%e3%83%83%e3%82%b7%e3%83%a5%e3%82%ab%e3%83%bc%e3%83%89%e8%87%aa%e5%8b%95%e7%94%9f%e6%88%90%e3%81%ae3%e3%81%a4%e3%81%ae%e5%82%be%e5%90%91&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;NotebookLMの「学習ガイド」にあるフラッシュカード機能。
+結論から言うと、この機能は &lt;strong&gt;「用語の定義」&lt;/strong&gt; と &lt;strong&gt;「箇条書きの記憶」&lt;/strong&gt; に極めて強くフォーカスする傾向があります。&lt;/p&gt;
+&lt;p&gt;ITパスポートや応用情報技術者試験といった「シラバスハック」の視点で見ると、以下のような特徴があります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;features.jpg&#34; alt=&#34;flashcard features&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;1. 「用語解説」問題が圧倒的に多い&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-用語解説問題が圧倒的に多い&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-%e7%94%a8%e8%aa%9e%e8%a7%a3%e8%aa%ac%e5%95%8f%e9%a1%8c%e3%81%8c%e5%9c%a7%e5%80%92%e7%9a%84%e3%81%ab%e5%a4%9a%e3%81%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;最も典型的なパターンです。アップロードした資料（ソース）内の専門用語やキーワードを拾い出し、それを問う形式になります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;傾向&lt;/strong&gt; : 「〇〇とは何か？」「〇〇の主な目的は？」という単純なQ&amp;amp;Aになりやすい。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;得意&lt;/strong&gt; : ITパスポート試験のような、基礎的な「用語知識」を問う問題。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;苦手&lt;/strong&gt; : 応用情報技術者試験のような「文脈を読んで判断する」問題や「計算問題」。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. 資料の「構造」に依存する&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-資料の構造に依存する&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-%e8%b3%87%e6%96%99%e3%81%ae%e6%a7%8b%e9%80%a0%e3%81%ab%e4%be%9d%e5%ad%98%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;NotebookLMは、ドキュメントの構造（見出し、太字、箇条書き）を非常に重視して情報を読み取ります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;傾向&lt;/strong&gt; : 箇条書きで書かれている部分は、「〇〇の3つのメリットは？」といった形で、リストを丸暗記させるようなカードになりがちです。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;注意点&lt;/strong&gt; : 文中にサラッと書かれている重要なニュアンスや、行間を読むような深い理解を問う問題は、自動生成ではあまり作られません。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;3. 「ひっかけ」や「応用」は生成されない&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-ひっかけや応用は生成されない&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-%e3%81%b2%e3%81%a3%e3%81%8b%e3%81%91%e3%82%84%e5%bf%9c%e7%94%a8%e3%81%af%e7%94%9f%e6%88%90%e3%81%95%e3%82%8c%e3%81%aa%e3%81%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;これはAIが嘘をつかないようにする（ハルシネーションを防ぐ）安全策でもありますが、ソースに書かれていることを &lt;strong&gt;そのまま&lt;/strong&gt; 問題にします。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;傾向&lt;/strong&gt; : 資料に「AはBである」とあれば、Q:「Aは何ですか？」 A:「B」という直球のカードになります。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;欠点&lt;/strong&gt; : 実際の試験に出るような「適切なものを選べ（消去法）」や「誤っているものはどれか」といった、論理的思考を要する形式は自動では作られません。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;クリエイター視点の活用法（ハック術）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;クリエイター視点の活用法ハック術&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%af%e3%83%aa%e3%82%a8%e3%82%a4%e3%82%bf%e3%83%bc%e8%a6%96%e7%82%b9%e3%81%ae%e6%b4%bb%e7%94%a8%e6%b3%95%e3%83%8f%e3%83%83%e3%82%af%e8%a1%93&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;では、応用情報技術者試験や高度区分のような、より実践的な試験対策には使えないのでしょうか？
+いいえ、使い方が違います。&lt;/p&gt;
+&lt;p&gt;もしあなたが、より深く、実践的な問題を作りたい場合は、&lt;strong&gt;左側の便利な「フラッシュカード」ボタン（自動生成）を使わず、チャット欄でプロンプトを打つ&lt;/strong&gt; のが正解です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;自動生成（ボタン）&lt;/strong&gt; : 単純な用語暗記用として割り切る。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;チャット生成&lt;/strong&gt; : 思考力を問う「本番レベル」の問題を作らせる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;実践：チャットで問題を作らせるプロンプト&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;実践チャットで問題を作らせるプロンプト&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%ae%9f%e8%b7%b5%e3%83%81%e3%83%a3%e3%83%83%e3%83%88%e3%81%a7%e5%95%8f%e9%a1%8c%e3%82%92%e4%bd%9c%e3%82%89%e3%81%9b%e3%82%8b%e3%83%97%e3%83%ad%e3%83%b3%e3%83%97%e3%83%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;NotebookLMのチャット欄に以下の指示を投げかけてみてください。これだけで、学習効果が劇的に変わります。&lt;/p&gt;
+&lt;h4&gt;1. 応用レベルの4択問題を作る&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-応用レベルの4択問題を作る&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-%e5%bf%9c%e7%94%a8%e3%83%ac%e3%83%99%e3%83%ab%e3%81%ae4%e6%8a%9e%e5%95%8f%e9%a1%8c%e3%82%92%e4%bd%9c%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;本番形式に近い演習を行いたい場合に有効です。&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;この資料に基づいて、応用情報技術者試験レベルの4択問題を作成してください。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;単なる用語の定義だけでなく、具体的なシチュエーションを提示し、どう対処すべきかを問う形式にしてください。&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;2. 「なぜ？」を問う論理的理解&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-なぜを問う論理的理解&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-%e3%81%aa%e3%81%9c%e3%82%92%e5%95%8f%e3%81%86%e8%ab%96%e7%90%86%e7%9a%84%e7%90%86%e8%a7%a3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;用語を丸暗記するのではなく、その技術が「なぜ必要なのか」を理解するためのプロンプトです。&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;作成した問題の回答とあわせて、なぜその選択肢が正解なのか、他の選択肢がなぜ間違いなのかの『論理的な解説』も出力してください。&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;このように指示すれば、NotebookLMは単なる単語帳作成機ではなく、あなたの &lt;strong&gt;「論理的理解」を深めるための専属家庭教師&lt;/strong&gt; として機能します。&lt;/p&gt;
+&lt;h2&gt;まとめ：フラッシュカードは用語習得に便利&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;まとめフラッシュカードは用語習得に便利&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%be%e3%81%a8%e3%82%81%e3%83%95%e3%83%a9%e3%83%83%e3%82%b7%e3%83%a5%e3%82%ab%e3%83%bc%e3%83%89%e3%81%af%e7%94%a8%e8%aa%9e%e7%bf%92%e5%be%97%e3%81%ab%e4%be%bf%e5%88%a9&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;NotebookLMのフラッシュカード機能は強力ですが、ボタン一つで完璧な問題集ができると思っていると、浅い学習で終わってしまいます。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;基礎固め&lt;/strong&gt; : 自動生成機能で用語を覚える。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;実戦力強化&lt;/strong&gt; : チャットプロンプトで応用問題を作る。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;この2段構えで、最短距離での合格を目指しましょう。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>【無料配布】応用情報・記述式を無限に練習できる「論文トレーナー」スクリプトを作りました</title>
+      <link>http://localhost:1313/blog/method/essay-trainer-script/</link>
+      <pubDate>Tue, 03 Feb 2026 01:15:00 +0900</pubDate>
+      
+      <guid>http://localhost:1313/blog/method/essay-trainer-script/</guid>
+      <description>
+        
+        
+        &lt;p&gt;応用情報技術者試験（AP）や高度試験区分で最大の壁となるのが、&lt;strong&gt;午後試験の記述式（論文）問題&lt;/strong&gt;です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;「自分の回答が合っているのか分からない」&lt;/li&gt;
+&lt;li&gt;「独学だと添削してくれる人がいない」&lt;/li&gt;
+&lt;li&gt;「過去問はやり尽くしてしまって、初見の問題がない」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こうした悩みを解決するために、**Google Gemini API を活用した記述式対策スクリプト「Syllabus Hack: Essay Trainer」**を作成しました。
+完全無料で配布しますので、ぜひご活用ください。&lt;/p&gt;
+&lt;h2&gt;どんなツール？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;どんなツール&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%a9%e3%82%93%e3%81%aa%e3%83%84%e3%83%bc%e3%83%ab&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Pythonで動作するシンプルなコマンドラインツールです。
+あなたのPC上で動作し、以下の機能を提供します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;無限問題生成&lt;/strong&gt;: シラバスに基づいた記述問題をランダムに出題（またはAIが生成）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;即時AI採点&lt;/strong&gt;: あなたの回答を入力すると、その場で合否判定とスコア（100点満点）を表示&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;模範解答&lt;/strong&gt;: エンジニア視点での模範解答と、あなたの回答への具体的なアドバイスを提示&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/essay-trainer-demo.png&#34; alt=&#34;Demo&#34;  loading=&#34;lazy&#34; /&gt; &lt;!-- 後で差し替えるか、なしでもOK --&gt;&lt;/p&gt;
+&lt;h2&gt;使うための準備&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;使うための準備&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bd%bf%e3%81%86%e3%81%9f%e3%82%81%e3%81%ae%e6%ba%96%e5%82%99&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;このツールは &lt;strong&gt;&amp;ldquo;Bring Your Own Key&amp;rdquo; (BYOK)&lt;/strong&gt; モデルを採用しています。
+つまり、&lt;strong&gt;あなた自身の Google Gemini API Key&lt;/strong&gt; を使用します。&lt;/p&gt;
+&lt;h3&gt;なぜ自分のキーを使うの？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;なぜ自分のキーを使うの&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%aa%e3%81%9c%e8%87%aa%e5%88%86%e3%81%ae%e3%82%ad%e3%83%bc%e3%82%92%e4%bd%bf%e3%81%86%e3%81%ae&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;無料&lt;/strong&gt;: Google AI Studio の API は、個人利用の範囲なら現在無料で利用可能です。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;無制限&lt;/strong&gt;: 運営者のサーバーコストを気にせず、好きなだけ使い倒せます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;導入手順&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;導入手順&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%b0%8e%e5%85%a5%e6%89%8b%e9%a0%86&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Google AI Studio で API Key を取得&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aistudio.google.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google AI Studio&lt;/a&gt; にアクセスし、「Get API Key」からキーを作成します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;スクリプトをダウンロード&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;以下のボタンからZIPファイルをダウンロードし、解凍してください。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/files/essay_trainer.zip&#34;&gt;📥 Essay Trainer をダウンロード&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;実行環境の準備&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pythonがインストールされている必要があります。&lt;/li&gt;
+&lt;li&gt;解凍したフォルダで端末（コマンドプロンプトやターミナル）を開き、ライブラリをインストールします。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install -r requirements.txt&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;実行&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python trainer.py&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;起動時に API Key を求められるので、先ほど取得したキーを貼り付けてください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;カスタマイズ（上級者向け）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;カスタマイズ上級者向け&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%9e%e3%82%a4%e3%82%ba%e4%b8%8a%e7%b4%9a%e8%80%85%e5%90%91%e3%81%91&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;code&gt;syllabus_data.json&lt;/code&gt; というファイルを編集すると、出題される問題を自由に追加できます。
+「自分が間違えた過去問」や「予想問題」を登録しておけば、&lt;strong&gt;自分だけの最強のドリル&lt;/strong&gt;が完成します。&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Category Name&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;theme&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;覚えたいキーワード&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;question&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;ここに問題文...&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;ぜひ、合格に向けた学習にお役立てください！&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>応用情報技術者を取ると年収は上がる？リアルな求人票データを徹底調査【2025年版】</title>
-      <link>https://syllabushack.com/blog/career/ap-salary-impact/</link>
+      <link>http://localhost:1313/blog/career/ap-salary-impact/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://syllabushack.com/blog/career/ap-salary-impact/</guid>
+      <guid>http://localhost:1313/blog/career/ap-salary-impact/</guid>
       <description>
         
         
@@ -95,10 +300,10 @@ Web系ベンチャーや外資系企業では、資格手当という制度自�
     
     <item>
       <title>高度試験への登竜門：応用情報を取ると論文試験が楽になる理由</title>
-      <link>https://syllabushack.com/blog/career/gateway-to-advanced/</link>
+      <link>http://localhost:1313/blog/career/gateway-to-advanced/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://syllabushack.com/blog/career/gateway-to-advanced/</guid>
+      <guid>http://localhost:1313/blog/career/gateway-to-advanced/</guid>
       <description>
         
         

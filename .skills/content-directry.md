@@ -26,7 +26,7 @@ content/
 ```
 content/blog/category/article-slug/
 ├── index.md        # 記事本文
-├── cover.jpg       # アイキャッチ画像
+├── cover.jpg       # サムネイル用画像
 └── image.png       # 記事内画像
 ```
 

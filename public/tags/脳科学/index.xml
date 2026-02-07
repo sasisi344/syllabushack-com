@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Syllabus Hack – 脳科学</title>
-    <link>https://syllabushack.com/tags/%E8%84%B3%E7%A7%91%E5%AD%A6/</link>
+    <link>http://localhost:1313/tags/%E8%84%B3%E7%A7%91%E5%AD%A6/</link>
     <description>Recent content in 脳科学 on Syllabus Hack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://syllabushack.com/tags/%E8%84%B3%E7%A7%91%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/tags/%E8%84%B3%E7%A7%91%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>ポモドーロ×Anki：脳科学が証明した「残業続きでも30時間で受かる」最強の時短学習法</title>
-      <link>https://syllabushack.com/blog/method/pomodoro-anki-technique/</link>
+      <link>http://localhost:1313/blog/method/pomodoro-anki-technique/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://syllabushack.com/blog/method/pomodoro-anki-technique/</guid>
+      <guid>http://localhost:1313/blog/method/pomodoro-anki-technique/</guid>
       <description>
         
         

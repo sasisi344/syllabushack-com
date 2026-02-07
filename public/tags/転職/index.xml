@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Syllabus Hack – 転職</title>
-    <link>https://syllabushack.com/tags/%E8%BB%A2%E8%81%B7/</link>
+    <link>http://localhost:1313/tags/%E8%BB%A2%E8%81%B7/</link>
     <description>Recent content in 転職 on Syllabus Hack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://syllabushack.com/tags/%E8%BB%A2%E8%81%B7/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/tags/%E8%BB%A2%E8%81%B7/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>応用情報技術者を取ると年収は上がる？リアルな求人票データを徹底調査【2025年版】</title>
-      <link>https://syllabushack.com/blog/career/ap-salary-impact/</link>
+      <link>http://localhost:1313/blog/career/ap-salary-impact/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://syllabushack.com/blog/career/ap-salary-impact/</guid>
+      <guid>http://localhost:1313/blog/career/ap-salary-impact/</guid>
       <description>
         
         

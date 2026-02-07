@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Syllabus Hack – キャリア・資格の価値</title>
-    <link>https://syllabushack.com/blog/career/</link>
+    <link>http://localhost:1313/blog/career/</link>
     <description>Recent content in キャリア・資格の価値 on Syllabus Hack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://syllabushack.com/blog/career/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/blog/career/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>30代未経験エンジニア転職、ITパスポートは武器になるか？</title>
-      <link>https://syllabushack.com/blog/career/30s-career-change/</link>
+      <link>http://localhost:1313/blog/career/30s-career-change/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://syllabushack.com/blog/career/30s-career-change/</guid>
+      <guid>http://localhost:1313/blog/career/30s-career-change/</guid>
       <description>
         
         
@@ -75,10 +75,10 @@ ITパスポート一本で戦えるわけではありませんが、&lt;strong&g
     
     <item>
       <title>フリーランスエンジニアこそ「基本情報」を取り直すべき3つの理由</title>
-      <link>https://syllabushack.com/blog/career/freelance-fe-merit/</link>
+      <link>http://localhost:1313/blog/career/freelance-fe-merit/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://syllabushack.com/blog/career/freelance-fe-merit/</guid>
+      <guid>http://localhost:1313/blog/career/freelance-fe-merit/</guid>
       <description>
         
         
@@ -130,10 +130,10 @@ ITパスポート一本で戦えるわけではありませんが、&lt;strong&g
     
     <item>
       <title>応用情報技術者を取ると年収は上がる？リアルな求人票データを徹底調査【2025年版】</title>
-      <link>https://syllabushack.com/blog/career/ap-salary-impact/</link>
+      <link>http://localhost:1313/blog/career/ap-salary-impact/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://syllabushack.com/blog/career/ap-salary-impact/</guid>
+      <guid>http://localhost:1313/blog/career/ap-salary-impact/</guid>
       <description>
         
         
@@ -208,10 +208,10 @@ Web系ベンチャーや外資系企業では、資格手当という制度自�
     
     <item>
       <title>資格よりポートフォリオは本当か？採用担当が見ている資格欄の意味</title>
-      <link>https://syllabushack.com/blog/career/portfolio-vs-cert/</link>
+      <link>http://localhost:1313/blog/career/portfolio-vs-cert/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://syllabushack.com/blog/career/portfolio-vs-cert/</guid>
+      <guid>http://localhost:1313/blog/career/portfolio-vs-cert/</guid>
       <description>
         
         
@@ -265,10 +265,10 @@ Web系ベンチャーや外資系企業では、資格手当という制度自�
     
     <item>
       <title>高度試験への登竜門：応用情報を取ると論文試験が楽になる理由</title>
-      <link>https://syllabushack.com/blog/career/gateway-to-advanced/</link>
+      <link>http://localhost:1313/blog/career/gateway-to-advanced/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://syllabushack.com/blog/career/gateway-to-advanced/</guid>
+      <guid>http://localhost:1313/blog/career/gateway-to-advanced/</guid>
       <description>
         
         
